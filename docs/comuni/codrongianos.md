@@ -33,9 +33,11 @@ La mappa permette diverse interrogazioni e interazioni, ad esempio:
 
 Il manuale in pdf contenente le istruzioni per l'avvio alle principali funzionalità disponibili nella mappa può essere scaricato cliccando sul seguente link:
 
-<a href="../risorse/documenti/ManualeAvvioQGIS.pdf" download
+<a href="../risorse/documenti/codrongianos_manualewebgis_puc.pdf" download
    style="display:inline-block; padding:10px 15px; background:#2c7be5; color:white; border-radius:6px; text-decoration:none;">
   📄 Scarica il manuale PDF
 </a>
+
+E' possibile che successivamente alla redazione del manuale siano state modificate o aggiunte diverse funzionalità di cui sarà data notizia in questa stessa pagina procedendo con la lettura.
 
 ## Piano Centro Matrice.
