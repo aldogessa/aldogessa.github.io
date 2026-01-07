@@ -14,7 +14,13 @@
 QGIS è il software GIS OpenSource più diffuso al mondo.
 Dietro a QGIS ci sono sviluppatori, Professionisti, docenti, studenti che formano la comunità di utenti.
 La comunità si occupa della promozione di QGIS, dell’assistenza agli utenti e dello sviluppo del software a 360°:
-dal codice alla documentazione.
+dal codice alla documentazione. Il sito ufficiale puoi raggiungerlo al seguente link:
+
+<a href="https://qgis.org/" target="_blank"
+   style="display:inline-block; padding:10px 15px; background:#2c7be5; color:white; border-radius:6px; text-decoration:none;">
+ 🌍 Vai al sito QGIS
+</a>
+
 Se sei interessato a muovere i primi passi con QGIS questo manuale può esserti davvero utile:
 
 <a href="../risorse/documenti/ManualeAvvioQGIS.pdf" download
