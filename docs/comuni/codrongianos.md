@@ -315,3 +315,15 @@ attirare l’attenzione dell’utente sulla possibilità di deselezionare tutto 
 </div>
 <br>
 
+#### 18/12/2025 - Chiarimenti sulla geolocalizzazione
+La geolocalizzazione è attiva, ma sul PC non funzionerà correttamente perché i servizi di geolocalizzazione  
+non sono disponibili sulle work station tradizionali. Il servizio di geolocalizzazione è pensato per i  
+dispositivi mobili, utile in caso di utilizzo della mappa per verifiche sul campo.
+
+
+
+
+
+
+
+
