@@ -15,9 +15,7 @@ Mappe WebGis autoprodotte del Comune di Codrongianos, nonché rimanere aggiornat
 <br><br>
 
 ---
-
 ## <span style="color:red;">Piano Urbanistico Comunale</span>
-
 ---
 
 <img src="../risorse/immagini/PUC_COD.PNG" 
@@ -260,9 +258,7 @@ attirare l’attenzione dell’utente sulla possibilità di deselezionare tutto 
 <br>
 
 ---
-
 ## <span style="color:red;">Centro Matrice</span>
-
 ---
 
 <img src="../risorse/immagini/CM_CODRO.PNG" 
