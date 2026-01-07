@@ -19,12 +19,6 @@
       text-align: center;
     }
 
-    .home-logo {
-      width: 180px;
-      margin-bottom: 20px;
-      opacity: 0.95;
-    }
-
     .home-title {
       font-size: 2.4rem;
       font-weight: 600;
@@ -69,7 +63,7 @@
 </head>
 
 <body>
-  <div id="app"></div>
+  <div id="app">Caricamento...</div>
 
   <script>
     window.$docsify = {
@@ -88,7 +82,7 @@
     if (location.hash === '' || location.hash === '#/' || location.hash === '#') {
       document.getElementById('app').innerHTML = `
         <div class="home-container">
-          <img src="docs/risorse/immagini/ImmaginePaginaPrincipale.PNG" class="home-image" alt="AGis" />
+          <img src="risorse/immagini/ImmaginePaginaPrincipale.PNG" class="home-image" alt="AGis" />
 
           <h1 class="home-title">AGis – Portale Documentazione</h1>
           <p class="home-subtitle">Strumenti, guide e risorse per la gestione GIS istituzionale</p>
@@ -105,3 +99,4 @@
   </script>
 </body>
 </html>
+
