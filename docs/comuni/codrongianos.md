@@ -38,21 +38,7 @@ Il manuale in pdf contenente le istruzioni per l'avvio alle principali funzional
   📄 Scarica il manuale PDF
 </a>
 
-Al seguente link è possibile visualizzare un video tutorial che mostra concretamente come utilizzare le principali funzionalità della mappa:
-
-<a href="https://www.youtube.com/watch?v=ubHVhScl8Ic" target="_blank"
-   style="
-     display:inline-block;
-     padding:10px 18px;
-     background:#ff0000;
-     color:white;
-     font-weight:bold;
-     border-radius:6px;
-     text-decoration:none;
-     font-size:16px;
-   ">
-  ▶️ Video tutorial
-</a>
+Qui sotto un video tutorial che mostra concretamente come utilizzare le principali funzionalità della mappa:
 
 <div style="
   border:1px solid #ddd;
@@ -64,7 +50,7 @@ Al seguente link è possibile visualizzare un video tutorial che mostra concreta
 ">
 
   <h3 style="margin-top:0; font-size:20px; font-weight:600;">
-    🎥 Titolo del video
+    🎥 Panoramica Mappa Web Gis del PUC
   </h3>
 
   <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:6px;">
