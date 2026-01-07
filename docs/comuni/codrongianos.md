@@ -82,14 +82,14 @@ Le modifiche di rilievo saranno comunque annotate in questa stessa pagina.
 #### 10/11/2025 - Aggiornamento colori interfaccia
 <img src="../risorse/immagini/AggInterfaccia.png" 
      alt="immagine" 
-     style="display:block; margin:20px 0;">
+     style="display:block; margin:20px auto; max-width:800px; width:100%; border-radius:4px;">
 E' stato eseguito l'aggiornamento dei colori dell'interfaccia per richiamare quelli dello stemma comunale, nessuna modifica funzionale.
 
 
 #### 10/11/2025 - Specificazioni sulle mappe di sfondo
-<img src="../risorse/immagini/MappeSfondo.png" 
+<img src="../risorse/immagini/immagini/MappeSfondo.pngg" 
      alt="immagine" 
-     style="display:block; margin:20px 0;">
+     style="display:block; margin:20px auto; max-width:800px; width:100%; border-radius:4px;">
 Le mappe di sfondo o mappe di base, sono servite da terze parti mediante collegamento WMS, può capitare che in alcuni momenti non siano disponibili in coincidenza delle manutenzioni periodiche dei server. 
 La mappa comunale continua comunque a funzionare. 
 Il disservizio è in genere temporaneo e si risolve nel giro di poco tempo. Le ortofoto, in particolare, sono servite dalla Regione Sardegna e non sono disponibili quando il Geoportale Regionale è in manutenzione. Generalmente è sempre disponibile, invece, OpenStreetMap.
