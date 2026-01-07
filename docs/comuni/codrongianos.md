@@ -42,5 +42,22 @@ E' possibile che successivamente alla redazione del manuale siano apportate modi
 
 Al seguente link è possibile visualizzare un video tutorial che mostra concretamente come utilizzare le principali funzionalità della mappa:
 
+<a href="https://www.youtube.com/watch?v=ubHVhScl8Ic" target="_blank"
+   style="
+     display:inline-block;
+     padding:10px 18px;
+     background:#ff0000;
+     color:white;
+     font-weight:bold;
+     border-radius:6px;
+     text-decoration:none;
+     font-size:16px;
+   ">
+  ▶️ Video tutoriale
+</a>
+
+
+
+
 
 ## Piano Centro Matrice.
