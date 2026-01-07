@@ -29,7 +29,7 @@ I vincoli posso essere raggruppati nelle seguenti categorie:
 I vincoli paesaggistici possono essere suddivisi a loro volta:
 
 - Aree tutelate per legge ai sensi dell’art. 142 del D.Lgs. 42/2004;
-- Aree e immobili di notevole interesse pubblico tutelati per espresso
+- Aree e immobili di notevole interesse pubblico tutelati per espresso  
   provvedimento di vincolo ai sensi dell’art. 136 del D.Lgs. 42/2004;
-- Ulteriori aree sottoposte a tutela paesaggistica dal piano paesaggistico
+- Ulteriori aree sottoposte a tutela paesaggistica dal piano paesaggistico  
   regionale ai sensi dell’art. 143 del D.Lgs. 42/2004.
