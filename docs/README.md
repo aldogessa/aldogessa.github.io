@@ -1,3 +1,5 @@
+<img src="risorse/immagini/logo.png" alt="AGis" width="60" style="position:absolute; top:20px; left:20px;">
+
 # Benvenuti in questo spazio GIS
 
 ![Immagine principale](risorse/immagini/ImmaginePaginaPrincipale.PNG)
