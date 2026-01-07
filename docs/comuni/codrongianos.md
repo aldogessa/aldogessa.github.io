@@ -254,4 +254,19 @@ attirare l’attenzione dell’utente sulla possibilità di deselezionare tutto 
 <br>
 
 ## <span style="color:red;">Centro Matrice</span>
-Il Piano particolareggiato 
+<img src="../risorse/immagini/CM_CODRO.PNG" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+
+La mappa Web Gis del Piano Particolareggiato del Centro Matrice permette di individuare le Unità Edilizie (UE)  
+e di accedere alle rispettive Schede e agli altri documenti che riguardano il Piano:
+
+- DCC n. 61/2016;
+- Det. Ras. Prot. 23979/2017;
+- Relazione;
+- Norme tecniche;
+- Scheda unità immobiliare;
+- Profilo isolato;
+- Abaco elementi architettonici;
+- Tabelle parametriche.
+
