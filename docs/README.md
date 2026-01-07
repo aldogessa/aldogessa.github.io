@@ -59,4 +59,8 @@ Questo portale vuole essere:
 - Un punto di riferimento per i piccoli Comuni che vogliono condividere e valorizzare documenti e guide sui propri WebGIS realizzati in autonomia  
 
 ## Tecnologia e dati
-Per chi desidera approfondire, sono disponibili informazioni sulla tecnologia che sostiene le mappe e sulle fonti dei dati utilizzati.
+Per chi desidera approfondire, sono disponibili informazioni sulla tecnologia che sostiene le mappe e sulle fonti dei dati utilizzati:
+
+QGIS;
+LIZMAP;
+GISHOSTING.
