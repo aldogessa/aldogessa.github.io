@@ -31,6 +31,8 @@ La mappa permette diverse interrogazioni e interazioni, ad esempio:
 - Report;
 - Stampe.
 
+Il manuale in pdf contenente le istruzioni per l'avvio alle principali funzionalità disponibili nella mappa può essere scaricato cliccando sul seguente link:
+
 
 
 ## Piano Centro Matrice.
