@@ -35,5 +35,19 @@ Questi video possono esserti utili per le prime esercitazioni pratiche:
      text-decoration:none;
      font-size:16px;
    ">
-  ▶️ Installare QGIS
+  ▶️ Installare QGIS e lavorare con i vettori
+</a>
+
+<a href="https://www.youtube.com/watch?v=9ZfqL7eI1Dg&feature=youtu.be" target="_blank"
+   style="
+     display:inline-block;
+     padding:10px 18px;
+     background:#ff0000;
+     color:white;
+     font-weight:bold;
+     border-radius:6px;
+     text-decoration:none;
+     font-size:16px;
+   ">
+  ▶️ Snap, manipolare i vettori e tematizzazione
 </a>
