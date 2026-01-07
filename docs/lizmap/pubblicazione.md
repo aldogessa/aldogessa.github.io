@@ -29,3 +29,13 @@ Questo servizio permette la pubblicazione autonoma delle mappe QGIS con relativa
    style="display:inline-block; padding:10px 15px; background:#2c7be5; color:white; border-radius:6px; text-decoration:none;">
  🌍 Come utilizzare il servizio di GisHosting
 </a>
+
+La documentazione ufficiale di Lizmap, utile all’utilizzo del plugin di QGIS che crea il file di configurazione di Lizmap, da cui dipende la pubblicazione della mappa, è invece disponibile al seguente link:
+
+<a href="https://docs.lizmap.com/current/it/introduction.html#" target="_blank"
+   style="display:inline-block; padding:10px 15px; background:#2c7be5; color:white; border-radius:6px; text-decoration:none;">
+ 🌍 Documentazione Lizmap
+</a>
+
+
+
