@@ -10,7 +10,7 @@
      alt="immagine" 
      style="display:block; margin:20px 0;">
 
-# Codrongianos
+Da questa pagina puoi scaricare e visualizzare il materiale disponibile per l’avvio all’utilizzo delle Mappe WebGis autoprodotte del Comune di Codrongianos, nonché rimanere aggiornato sulle eventuali modifiche.
 
 ## Piano Urbanistico Comunale.
 Prova 1
