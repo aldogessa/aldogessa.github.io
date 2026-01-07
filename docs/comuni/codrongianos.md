@@ -85,8 +85,65 @@ Qui sotto un video tutorial che mostra concretamente come utilizzare le principa
 </div>
 <br><br>
 
-### Aggiornamenti, approfondimenti, novità:
-<br>
+---
+## <span style="color:red;">Centro Matrice</span>
+---
+
+<img src="../risorse/immagini/CM_CODRO.PNG" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+
+La mappa Web Gis del Piano Particolareggiato del Centro Matrice permette di individuare le Unità Edilizie (UE)  
+e di accedere alle rispettive Schede e agli altri documenti che riguardano il Piano:
+
+- DCC n. 61/2016;
+- Det. Ras. Prot. 23979/2017;
+- Relazione;
+- Norme tecniche;
+- Scheda unità immobiliare.
+
+Il seguente video mostra come utilizzare la mappa per raggiungere le suddette informazioni:
+
+
+- Profilo isolato;
+- Abaco elementi architettonici;
+- Tabelle parametriche.
+
+<div style="
+  border:1px solid #e0e0e0;
+  border-radius:6px;
+  padding:12px;
+  margin:18px 0;
+  box-shadow:0 1px 4px rgba(0,0,0,0.06);
+  background:#fafafa;
+  max-width:800px;
+">
+
+  <h3 style="margin:0 0 10px 0; font-size:18px; font-weight:600;">
+    🎥 CENTRO MATRICE
+  </h3>
+
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:4px;">
+    <iframe 
+      src="https://www.youtube.com/embed/kHxI-lpNC0w"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:4px;">
+    </iframe>
+  </div>
+
+  <p style="margin-top:8px; font-size:14px;">
+    🔗 <a href="https://www.youtube.com/watch?v=kHxI-lpNC0w" target="_blank">
+      Apri su YouTube
+    </a>
+  </p>
+
+</div>
+
+---
+## <span style="color:red;">Aggiornamenti e approfondimenti</span>
+---
 
 #### 10/11/2025 - Aggiornamento colori interfaccia
 <img src="../risorse/immagini/AggInterfaccia.png" 
@@ -257,58 +314,3 @@ attirare l’attenzione dell’utente sulla possibilità di deselezionare tutto 
 </div>
 <br>
 
----
-## <span style="color:red;">Centro Matrice</span>
----
-
-<img src="../risorse/immagini/CM_CODRO.PNG" 
-     alt="immagine" 
-     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
-
-La mappa Web Gis del Piano Particolareggiato del Centro Matrice permette di individuare le Unità Edilizie (UE)  
-e di accedere alle rispettive Schede e agli altri documenti che riguardano il Piano:
-
-- DCC n. 61/2016;
-- Det. Ras. Prot. 23979/2017;
-- Relazione;
-- Norme tecniche;
-- Scheda unità immobiliare.
-
-Il seguente video mostra come utilizzare la mappa per raggiungere le suddette informazioni:
-
-
-- Profilo isolato;
-- Abaco elementi architettonici;
-- Tabelle parametriche.
-
-<div style="
-  border:1px solid #e0e0e0;
-  border-radius:6px;
-  padding:12px;
-  margin:18px 0;
-  box-shadow:0 1px 4px rgba(0,0,0,0.06);
-  background:#fafafa;
-  max-width:800px;
-">
-
-  <h3 style="margin:0 0 10px 0; font-size:18px; font-weight:600;">
-    🎥 CENTRO MATRICE
-  </h3>
-
-  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:4px;">
-    <iframe 
-      src="https://www.youtube.com/embed/kHxI-lpNC0w"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-      style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:4px;">
-    </iframe>
-  </div>
-
-  <p style="margin-top:8px; font-size:14px;">
-    🔗 <a href="https://www.youtube.com/watch?v=kHxI-lpNC0w" target="_blank">
-      Apri su YouTube
-    </a>
-  </p>
-
-</div>
