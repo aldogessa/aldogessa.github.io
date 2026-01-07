@@ -79,6 +79,7 @@ Qui sotto un video tutorial che mostra concretamente come utilizzare le principa
 <br><br>
 
 ### Aggiornamenti, approfondimenti, novità:
+<br>
 
 #### 10/11/2025 - Aggiornamento colori interfaccia
 <img src="../risorse/immagini/AggInterfaccia.png" 
@@ -86,6 +87,7 @@ Qui sotto un video tutorial che mostra concretamente come utilizzare le principa
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 E' stato eseguito l'aggiornamento dei colori dell'interfaccia per richiamare quelli dello stemma comunale,  
 nessuna modifica funzionale.
+<br>
 
 #### 10/11/2025 - Specificazioni sulle mappe di sfondo
 <img src="../risorse/immagini/MappeSfondo.png" 
