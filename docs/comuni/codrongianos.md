@@ -140,6 +140,7 @@ Il seguente video mostra come utilizzare la mappa per raggiungere le suddette in
   </p>
 
 </div>
+<br><br>
 
 ---
 ## <span style="color:red;">Aggiornamenti e approfondimenti</span>
