@@ -51,7 +51,7 @@ Al seguente link è possibile visualizzare un video tutorial che mostra concreta
      text-decoration:none;
      font-size:16px;
    ">
-  ▶️ Video tutoriale
+  ▶️ Video tutorial
 </a>
 
 E' possibile che successivamente alla redazione del manuale siano apportate modifiche, estensioni e aggiornamenti alla mappa, in un ottica di costante aggiornamento e miglioramento. Le modifiche di rilievo saranno comunque annotate in questa stessa pagina.
