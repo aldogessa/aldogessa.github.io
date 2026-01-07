@@ -38,8 +38,6 @@ Il manuale in pdf contenente le istruzioni per l'avvio alle principali funzional
   📄 Scarica il manuale PDF
 </a>
 
-E' possibile che successivamente alla redazione del manuale siano apportate modifiche, estensioni e aggiornamenti alla mappa, in un ottica di costante aggiornamento e miglioramento. Le modifiche di rilievo saranno comunque annotate in questa stessa pagina.
-
 Al seguente link è possibile visualizzare un video tutorial che mostra concretamente come utilizzare le principali funzionalità della mappa:
 
 <a href="https://www.youtube.com/watch?v=ubHVhScl8Ic" target="_blank"
@@ -56,7 +54,7 @@ Al seguente link è possibile visualizzare un video tutorial che mostra concreta
   ▶️ Video tutoriale
 </a>
 
-
+E' possibile che successivamente alla redazione del manuale siano apportate modifiche, estensioni e aggiornamenti alla mappa, in un ottica di costante aggiornamento e miglioramento. Le modifiche di rilievo saranno comunque annotate in questa stessa pagina.
 
 
 
