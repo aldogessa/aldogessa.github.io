@@ -74,17 +74,33 @@ Qui sotto un video tutorial che mostra concretamente come utilizzare le principa
 </div>
 
 
-E' possibile che successivamente alla redazione del manuale siano apportate modifiche, estensioni e aggiornamenti alla mappa, in un ottica di costante aggiornamento e miglioramento. Le modifiche di rilievo saranno comunque annotate in questa stessa pagina.
+E' possibile che successivamente alla redazione del manuale siano apportate modifiche, estensioni e aggiornamenti alla mappa, in un ottica di costante aggiornamento e miglioramento. 
+Le modifiche di rilievo saranno comunque annotate in questa stessa pagina.
 
 ### Aggiornamenti, approfondimenti, novità
 
 #### 10/11/2025 - Aggiornamento colori interfaccia
-E' stato eseguito l'aggiornamento dei colori dell'interfaccia per richiamare quelli dello stemma comunale, nessuna modifica funzionale.
 <img src="../risorse/immagini/AggInterfaccia.png" 
      alt="immagine" 
      style="display:block; margin:20px 0;">
+E' stato eseguito l'aggiornamento dei colori dell'interfaccia per richiamare quelli dello stemma comunale, nessuna modifica funzionale.
+
+
+#### 10/11/2025 - Specificazioni sulle mappe di sfondo
+<img src="../risorse/immagini/AggInterfaccia.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0;">
+Le mappe di sfondo o mappe di base, sono servite da terze parti mediante collegamento WMS, può capitare che in alcuni momenti non siano disponibili in coincidenza delle manutenzioni periodiche dei server. 
+La mappa comunale continua comunque a funzionare. 
+Il disservizio è in genere temporaneo e si risolve nel giro di poco tempo. Le ortofoto, in particolare, sono servite dalla Regione Sardegna e non sono disponibili quando il Geoportale Regionale è in manutenzione. Generalmente è sempre disponibile, invece, OpenStreetMap.
 
 
 
 
-## Piano Centro Matrice.
+
+
+
+
+
+
+## Piano Centro Matrice
