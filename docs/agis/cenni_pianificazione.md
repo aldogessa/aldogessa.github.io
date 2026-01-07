@@ -9,3 +9,14 @@ ai piani sovraordinati e recepire tutte le norme di rango superiore. In caso di 
 piani sovraordinati e le norme di rango superiore, il piano urbanistico deve essere disapplicato al  
 ricorrere di determinate circostanze. Al di sotto del piano urbanistico comunale ci sono solo i piani  
 attuativi che danno attuazione, appunto, alle previsioni del piano urbanistico comunale.
+
+## La stratificazione dei vincoli in Sardegna
+I vincoli posso essere raggruppati nelle seguenti categorie:
+
+- Vincoli paesaggistici;
+- Vincoli ambientali;
+- Vincoli idrogeologici;
+- Vincoli idrogeologici forestali;
+- Aree percorse da incendi.
+
+### Vincoli paesaggistici
