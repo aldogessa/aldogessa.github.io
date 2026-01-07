@@ -96,6 +96,7 @@ che in alcuni momenti non siano disponibili in coincidenza delle manutenzioni pe
 La mappa comunale continua comunque a funzionare. Il disservizio è in genere temporaneo e si risolve nel  
 giro di poco tempo. Le ortofoto, in particolare, sono servite dalla Regione Sardegna e non sono disponibili  
 quando il Geoportale Regionale è in manutenzione. Generalmente è sempre disponibile, invece, OpenStreetMap.
+<br>
 
 #### 20/11/2025 - Tool per catturare le coordinate del punto di click
 
@@ -130,6 +131,7 @@ quando il Geoportale Regionale è in manutenzione. Generalmente è sempre dispon
   </p>
 
 </div>
+<br>
 
 #### 24/11/2025 - Temi Mappa
 Per facilitare la consultazione dei diversi vincoli che interessano un’area specifica di studio, sono stati  
@@ -167,6 +169,7 @@ Di seguito un piccolo video illustrativo:
   </p>
 
 </div>
+<br>
 
 #### 24/11/2025 - Tool per l'anteprima del certificato di destinazione urbanistica
 Per facilitare l’utilizzo di una delle funzionalità più interessanti della mappa, di seguito un breve video del  
@@ -204,6 +207,7 @@ serie di particelle catastali:
   </p>
 
 </div>
+<br>
 
 #### 28/11/2025 - Tool per deselezionare velocemente
 Per rendere più intuitivo e veloce deselezionare gli elementi mappa è stato implementato un nuovo Tool che  
