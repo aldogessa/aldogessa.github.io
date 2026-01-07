@@ -82,8 +82,8 @@ E' possibile che successivamente alla redazione del manuale siano apportate modi
 in un ottica di costante aggiornamento e miglioramento. 
 Le modifiche di rilievo saranno comunque annotate in questa stessa pagina.
 <br><br>
-### Aggiornamenti, approfondimenti, novità
----
+### Aggiornamenti, approfondimenti, novità:
+
 #### 10/11/2025 - Aggiornamento colori interfaccia
 <img src="../risorse/immagini/AggInterfaccia.png" 
      alt="immagine" 
