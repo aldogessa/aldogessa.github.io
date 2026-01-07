@@ -54,19 +54,36 @@ Al seguente link è possibile visualizzare un video tutorial che mostra concreta
   ▶️ Video tutorial
 </a>
 
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
-  <iframe 
-    src="https://www.youtube.com/watch?v=ubHVhScl8Ic"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-    style="position:absolute;top:0;left:0;width:100%;height:100%;">
-  </iframe>
+<div style="
+  border:1px solid #ddd;
+  border-radius:8px;
+  padding:16px;
+  margin:24px 0;
+  box-shadow:0 2px 6px rgba(0,0,0,0.08);
+  background:#fafafa;
+">
+
+  <h3 style="margin-top:0; font-size:20px; font-weight:600;">
+    🎥 Titolo del video
+  </h3>
+
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:6px;">
+    <iframe 
+      src="https://www.youtube.com/embed/ubHVhScl8Ic"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:6px;">
+    </iframe>
+  </div>
+
+  <p style="margin-top:12px; font-size:15px;">
+    🔗 <a href="https://www.youtube.com/watch?v=ubHVhScl8Ic" target="_blank">
+      Apri su YouTube
+    </a>
+  </p>
+
 </div>
-
-
-
-
 
 E' possibile che successivamente alla redazione del manuale siano apportate modifiche, estensioni e aggiornamenti alla mappa, in un ottica di costante aggiornamento e miglioramento. Le modifiche di rilievo saranno comunque annotate in questa stessa pagina.
 
