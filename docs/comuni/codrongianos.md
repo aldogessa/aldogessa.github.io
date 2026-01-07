@@ -75,6 +75,7 @@ Qui sotto un video tutorial che mostra concretamente come utilizzare le principa
 
 E' possibile che successivamente alla redazione del manuale siano apportate modifiche, estensioni e aggiornamenti alla mappa, in un ottica di costante aggiornamento e miglioramento. Le modifiche di rilievo saranno comunque annotate in questa stessa pagina.
 
+### Aggiornamenti
 
 
 ## Piano Centro Matrice.
