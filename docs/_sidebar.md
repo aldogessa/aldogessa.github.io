@@ -1,11 +1,6 @@
 - **Home**
   - [Introduzione](README.md)
 
-- **AGis**
-  - [Introduzione](agis/introduzione.md)
-  - [Filosofia](agis/filosofia.md)
-  - [Tecnologia](agis/tecnologia.md)
-
 - **QGIS**
   - [Introduzione](qgis/introduzione.md)
   - [Procedure operative](qgis/procedure.md)
