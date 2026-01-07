@@ -8,48 +8,38 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify/themes/vue.css" />
 
 <style>
-  /* Sidebar più larga */
+  /* Sidebar fissa */
   .sidebar {
     width: 340px !important;
-    padding-right: 10px !important;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow-y: auto;
+    transform: translateX(0) !important;
   }
 
-  /* Contenuto spostato a destra */
+  /* Nasconde il toggle (freccetta) */
+  .sidebar-toggle {
+    display: none !important;
+  }
+
+  /* Contenuto spostato a destra e indipendente dalla sidebar */
   .content {
     margin-left: 340px !important;
+    padding: 20px;
   }
 
-  /* Toggle della sidebar (freccetta) */
-  .sidebar-toggle {
-    left: 340px !important;
-  }
-
-  /* Contenitore interno della sidebar */
-  .sidebar-nav {
-    width: 340px !important;
-  }
-
-  /* Migliora la leggibilità dei titoli nella sidebar */
+  /* Migliora leggibilità della sidebar */
   .sidebar-nav li a {
     font-size: 16px;
     line-height: 1.4;
   }
 
-  /* Spaziatura più elegante tra le voci */
   .sidebar-nav li {
     margin-bottom: 6px;
   }
-
-  /* Titoli di sezione più visibili */
-  .sidebar-nav .section-title {
-    font-weight: bold;
-    margin-top: 12px;
-    margin-bottom: 4px;
-    font-size: 15px;
-  }
 </style>
-
-
 
 </head>
 
