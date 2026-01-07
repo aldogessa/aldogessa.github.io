@@ -10,13 +10,13 @@
      alt="immagine" 
      style="display:block; margin:20px 0;">
 
-Da questa pagina puoi scaricare e visualizzare il materiale disponibile per l’avvio all’utilizzo delle Mappe WebGis  
-autoprodotte del Comune di Codrongianos, nonché rimanere aggiornato sulle eventuali modifiche.
+Da questa pagina puoi scaricare e visualizzare il materiale disponibile per l’avvio all’utilizzo delle  
+Mappe WebGis autoprodotte del Comune di Codrongianos, nonché rimanere aggiornato sulle eventuali modifiche.
 <br><br>
 ## <span style="color:red;">Piano Urbanistico Comunale</span>
 ---
-La mappa Web Gis del Piano Urbanistico Comunale oltre a contenere il catasto e la zoonizzazione del PUC, contiene le  
-previsioni e i vincoli della pianificazione sovraordinata:
+La mappa Web Gis del Piano Urbanistico Comunale oltre a contenere il catasto e la zoonizzazione del PUC,  
+contiene le previsioni e i vincoli della pianificazione sovraordinata:
 
 - Aree tutelate per legge;
 - Immobili di notevole interesse pubblico;
@@ -34,8 +34,8 @@ La mappa permette diverse interrogazioni e interazioni, ad esempio:
 - Report;
 - Stampe.
 
-Il manuale in pdf contenente le istruzioni per l'avvio alle principali funzionalità disponibili nella mappa può essere  
-scaricato cliccando sul seguente link:
+Il manuale in pdf contenente le istruzioni per l'avvio alle principali funzionalità disponibili nella mappa  
+può essere scaricato cliccando sul seguente link:
 
 <a href="../risorse/documenti/codrongianos_manualewebgis_puc.pdf" download
    style="display:inline-block; padding:10px 15px; background:#2c7be5; color:white; border-radius:6px; text-decoration:none;">
@@ -77,22 +77,25 @@ Qui sotto un video tutorial che mostra concretamente come utilizzare le principa
 
 </div>
 <br><br>
+
 ### Aggiornamenti, approfondimenti, novità:
 
 #### 10/11/2025 - Aggiornamento colori interfaccia
 <img src="../risorse/immagini/AggInterfaccia.png" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
-E' stato eseguito l'aggiornamento dei colori dell'interfaccia per richiamare quelli dello stemma comunale, nessuna modifica funzionale.
+E' stato eseguito l'aggiornamento dei colori dell'interfaccia per richiamare quelli dello stemma comunale, 
+nessuna modifica funzionale.
 
 #### 10/11/2025 - Specificazioni sulle mappe di sfondo
 <img src="../risorse/immagini/MappeSfondo.png" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
-Le mappe di sfondo o mappe di base, sono servite da terze parti mediante collegamento WMS, può capitare che in alcuni momenti non siano  
-disponibili in coincidenza delle manutenzioni periodiche dei server. La mappa comunale continua comunque a funzionare.  
-Il disservizio è in genere temporaneo e si risolve nel giro di poco tempo. Le ortofoto, in particolare, sono servite dalla Regione Sardegna  
-e non sono disponibili quando il Geoportale Regionale è in manutenzione. Generalmente è sempre disponibile, invece, OpenStreetMap.
+Le mappe di sfondo o mappe di base, sono servite da terze parti mediante collegamento WMS, può capitare  
+che in alcuni momenti non siano disponibili in coincidenza delle manutenzioni periodiche dei server.  
+La mappa comunale continua comunque a funzionare. Il disservizio è in genere temporaneo e si risolve nel  
+giro di poco tempo. Le ortofoto, in particolare, sono servite dalla Regione Sardegna e non sono disponibili  
+quando il Geoportale Regionale è in manutenzione. Generalmente è sempre disponibile, invece, OpenStreetMap.
 
 #### 20/11/2025 - Tool per catturare le coordinate del punto di click
 
@@ -129,8 +132,9 @@ e non sono disponibili quando il Geoportale Regionale è in manutenzione. Genera
 </div>
 
 #### 24/11/2025 - Temi Mappa
-Per facilitare la consultazione dei diversi vincoli che interessano un’area specifica di studio, sono stati introdotti i temi mappa  
-che raggruppano i vincoli omogenei con un singolo click per velocizzare la consultazione. Di seguito un piccolo video illustrativo:
+Per facilitare la consultazione dei diversi vincoli che interessano un’area specifica di studio, sono stati  
+introdotti i temi mappa che raggruppano i vincoli omogenei con un singolo click per velocizzare la consultazione.  
+Di seguito un piccolo video illustrativo:
 
 <div style="
   border:1px solid #e0e0e0;
@@ -165,8 +169,9 @@ che raggruppano i vincoli omogenei con un singolo click per velocizzare la consu
 </div>
 
 #### 24/11/2025 - Tool per l'anteprima del certificato di destinazione urbanistica
-Per facilitare l’utilizzo di una delle funzionalità più interessanti della mappa, di seguito un breve video del Tool che permette  
-di estrapolare in pochi click l’anteprima del certificato di destinazione urbanistica di una serie di particelle catastali:
+Per facilitare l’utilizzo di una delle funzionalità più interessanti della mappa, di seguito un breve video del  
+Tool che permette di estrapolare in pochi click l’anteprima del certificato di destinazione urbanistica di una  
+serie di particelle catastali:
 
 <div style="
   border:1px solid #e0e0e0;
@@ -201,9 +206,10 @@ di estrapolare in pochi click l’anteprima del certificato di destinazione urba
 </div>
 
 #### 28/11/2025 - Tool per deselezionare velocemente
-Per rendere più intuitivo e veloce deselezionare gli elementi mappa è stato implementato un nuovo Tool che permette di deselezionare tutto,  
-semplicemente cliccando l’apposito bottone sul Dock dei comandi, evitando di avviare il Tool di selezione. Quando un elemento di un layer  
-è selezionato, il bottone diventa verde per attirare l’attenzione dell’utente sulla possibilità di deselezionare tutto velocemente:
+Per rendere più intuitivo e veloce deselezionare gli elementi mappa è stato implementato un nuovo Tool che  
+permette di deselezionare tutto, semplicemente cliccando l’apposito bottone sul Dock dei comandi, evitando di  
+avviare il Tool di selezione. Quando un elemento di un layer è selezionato, il bottone diventa verde per  
+attirare l’attenzione dell’utente sulla possibilità di deselezionare tutto velocemente:
 
 <div style="
   border:1px solid #e0e0e0;
