@@ -80,6 +80,9 @@ E' possibile che successivamente alla redazione del manuale siano apportate modi
 
 #### 10/11/2025 - Aggiornamento colori interfaccia
 E' stato eseguito l'aggiornamento dei colori dell'interfaccia per richiamare quelli dello stemma comunale, nessuna modifica funzionale.
+<img src="../risorse/immagini/AggInterfaccia.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0;">
 
 
 
