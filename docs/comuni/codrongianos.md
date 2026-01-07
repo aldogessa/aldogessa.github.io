@@ -12,7 +12,7 @@
 
 Da questa pagina puoi scaricare e visualizzare il materiale disponibile per l’avvio all’utilizzo delle Mappe WebGis autoprodotte del Comune di Codrongianos, nonché rimanere aggiornato sulle eventuali modifiche.
 
-## Piano Urbanistico Comunale.
+## Piano Urbanistico Comunale
 La mappa Web Gis del Piano Urbanistico Comunale oltre a contenere il catasto e la zoonizzazione del PUC, contiene le previsioni e i vincoli della pianificazione sovraordinata:
 
 - Aree tutelate per legge;
@@ -37,6 +37,7 @@ Il manuale in pdf contenente le istruzioni per l'avvio alle principali funzional
    style="display:inline-block; padding:10px 15px; background:#2c7be5; color:white; border-radius:6px; text-decoration:none;">
   📄 Scarica il manuale PDF
 </a>
+
 
 Qui sotto un video tutorial che mostra concretamente come utilizzare le principali funzionalità della mappa:
 
@@ -75,7 +76,12 @@ Qui sotto un video tutorial che mostra concretamente come utilizzare le principa
 
 E' possibile che successivamente alla redazione del manuale siano apportate modifiche, estensioni e aggiornamenti alla mappa, in un ottica di costante aggiornamento e miglioramento. Le modifiche di rilievo saranno comunque annotate in questa stessa pagina.
 
-### Aggiornamenti
+### Aggiornamenti, approfondimenti, novità
+
+#### 10/11/2025 - Aggiornamento colori interfaccia
+E' stato eseguito l'aggiornamento dei colori dell'interfaccia per richiamare quelli dello stemma comunale, nessuna modifica funzionale.
+
+
 
 
 ## Piano Centro Matrice.
