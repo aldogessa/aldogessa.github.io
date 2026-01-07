@@ -6,7 +6,7 @@
 
 </div>
 
-<img src="../risorse/immagini/Codrongianos.png" 
+<img src="../risorse/immagini/Codrongianos.jpg" 
      alt="immagine" 
      style="display:block; margin:20px 0;">
 
