@@ -5,7 +5,7 @@
   - [Avvio all'uso di QGIS](qgis/introduzione.md)
 
 - **Lizmap**
-  - [Pubblicazione](lizmap/pubblicazione.md)
+  - [Da QGIS al WEB](lizmap/pubblicazione.md)
  
 - **Comuni**
   - [Codrongianos](comuni/codrongianos.md)
