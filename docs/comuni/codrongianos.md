@@ -319,6 +319,11 @@ attirare l’attenzione dell’utente sulla possibilità di deselezionare tutto 
 La geolocalizzazione è attiva, ma sul PC non funzionerà correttamente perché i servizi di geolocalizzazione  
 non sono disponibili sulle work station tradizionali. Il servizio di geolocalizzazione è pensato per i  
 dispositivi mobili, utile in caso di utilizzo della mappa per verifiche sul campo.
+<img src="../risorse/immagini/Geolocalizzazione.PNG" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
+
 
 
 
