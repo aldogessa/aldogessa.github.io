@@ -99,9 +99,75 @@ disponibili in coincidenza delle manutenzioni periodiche dei server. La mappa co
 Il disservizio è in genere temporaneo e si risolve nel giro di poco tempo. Le ortofoto, in particolare, sono servite dalla Regione Sardegna  
 e non sono disponibili quando il Geoportale Regionale è in manutenzione. Generalmente è sempre disponibile, invece, OpenStreetMap.
 
+#### 20/11/2025 - Tool per catturare le coordinate del punto di click
 
+<div style="
+  border:1px solid #e0e0e0;
+  border-radius:6px;
+  padding:12px;
+  margin:18px 0;
+  box-shadow:0 1px 4px rgba(0,0,0,0.06);
+  background:#fafafa;
+  max-width:800px;
+">
 
+  <h3 style="margin:0 0 10px 0; font-size:18px; font-weight:600;">
+    🎥 TOOL CATTURA COORDINATE
+  </h3>
 
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:4px;">
+    <iframe 
+      src="https://www.youtube.com/embed/zfuS4VJMftI"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:4px;">
+    </iframe>
+  </div>
+
+  <p style="margin-top:8px; font-size:14px;">
+    🔗 <a href="https://www.youtube.com/watch?v=zfuS4VJMftI" target="_blank">
+      Apri su YouTube
+    </a>
+  </p>
+
+</div>
+
+#### 24/11/2025 - Temi Mappa
+Per facilitare la consultazione dei diversi vincoli che interessano un’area specifica di studio, sono stati introdotti i temi mappa  
+che raggruppano i vincoli omogenei con un singolo click per velocizzare la consultazione. Di seguito un piccolo video illustrativo:
+
+<div style="
+  border:1px solid #e0e0e0;
+  border-radius:6px;
+  padding:12px;
+  margin:18px 0;
+  box-shadow:0 1px 4px rgba(0,0,0,0.06);
+  background:#fafafa;
+  max-width:800px;
+">
+
+  <h3 style="margin:0 0 10px 0; font-size:18px; font-weight:600;">
+    🎥 TOOL CATTURA COORDINATE
+  </h3>
+
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:4px;">
+    <iframe 
+      src="https://www.youtube.com/embed/eIm76Vc1giE"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:4px;">
+    </iframe>
+  </div>
+
+  <p style="margin-top:8px; font-size:14px;">
+    🔗 <a href="https://www.youtube.com/watch?v=eIm76Vc1giE" target="_blank">
+      Apri su YouTube
+    </a>
+  </p>
+
+</div>
 
 
 
