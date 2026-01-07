@@ -169,9 +169,78 @@ che raggruppano i vincoli omogenei con un singolo click per velocizzare la consu
 
 </div>
 
+#### 24/11/2025 - Tool per l'anteprima del certificato di destinazione urbanistica
+Per facilitare l’utilizzo di una delle funzionalità più interessanti della mappa, di seguito un breve video del Tool che permette  
+di estrapolare in pochi click l’anteprima del certificato di destinazione urbanistica di una serie di particelle catastali
 
+<div style="
+  border:1px solid #e0e0e0;
+  border-radius:6px;
+  padding:12px;
+  margin:18px 0;
+  box-shadow:0 1px 4px rgba(0,0,0,0.06);
+  background:#fafafa;
+  max-width:800px;
+">
 
+  <h3 style="margin:0 0 10px 0; font-size:18px; font-weight:600;">
+    🎥 ANTEPRIMA CERTIFICATO DI DESTINAZIONE URBANISTICA
+  </h3>
 
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:4px;">
+    <iframe 
+      src="https://www.youtube.com/embed/vRwDx94im54"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:4px;">
+    </iframe>
+  </div>
+
+  <p style="margin-top:8px; font-size:14px;">
+    🔗 <a href="https://www.youtube.com/watch?v=vRwDx94im54" target="_blank">
+      Apri su YouTube
+    </a>
+  </p>
+
+</div>
+
+#### 28/11/2025 - Tool per deselezionare velocemente
+Per rendere più intuitivo e veloce deselezionare gli elementi mappa è stato implementato un nuovo Tool che permette di deselezionare tutto,  
+semplicemente cliccando l’apposito bottone sul Dock dei comandi, evitando di avviare il Tool di selezione. Quando un elemento di un layer  
+è selezionato, il bottone diventa verde per attirare l’attenzione dell’utente sulla possibilità di deselezionare tutto velocemente
+
+<div style="
+  border:1px solid #e0e0e0;
+  border-radius:6px;
+  padding:12px;
+  margin:18px 0;
+  box-shadow:0 1px 4px rgba(0,0,0,0.06);
+  background:#fafafa;
+  max-width:800px;
+">
+
+  <h3 style="margin:0 0 10px 0; font-size:18px; font-weight:600;">
+    🎥 DESELEZIONARE TUTTO VELOCEMENTE
+  </h3>
+
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:4px;">
+    <iframe 
+      src="https://www.youtube.com/embed/LJF1PaDt6UI"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:4px;">
+    </iframe>
+  </div>
+
+  <p style="margin-top:8px; font-size:14px;">
+    🔗 <a href="https://www.youtube.com/watch?v=LJF1PaDt6UI" target="_blank">
+      Apri su YouTube
+    </a>
+  </p>
+
+</div>
 
 
 ## Piano Centro Matrice
