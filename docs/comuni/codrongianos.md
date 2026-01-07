@@ -79,7 +79,7 @@ Qui sotto un video tutorial che mostra concretamente come utilizzare le principa
 <br><br>
 
 ### Aggiornamenti, approfondimenti, novità:
-<br>
+<br><br>
 
 #### 10/11/2025 - Aggiornamento colori interfaccia
 <img src="../risorse/immagini/AggInterfaccia.png" 
@@ -87,7 +87,7 @@ Qui sotto un video tutorial che mostra concretamente come utilizzare le principa
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 E' stato eseguito l'aggiornamento dei colori dell'interfaccia per richiamare quelli dello stemma comunale,  
 nessuna modifica funzionale.
-<br>
+<br><br>
 
 #### 10/11/2025 - Specificazioni sulle mappe di sfondo
 <img src="../risorse/immagini/MappeSfondo.png" 
@@ -98,7 +98,7 @@ che in alcuni momenti non siano disponibili in coincidenza delle manutenzioni pe
 La mappa comunale continua comunque a funzionare. Il disservizio è in genere temporaneo e si risolve nel  
 giro di poco tempo. Le ortofoto, in particolare, sono servite dalla Regione Sardegna e non sono disponibili  
 quando il Geoportale Regionale è in manutenzione. Generalmente è sempre disponibile, invece, OpenStreetMap.
-<br>
+<br><br>
 
 #### 20/11/2025 - Tool per catturare le coordinate del punto di click
 
