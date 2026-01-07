@@ -6,6 +6,9 @@
 
 - **Lizmap**
   - [Da QGIS al WEB](lizmap/pubblicazione.md)
+
+- **Utilities**
+  - [Cenni di pianificazione e vincoli](agis/cenni_pianificazione.md)
  
 - **Mappe Web Gis**
   - [Codrongianos](comuni/codrongianos.md)
