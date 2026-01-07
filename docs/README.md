@@ -1,6 +1,6 @@
 # Benvenuti in questo spazio GIS
 
-![Immagine principale](ImmaginePaginaPrincipale.PNG)
+![Immagine principale](risorse/immagini/ImmaginePaginaPrincipale.PNG)
 
 ## Chi sono
 Sono un appassionato di GIS e lavoro presso l’Ufficio Tecnico di un piccolo comune. Dai primi corsi a cui ho partecipato ho scelto di approfondire il mondo dei software GIS open source, sia per convinzione personale sia per le limitate risorse economiche disponibili.
