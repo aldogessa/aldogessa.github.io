@@ -79,7 +79,7 @@ Qui sotto un video tutorial che mostra concretamente come utilizzare le principa
 <br><br>
 
 ### Aggiornamenti, approfondimenti, novità:
-<br><br>
+<br>
 
 #### 10/11/2025 - Aggiornamento colori interfaccia
 <img src="../risorse/immagini/AggInterfaccia.png" 
