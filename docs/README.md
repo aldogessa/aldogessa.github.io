@@ -1,4 +1,6 @@
-<img src="risorse/immagini/Icona.png" alt="AGis" width="60" style="position:absolute; top:20px; left:20px; margin-bottom:40px;">
+<img src="risorse/immagini/Icona.png" alt="AGis" width="60" style="position:absolute; top:20px; left:20px;">
+
+<div style="height:80px;"></div>
 
 # Benvenuti in questo spazio GIS
 
