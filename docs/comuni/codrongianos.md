@@ -17,7 +17,7 @@ Mappe WebGis autoprodotte del Comune di Codrongianos, nonché rimanere aggiornat
 <img src="../risorse/immagini/PUC_COD.PNG" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
----
+
 La mappa Web Gis del Piano Urbanistico Comunale oltre a contenere il catasto e la zoonizzazione del PUC,  
 contiene le previsioni e i vincoli della pianificazione sovraordinata:
 
@@ -251,6 +251,7 @@ attirare l’attenzione dell’utente sulla possibilità di deselezionare tutto 
   </p>
 
 </div>
+<br>
 
-
-## Piano Centro Matrice
+## <span style="color:red;">Centro Matrice</span>
+Il Piano particolareggiato 
