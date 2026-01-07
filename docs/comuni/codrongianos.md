@@ -84,7 +84,7 @@ Qui sotto un video tutorial che mostra concretamente come utilizzare le principa
 <img src="../risorse/immagini/AggInterfaccia.png" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
-E' stato eseguito l'aggiornamento dei colori dell'interfaccia per richiamare quelli dello stemma comunale, 
+E' stato eseguito l'aggiornamento dei colori dell'interfaccia per richiamare quelli dello stemma comunale,  
 nessuna modifica funzionale.
 
 #### 10/11/2025 - Specificazioni sulle mappe di sfondo
