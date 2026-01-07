@@ -1,8 +1,11 @@
-<img src="risorse/immagini/Icona.png" alt="AGis" width="60" style="position:absolute; top:20px; left:20px;">
+<div style="display:flex; align-items:center; gap:15px;">
 
-<div style="height:80px;"></div>
+  <img src="risorse/immagini/Icona.png" alt="AGis" width="60">
 
-# Benvenuti in questo spazio GIS
+  <h1 style="margin:0;">Benvenuti in questo spazio GIS</h1>
+
+</div>
+
 
 ![Immagine principale](risorse/immagini/ImmaginePaginaPrincipale.PNG)
 
