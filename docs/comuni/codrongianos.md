@@ -87,7 +87,7 @@ E' stato eseguito l'aggiornamento dei colori dell'interfaccia per richiamare que
 
 
 #### 10/11/2025 - Specificazioni sulle mappe di sfondo
-<img src="../risorse/immagini/immagini/MappeSfondo.png" 
+<img src="../risorse/immagini/MappeSfondo.png" 
      alt="immagine" 
      style="display:block; margin:20px auto; max-width:800px; width:100%; border-radius:4px;">
 Le mappe di sfondo o mappe di base, sono servite da terze parti mediante collegamento WMS, può capitare che in alcuni momenti non siano disponibili in coincidenza delle manutenzioni periodiche dei server. 
