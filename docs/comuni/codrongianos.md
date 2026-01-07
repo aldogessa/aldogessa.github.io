@@ -13,7 +13,7 @@
 Da questa pagina puoi scaricare e visualizzare il materiale disponibile per l’avvio all’utilizzo delle Mappe WebGis  
 autoprodotte del Comune di Codrongianos, nonché rimanere aggiornato sulle eventuali modifiche.
 <br><br>
-## Piano Urbanistico Comunale
+## <span style="color:red;">Piano Urbanistico Comunale</span>
 ---
 La mappa Web Gis del Piano Urbanistico Comunale oltre a contenere il catasto e la zoonizzazione del PUC, contiene le  
 previsioni e i vincoli della pianificazione sovraordinata:
@@ -76,11 +76,6 @@ Qui sotto un video tutorial che mostra concretamente come utilizzare le principa
   </p>
 
 </div>
-
-
-E' possibile che successivamente alla redazione del manuale siano apportate modifiche, estensioni e aggiornamenti alla mappa,  
-in un ottica di costante aggiornamento e miglioramento. 
-Le modifiche di rilievo saranno comunque annotate in questa stessa pagina.
 <br><br>
 ### Aggiornamenti, approfondimenti, novità:
 
@@ -171,7 +166,7 @@ che raggruppano i vincoli omogenei con un singolo click per velocizzare la consu
 
 #### 24/11/2025 - Tool per l'anteprima del certificato di destinazione urbanistica
 Per facilitare l’utilizzo di una delle funzionalità più interessanti della mappa, di seguito un breve video del Tool che permette  
-di estrapolare in pochi click l’anteprima del certificato di destinazione urbanistica di una serie di particelle catastali
+di estrapolare in pochi click l’anteprima del certificato di destinazione urbanistica di una serie di particelle catastali:
 
 <div style="
   border:1px solid #e0e0e0;
@@ -208,7 +203,7 @@ di estrapolare in pochi click l’anteprima del certificato di destinazione urba
 #### 28/11/2025 - Tool per deselezionare velocemente
 Per rendere più intuitivo e veloce deselezionare gli elementi mappa è stato implementato un nuovo Tool che permette di deselezionare tutto,  
 semplicemente cliccando l’apposito bottone sul Dock dei comandi, evitando di avviare il Tool di selezione. Quando un elemento di un layer  
-è selezionato, il bottone diventa verde per attirare l’attenzione dell’utente sulla possibilità di deselezionare tutto velocemente
+è selezionato, il bottone diventa verde per attirare l’attenzione dell’utente sulla possibilità di deselezionare tutto velocemente:
 
 <div style="
   border:1px solid #e0e0e0;
