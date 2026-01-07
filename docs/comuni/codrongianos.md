@@ -14,7 +14,7 @@ Da questa pagina puoi scaricare e visualizzare il materiale disponibile per l’
 Mappe WebGis autoprodotte del Comune di Codrongianos, nonché rimanere aggiornato sulle eventuali modifiche.
 <br><br>
 ## <span style="color:red;">Piano Urbanistico Comunale</span>
-<img src="../risorse/immagini/PUC.PNG" 
+<img src="../risorse/immagini/PUC_COD.PNG" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 ---
