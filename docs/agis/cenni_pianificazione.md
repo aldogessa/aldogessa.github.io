@@ -1,4 +1,10 @@
-# Cenni di pianificazione e vincoli
+<div style="display:flex; align-items:center; gap:15px;">
+
+  <img src="../risorse/immagini/Icona.png" alt="AGis" width="60">
+
+  <h1 style="margin:0;">CENNI DI PIANIFICAZIONE E VINCOLI</h1>
+
+</div>
 
 ## Struttura generale della pianificazione
 La pianificazione territoriale segue un preciso ordine gerarchico che impone ai piani sotto ordinati  
