@@ -2,7 +2,7 @@
   - [Introduzione](README.md)
 
 - **QGIS**
-  - [Introduzione](qgis/introduzione.md)
+  - [Avvio all'uso di QGIS](qgis/introduzione.md)
   - [Procedure operative](qgis/procedure.md)
   - [Automazioni](qgis/automazioni.md)
 
