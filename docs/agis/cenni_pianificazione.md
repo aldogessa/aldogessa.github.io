@@ -33,3 +33,5 @@ I vincoli paesaggistici possono essere suddivisi a loro volta:
   provvedimento di vincolo ai sensi dell’art. 136 del D.Lgs. 42/2004;
 - Ulteriori aree sottoposte a tutela paesaggistica dal piano paesaggistico  
   regionale ai sensi dell’art. 143 del D.Lgs. 42/2004.
+
+### Aree tutelate per legge
