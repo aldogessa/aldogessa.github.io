@@ -7,6 +7,6 @@
 - **Lizmap**
   - [Da QGIS al WEB](lizmap/pubblicazione.md)
  
-- **Comuni**
+- **Mappe Web Gis**
   - [Codrongianos](comuni/codrongianos.md)
   - [Villa San Pietro](comuni/villa_san_pietro.md)
