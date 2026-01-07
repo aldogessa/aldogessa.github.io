@@ -17,5 +17,5 @@ La comunità si occupa della promozione di QGIS, dell’assistenza agli utenti e
 dal codice alla documentazione.
 Se sei interessato a muovere i primi passi con QGIS questo manuale può esserti davvero utile:
 <br>
-[Scarica il modulo PDF](../risorse/documenti/ManualeAvvioQGIS.pdf)
+[Scarica il manuale PDF](../risorse/documenti/ManualeAvvioQGIS.pdf)
 <br>
