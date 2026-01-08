@@ -1,3 +1,5 @@
+<div style="max-width:800px; width:100%;">
+
 <div style="display:flex; align-items:center; gap:15px;">
 
   <img src="../risorse/immagini/Icona.png" alt="AGis" width="60">
@@ -37,5 +39,5 @@ La documentazione ufficiale di Lizmap, utile all’utilizzo del plugin di QGIS c
  🌍 Documentazione Lizmap
 </a>
 
-
+</div>
 
