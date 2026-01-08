@@ -40,6 +40,8 @@ Puoi trovare la notizia ufficiale diffusa dall'organizzazione di QGIS <a href="h
 
 <br><br>
 
+## Catasto sempre più open data
+20/11/2025
 
 
 
