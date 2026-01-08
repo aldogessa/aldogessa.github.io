@@ -20,7 +20,7 @@
 
 Sarà presto disponibile la nuova versione 4.0 di QGIS, i cambiamenti saranno tanti, soprattutto dietro le quinte, sono previsti diversi e importanti cambiamenti nel cuore pulsante di QGIS per aggiornarlo alle più moderne piattaforme. Una prima panoramica sui cambiamenti l’ha fornita Salvatore Fiandaca sul suo canale You Tube:
 
-<a href="https://www.youtube.com/watch?v=vnQg_zC3ELI" target="_blank"
+<a href="https://www.youtube.com/watch?v=IBcH_aVfen0" target="_blank"
    style="
      display:inline-block;
      padding:10px 18px;
