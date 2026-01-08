@@ -18,7 +18,7 @@ Paolo Corradeghini ha realizzato un intero percorso didattico sui sistemi di rif
 
 Qui sotto il link alla playlist:
 
-<a href="https://www.youtube.com/watch?v=vnQg_zC3ELI" target="_blank"
+<a href="https://www.youtube.com/playlist?list=PLrHt3p3U-QzFwTAvGihwjRIZch6izcIis" target="_blank"
    style="
      display:inline-block;
      padding:10px 18px;
