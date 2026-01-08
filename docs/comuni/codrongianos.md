@@ -10,8 +10,9 @@
      alt="immagine" 
      style="display:block; margin:20px 0;">
 
-Da questa pagina puoi scaricare e visualizzare il materiale disponibile per l’avvio all’utilizzo delle  
-Mappe WebGis autoprodotte del Comune di Codrongianos, nonché rimanere aggiornato sulle eventuali modifiche.
+<div style="max-width:800px; width:100%;">
+
+Da questa pagina puoi scaricare e visualizzare il materiale disponibile per l’avvio all’utilizzo delle Mappe WebGis autoprodotte del Comune di Codrongianos, nonché rimanere aggiornato sulle eventuali modifiche.
 <br><br>
 
 ---
@@ -22,8 +23,7 @@ Mappe WebGis autoprodotte del Comune di Codrongianos, nonché rimanere aggiornat
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 
-La mappa Web Gis del Piano Urbanistico Comunale oltre a contenere il catasto e la zoonizzazione del PUC,  
-contiene le previsioni e i vincoli della pianificazione sovraordinata:
+La mappa Web Gis del Piano Urbanistico Comunale oltre a contenere il catasto e la zoonizzazione del PUC, contiene le previsioni e i vincoli della pianificazione sovraordinata:
 
 - Aree tutelate per legge;
 - Immobili di notevole interesse pubblico;
@@ -41,8 +41,7 @@ La mappa permette diverse interrogazioni e interazioni, ad esempio:
 - Report;
 - Stampe.
 
-Il manuale in pdf contenente le istruzioni per l'avvio alle principali funzionalità disponibili nella mappa  
-può essere scaricato cliccando sul seguente link:
+Il manuale in pdf contenente le istruzioni per l'avvio alle principali funzionalità disponibili nella mappa può essere scaricato cliccando sul seguente link:
 
 <a href="../risorse/documenti/codrongianos_manualewebgis_puc.pdf" download
    style="display:inline-block; padding:10px 15px; background:#2c7be5; color:white; border-radius:6px; text-decoration:none;">
@@ -93,8 +92,7 @@ Qui sotto un video tutorial che mostra concretamente come utilizzare le principa
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 
-La mappa Web Gis del Piano Particolareggiato del Centro Matrice permette di individuare le Unità Edilizie (UE)  
-e di accedere alle rispettive Schede e agli altri documenti che riguardano il Piano:
+La mappa Web Gis del Piano Particolareggiato del Centro Matrice permette di individuare le Unità Edilizie (UE) e di accedere alle rispettive Schede e agli altri documenti che riguardano il Piano:
 
 - DCC n. 61/2016;
 - Det. Ras. Prot. 23979/2017;
@@ -150,19 +148,14 @@ Il seguente video mostra come utilizzare la mappa per raggiungere le suddette in
 <img src="../risorse/immagini/AggInterfaccia.png" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
-E' stato eseguito l'aggiornamento dei colori dell'interfaccia per richiamare quelli dello stemma comunale,  
-nessuna modifica funzionale.
+E' stato eseguito l'aggiornamento dei colori dell'interfaccia per richiamare quelli dello stemma comunale, nessuna modifica funzionale.
 <br><br>
 
 #### 10/11/2025 - Specificazioni sulle mappe di sfondo
 <img src="../risorse/immagini/MappeSfondo.png" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
-Le mappe di sfondo o mappe di base, sono servite da terze parti mediante collegamento WMS, può capitare  
-che in alcuni momenti non siano disponibili in coincidenza delle manutenzioni periodiche dei server.  
-La mappa comunale continua comunque a funzionare. Il disservizio è in genere temporaneo e si risolve nel  
-giro di poco tempo. Le ortofoto, in particolare, sono servite dalla Regione Sardegna e non sono disponibili  
-quando il Geoportale Regionale è in manutenzione. Generalmente è sempre disponibile, invece, OpenStreetMap.
+Le mappe di sfondo o mappe di base, sono servite da terze parti mediante collegamento WMS, può capitare che in alcuni momenti non siano disponibili in coincidenza delle manutenzioni periodiche dei server. La mappa comunale continua comunque a funzionare. Il disservizio è in genere temporaneo e si risolve nel giro di poco tempo. Le ortofoto, in particolare, sono servite dalla Regione Sardegna e non sono disponibili quando il Geoportale Regionale è in manutenzione. Generalmente è sempre disponibile, invece, OpenStreetMap.
 <br><br>
 
 #### 20/11/2025 - Tool per catturare le coordinate del punto di click
@@ -201,9 +194,7 @@ quando il Geoportale Regionale è in manutenzione. Generalmente è sempre dispon
 <br>
 
 #### 24/11/2025 - Temi Mappa
-Per facilitare la consultazione dei diversi vincoli che interessano un’area specifica di studio, sono stati  
-introdotti i temi mappa che raggruppano i vincoli omogenei con un singolo click per velocizzare la consultazione.  
-Di seguito un piccolo video illustrativo:
+Per facilitare la consultazione dei diversi vincoli che interessano un’area specifica di studio, sono stati introdotti i temi mappa che raggruppano i vincoli omogenei con un singolo click per velocizzare la consultazione. Di seguito un piccolo video illustrativo:
 
 <div style="
   border:1px solid #e0e0e0;
@@ -239,9 +230,7 @@ Di seguito un piccolo video illustrativo:
 <br>
 
 #### 24/11/2025 - Tool per l'anteprima del certificato di destinazione urbanistica
-Per facilitare l’utilizzo di una delle funzionalità più interessanti della mappa, di seguito un breve video del  
-Tool che permette di estrapolare in pochi click l’anteprima del certificato di destinazione urbanistica di una  
-serie di particelle catastali:
+Per facilitare l’utilizzo di una delle funzionalità più interessanti della mappa, di seguito un breve video del Tool che permette di estrapolare in pochi click l’anteprima del certificato di destinazione urbanistica di una serie di particelle catastali:
 
 <div style="
   border:1px solid #e0e0e0;
@@ -277,10 +266,7 @@ serie di particelle catastali:
 <br>
 
 #### 28/11/2025 - Tool per deselezionare velocemente
-Per rendere più intuitivo e veloce deselezionare gli elementi mappa è stato implementato un nuovo Tool che  
-permette di deselezionare tutto, semplicemente cliccando l’apposito bottone sul Dock dei comandi, evitando di  
-avviare il Tool di selezione. Quando un elemento di un layer è selezionato, il bottone diventa verde per  
-attirare l’attenzione dell’utente sulla possibilità di deselezionare tutto velocemente:
+Per rendere più intuitivo e veloce deselezionare gli elementi mappa è stato implementato un nuovo Tool che permette di deselezionare tutto, semplicemente cliccando l’apposito bottone sul Dock dei comandi, evitando di avviare il Tool di selezione. Quando un elemento di un layer è selezionato, il bottone diventa verde per attirare l’attenzione dell’utente sulla possibilità di deselezionare tutto velocemente:
 
 <div style="
   border:1px solid #e0e0e0;
@@ -316,9 +302,7 @@ attirare l’attenzione dell’utente sulla possibilità di deselezionare tutto 
 <br>
 
 #### 18/12/2025 - Chiarimenti sulla geolocalizzazione
-La geolocalizzazione è attiva, ma sul PC non funzionerà correttamente perché i servizi di geolocalizzazione  
-non sono disponibili sulle work station tradizionali. Il servizio di geolocalizzazione è pensato per i  
-dispositivi mobili, utile in caso di utilizzo della mappa per verifiche sul campo.
+La geolocalizzazione è attiva, ma sul PC non funzionerà correttamente perché i servizi di geolocalizzazione non sono disponibili sulle work station tradizionali. Il servizio di geolocalizzazione è pensato per i dispositivi mobili, utile in caso di utilizzo della mappa per verifiche sul campo.
 <img src="../risorse/immagini/Geolocalizzazione.PNG" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
@@ -329,9 +313,6 @@ dispositivi mobili, utile in caso di utilizzo della mappa per verifiche sul camp
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 
-La mappa del PUC rappresenta anche tutti i vincoli insistenti nel territorio comunale e questo può rendere la mappa  
-leggermente più complicata da interpretare. Per utilizzarla al meglio può essere utile conoscere, almeno in linea di  
-principio, come è articolato il sistema vincolistico regionale e cosa questi vincoli rappresentano. Questo argomento è  
-stato trattato in un’apposita pagina raggiungibile <a href="#/agis/cenni_pianificazione" target="_blank">cliccando qui</a>.
+La mappa del PUC rappresenta anche tutti i vincoli insistenti nel territorio comunale e questo può rendere la mappa leggermente più complicata da interpretare. Per utilizzarla al meglio può essere utile conoscere, almeno in linea di principio, come è articolato il sistema vincolistico regionale e cosa questi vincoli rappresentano. Questo argomento è stato trattato in un’apposita pagina raggiungibile <a href="#/agis/cenni_pianificazione" target="_blank">cliccando qui</a>.
+</div>
 <br>
-
