@@ -24,6 +24,24 @@ Al seguente link puoi raggiungere la sezione dedicata all'urbanistica:
  🌍 Sezione Urbanistica e Territorio
 </a>
 
+---
+
+### Le mappe pubblicate
+Il Comune di Villa san Pietro ha pubblicato diverse mappe, dimostrando un impegno costante e concreto verso la trasnisione al digitale e alla trasparenza dei dati geografici:
+
+- Piano Urbanistico Comunale;
+- Aree tutelate;
+- Territorio dell'Unione dei Comuni di Nora e Bithia;
+- Piano Particolareggiato del Centro Storico;
+- Piano di Lottizzazione Oasi;
+- Piano di Lottizzazione Tanca Bruxiada A;
+- Piano di Lottizzazione Tanca bruxuada B;
+- Piano di Lottizzazione Coop. Villa San Pietro;
+- Mappa dei valori territoriali ai fini IMU;
+- Mappa della distribuzione della popolazione all'interno dell'Unione dei Comuni di Nora e Bithia.
+
+---
+
 
 
 
