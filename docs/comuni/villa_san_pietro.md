@@ -11,3 +11,12 @@
      style="display:block; margin:20px 0;">
 
 <div style="max-width:800px; width:100%;">
+
+Il Comune di Villa San Pietro ha realizzato diverse mappe WebGis e ha allestito nel proprio sito istituzionale un'apposita sezione dedicata all'edilizia e all'urbanistica dove sono raccolti diversi tutotorial e ulteriori utili informazioni che riguardano la gestione territoriale e dei procedimenti edilizi.
+
+---
+
+
+
+
+</div>
