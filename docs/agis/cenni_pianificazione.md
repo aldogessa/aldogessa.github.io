@@ -114,8 +114,47 @@ Queste aree fanno riferimento alla “Rete Natura 2000” della politica europea
 
 Fanno parte di questa categoria di beni vincolati anche gli “Alberi Monumentali” che, oltre a essere soggetti a vincolo paesaggistico, sono anche protetti dalla L. 10/2013 e dal DM 24.10.2014.
 
+### Vincoli idrogeologici (PAI)
+<img src="../risorse/immagini/pai.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 
+Il piano di assetto idrogeologico (PAI) regionale ha avviato lo studio delle pericolosità idrauliche (alluvioni) e delle pericolosità geologiche (frane) presenti nel territorio regionale, affidando ai comuni il dettaglio dei propri territori attraverso lo strumento dello studio di compatibilità idraulica, geologica e geotecnica comunale che attiva la variante al PAI, integrandolo e rettificandolo. Nel corso del tempo diversi comuni si sono dotati di propri studi, alcuni sono stati integrati nel PAI, altri sono ancora nel periodo di salvaguardia o in attesa di approvazione. Inizialmente i comuni, per la parte idraulica (pericolo alluvione) avevano la facoltà di selezionare i fiumi con potenziale pericolo idraulico su cui eseguire gli studi e di ignorare i fiumi che venivano ritenuti privi di pericolosità. Con una variante al PAI la Regione ha stabilito che questo approccio non è convincente ed ha istituito una norma di prima salvaguarda (Art. 30-Ter delle NTA del PAI) su tutti i fiumi appartenenti al reticolo idrografico regionale che si applica ai fiumi non studiati con la relativa modellazione della pericolosità. Su questi fiumi si deve applicare una fascia di rispetto variabile, che dipende dalle caratteristiche proprie dell’asta fluviale, in cui, in attesa dello studio, deve applicarsi la normativa prevista per la pericolosità massima HI4.
 
+Dunque i vincoli derivanti dal PAI sono così suddivisibili:
 
+- Aree di pericolosità geologica (da frana);
+- Aree di pericolosità idraulica (alluvione);
+- Fasce di provvisoria salvaguardia art. 30-Ter delle NTA.
+- La classificazione di un area all’interno delle suddette pericolosità fa scattare l’obbligo del rispetto delle rispettive norme e può comportare l’onere della redazione di uno studio di compatibilità idraulica o geologica nei casi espressamente previsti dalle citate NTA del PAI.
+
+Il PAI riconosce anche:
+
+- Il danno potenziale;
+- Le aree a rischio frana;
+- Le aree a rischio alluvione.
+
+Questa ultima classificazione non ha incidenza sull’attività antropica essendo finalizzata all’individuazione di criteri prioritari per l’esecuzione di interventi di mitigazione del rischio. Per eventuali approfondimenti sul concetto di danno potenziale e rischio è possibile visitare il sito regionale <a href="https://portal.sardegnasira.it/assetto-idrogeologico" target="_blank">cliccando qui</a>.
+
+### Vincoli idrogeologici forestali
+<img src="../risorse/immagini/vincoloidrogeologico.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+
+Questi vincoli sono più antichi di quelli derivanti dal PAI e attengono a tutele diverse nonostante la somiglianza del nome. Derivano dal RD n. 3267 del 30/12/1923 e sono posti a tutela e difesa del suolo soprattutto nei territori montani, al fine di prevenire l’innescamento di fenomeni erosivi (mentre i vincoli PAI sono posti a protezione delle persone e delle cose). La presenza di questo vincolo impone la necessità di autorizzazione espressa della competente Autorità Forestale per qualunque intervento di trasformazione. L’argomento può essere approfondito sul sito regionale <a href="https://portal.sardegnasira.it/vincolo-idrogeologico" target="_blank">cliccando qui</a>.
+
+### Aree percorse da incendio
+<img src="../risorse/immagini/incendi.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+
+Le aree percorse da incendio sono tutelate dalla Legge 353/2000 “Legge quadro in materia di incendi boschi”. Ogni volta che accade un incendio il corpo forestale rileva i territori colpiti e i relativi soprassuoli distinguendoli tra BOSCO, PASCOLO e ALTRO. Sui suoli colpiti da incendi si applicano divieti differenziati in ragione del soprassuolo coinvolto:
+
+- vincoli quindicennali: la destinazione delle zone boscate e dei pascoli i cui soprassuoli siano stati percorsi dal fuoco non può essere modificata rispetto a quella preesistente l’incendio per almeno quindici anni. In tali aree è consentita la realizzazione solamente di opere pubbliche che si rendano necessarie per la salvaguardia della pubblica incolumità e dell’ambiente. Ne consegue l’obbligo di inserire sulle aree predette un vincolo esplicito da trasferire in tutti gli atti di compravendita stipulati entro quindici anni dall’evento;
+- vincoli decennali: nelle zone boscate e nei pascoli i cui soprassuoli siano stati percorsi dal fuoco, è vietata per dieci anni la realizzazione di edifici nonché di strutture e infrastrutture finalizzate ad insediamenti civili ed attività produttive, fatti salvi i casi in cui per detta realizzazione siano stati già rilasciati atti autorizzativi comunali in data precedente l’incendio sulla base degli strumenti urbanistici vigenti a tale data. In tali aree è vietato il pascolo e la caccia;
+- vincoli quinquennali: sui predetti soprassuoli è vietato lo svolgimento di attività di rimboschimento e di ingegneria ambientale sostenute con risorse finanziarie pubbliche, salvo il caso di specifica autorizzazione concessa o dal Ministro dell’Ambiente, per le aree naturali protette statali, o dalla regione competente, per documentate situazioni di dissesto idrogeologico o per particolari situazioni in cui sia urgente un intervento di tutela su valori ambientali e paesaggistici.
+
+Per approfondimenti è possibile visitare il sito regionale <a href="https://www.sardegnaambiente.it/index.php?xsl=612&s=88121&v=2&c=5186" target="_blank">cliccando qui</a>.
 
 </div>
+<br>
