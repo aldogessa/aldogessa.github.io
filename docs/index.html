@@ -15,12 +15,20 @@
   <!-- Contatore visite Hits.sh fisso in basso a destra -->
   <style>
     #visite-counter {
-      position: fixed;
-      bottom: 10px;
-      right: 10px;
+      position: fixed !important;
+      bottom: 10px !important;
+      right: 10px !important;
       opacity: 0.7;
       z-index: 9999;
+      pointer-events: none; /* così non interferisce con i click */
     }
+
+    #visite-counter img {
+      display: inline !important;
+      margin: 0 !important;
+      pointer-events: auto; /* permette comunque il click sul badge */
+    }
+
     #visite-counter:hover {
       opacity: 1;
     }
@@ -43,4 +51,3 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 </body>
 </html>
-
