@@ -26,7 +26,7 @@ Al seguente link puoi raggiungere la sezione dedicata all'urbanistica:
 
 ---
 
-### Le mappe pubblicate
+## Le mappe pubblicate
 Il Comune di Villa san Pietro ha pubblicato diverse mappe, dimostrando un impegno costante e concreto verso la trasnisione al digitale e alla trasparenza dei dati geografici:
 
 - Piano Urbanistico Comunale;
