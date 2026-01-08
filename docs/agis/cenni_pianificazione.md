@@ -96,7 +96,7 @@ Riconosce inoltre:
 - Le aree di recupero ambientale, ossia aree degradate dove il piano paesaggistico promuove attività di mitigazione e recupero del degrado (aree industriali, sottoposte a precedenti prelievi di cava etc.), a prescindere dalla presenza o meno del vincolo paesaggistico;
 - Le componenti di paesaggio, ossia esegue una ricognizione del territorio regionale qualificando i suoli sulla base del loro stato di utilizzo distinguendo tra aree antropizzate (componente insediativa) e aree non antropizzate (componente ambientale), e dettando per ciascuna componente rilevata gli indirizzi, gli obiettivi e le prescrizioni di piano, a prescindere dalla sussistenza o meno di un vincolo paesaggistico.
 
-### Vincoli ambientali
+## Vincoli ambientali
 <img src="../risorse/immagini/vincoliambientali.png" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
@@ -114,7 +114,7 @@ Queste aree fanno riferimento alla “Rete Natura 2000” della politica europea
 
 Fanno parte di questa categoria di beni vincolati anche gli “Alberi Monumentali” che, oltre a essere soggetti a vincolo paesaggistico, sono anche protetti dalla L. 10/2013 e dal DM 24.10.2014.
 
-### Vincoli idrogeologici (PAI)
+## Vincoli idrogeologici (PAI)
 <img src="../risorse/immagini/pai.png" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
@@ -136,14 +136,14 @@ Il PAI riconosce anche:
 
 Questa ultima classificazione non ha incidenza sull’attività antropica essendo finalizzata all’individuazione di criteri prioritari per l’esecuzione di interventi di mitigazione del rischio. Per eventuali approfondimenti sul concetto di danno potenziale e rischio è possibile visitare il sito regionale <a href="https://portal.sardegnasira.it/assetto-idrogeologico" target="_blank">cliccando qui</a>.
 
-### Vincoli idrogeologici forestali
+## Vincoli idrogeologici forestali
 <img src="../risorse/immagini/vincoloidrogeologico.png" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 
 Questi vincoli sono più antichi di quelli derivanti dal PAI e attengono a tutele diverse nonostante la somiglianza del nome. Derivano dal RD n. 3267 del 30/12/1923 e sono posti a tutela e difesa del suolo soprattutto nei territori montani, al fine di prevenire l’innescamento di fenomeni erosivi (mentre i vincoli PAI sono posti a protezione delle persone e delle cose). La presenza di questo vincolo impone la necessità di autorizzazione espressa della competente Autorità Forestale per qualunque intervento di trasformazione. L’argomento può essere approfondito sul sito regionale <a href="https://portal.sardegnasira.it/vincolo-idrogeologico" target="_blank">cliccando qui</a>.
 
-### Aree percorse da incendio
+## Aree percorse da incendio
 <img src="../risorse/immagini/incendi.png" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
