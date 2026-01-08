@@ -18,10 +18,19 @@ Paolo Corradeghini ha realizzato un intero percorso didattico sui sistemi di rif
 
 Qui sotto il link alla playlist:
 
-
-
-
-
-
+<a href="https://www.youtube.com/watch?v=vnQg_zC3ELI" target="_blank"
+   style="
+     display:inline-block;
+     padding:10px 18px;
+     background:#ff0000;
+     color:white;
+     font-weight:bold;
+     border-radius:6px;
+     text-decoration:none;
+     font-size:16px;
+   ">
+  ▶️ Sistemi di riferimento
+</a>
 
 </div>
+<br>
