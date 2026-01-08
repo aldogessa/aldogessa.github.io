@@ -12,3 +12,15 @@
 
 <div style="max-width:800px; width:100%;">
 
+## In arrivo QGIS 4
+23/11/2025
+
+
+
+
+
+
+
+
+
+</div>
