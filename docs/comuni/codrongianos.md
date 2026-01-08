@@ -98,14 +98,12 @@ La mappa Web Gis del Piano Particolareggiato del Centro Matrice permette di indi
 - Det. Ras. Prot. 23979/2017;
 - Relazione;
 - Norme tecniche;
-- Scheda unità immobiliare.
-
-Il seguente video mostra come utilizzare la mappa per raggiungere le suddette informazioni:
-
-
+- Scheda unità immobiliare;
 - Profilo isolato;
 - Abaco elementi architettonici;
 - Tabelle parametriche.
+
+Il seguente video mostra come utilizzare la mappa:
 
 <div style="
   border:1px solid #e0e0e0;
