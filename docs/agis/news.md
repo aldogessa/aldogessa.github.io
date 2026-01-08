@@ -42,7 +42,29 @@ Puoi trovare la notizia ufficiale diffusa dall'organizzazione di QGIS <a href="h
 
 ## Catasto sempre più open data
 20/11/2025
+<img src="../risorse/immagini/catastoopendata.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 
+Il catasto è sempre stato un fortino inespugnabile della burocrazia italiana, ma negli ultimi anni il vento sta cambiando e i dati catastali sono sempre più accessibili a tutti. Paolo Corradeghini ha pubblicato un interessantissimo video, sul suo canale, che spiega le ultimissime novità sull’accessibilità dei dati catastali. In particolare spiega come sia possibile scaricare, dal sito dell’Agenzia delle Entrate, estratti di mappa “vettoriali” in formato DXF adatto per il CAD, e in formato GeoJson adatto per il GIS. In realtà questa possibilità è già disponibile nel “Repertorio Nazionale dei Dati Territoriali” da cui è possibile il download massimo dei dati che però sono aggiornati semestralmente, mentre questo nuovo servizio offre i dati aggiornati al momento della richiesta ma non permette il download massimo, permette però di scaricare, comunque, un numero significativo di fogli, fino a 10 fogli per richiesta.
+
+Qui sotto il video di Paolo Corradeghini:
+
+<a href="https://www.youtube.com/watch?v=W0Pa3EHNMP8" target="_blank"
+   style="
+     display:inline-block;
+     padding:10px 18px;
+     background:#ff0000;
+     color:white;
+     font-weight:bold;
+     border-radius:6px;
+     text-decoration:none;
+     font-size:16px;
+   ">
+  ▶️ Catasto sempre più open data
+</a>
+
+Di seguito i link ai servizi catastali già attivi:
 
 
 
