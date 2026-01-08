@@ -324,6 +324,8 @@ dispositivi mobili, utile in caso di utilizzo della mappa per verifiche sul camp
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 <br>
 
+#### 18/12/2025 - Cenni sulla stratificazione dei vincoli in Sardegna
+
 
 
 
