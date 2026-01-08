@@ -16,6 +16,9 @@ Il Comune di Villa San Pietro ha realizzato diverse mappe WebGis e ha allestito 
 
 ---
 
+## Sezione dedicata all'urbanistica
+Al seguente link puoi raggiungere la sezione dedicata all'urbanistica:
+
 
 
 
