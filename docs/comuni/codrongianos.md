@@ -332,5 +332,6 @@ dispositivi mobili, utile in caso di utilizzo della mappa per verifiche sul camp
 La mappa del PUC rappresenta anche tutti i vincoli insistenti nel territorio comunale e questo può rendere la mappa  
 leggermente più complicata da interpretare. Per utilizzarla al meglio può essere utile conoscere, almeno in linea di  
 principio, come è articolato il sistema vincolistico regionale e cosa questi vincoli rappresentano. Questo argomento è  
-stato trattato in un’apposita pagina raggiungibile <a href="../agis/cenni_pianificazione.md" target="_blank">cliccando qui</a>.
+stato trattato in un’apposita pagina raggiungibile <a href="#/agis/cenni_pianificazione" target="_blank">cliccando qui</a>.
 <br>
+
