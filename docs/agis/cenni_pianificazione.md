@@ -65,6 +65,56 @@ Ai sensi del comma 4, restano inoltre efficace la disciplina derivante dagli att
 - f) i provvedimenti di riconoscimento delle zone di interesse archeologico emessi ai sensi del decreto legislativo 29 ottobre 1999, n. 490;
 - f-bis) i provvedimenti emanati ai sensi dell’articolo 1-ter del decreto-legge 27 giugno 1985, n. 312, convertito, con modificazioni, dalla legge 8 agosto 1985, n. 431.
 
+### Aree e immobili di notevole interesse pubblico tutelati per espresso provvedimento di vincolo art. 136 del D.Lgs. 42/2004
+<img src="../risorse/immagini/notintpubblico.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+
+Le aree e gli immobili di notevole interesse pubblico, tutelate per espresso provvedimento di vincolo ai sensi dell’art. 136, sono aree e immobili che, a seguito di un procedimento di valutazione, sono stati perfettamente individuati, cartografati e riconosciuti meritevoli di tutela attraverso un provvedimento amministrativo specifico che indica le caratteristiche del bene e le norme di tutela, possono riguardare le seguenti categorie di beni:
+
+- a) le cose immobili che hanno cospicui caratteri di bellezza naturale, singolarità geologica o memoria storica, ivi compresi gli alberi monumentali;
+- b) le ville, i giardini e i parchi, non tutelati dalle disposizioni della Parte seconda del D.Lgs. 42/2004, che si distinguono per la loro non comune bellezza;
+- c) i complessi di cose immobili che compongono un caratteristico aspetto avente valore estetico e tradizionale, inclusi i centri ed i nuclei storici;
+- d) le bellezze panoramiche e così pure quei punti di vista o di belvedere, accessibili al pubblico, dai quali si goda lo spettacolo di quelle bellezze.
+
+### Ulteriori aree e immobili sottoposti a tutela dal piano paesaggistico regionale
+<img src="../risorse/immagini/ppr.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+
+Ai sensi dell’art. 143 del D.Lgs. 42/2004, al piano paesaggistico regionale spetta la ricognizione e l’individuazione delle aree tutelate per legge, delle aree e degli immobili di notevole interesse pubblico, nonché il riconoscimento, l’individuazione e la rappresentazione degli ulteriori beni da sottoporre a vincolo paesaggistico o a determinati criteri di tutela, e dettare le prescrizioni per tali beni.
+
+Il piano paesaggistico regionale suddivide i beni paesaggistici in:
+
+- Beni paesaggistici ambientali;
+- Beni Paesaggistici storico-culturali.
+
+Riconosce inoltre:
+
+- I “Beni identitari” che non sono beni paesaggistici, a cui si applica comunque la specifica disciplina di tutela dettata dal piano paesaggistico, anche se non sussiste il vincolo paesaggistico e il relativo obbligo dell’autorizzazione paesaggistica (salvo non ricadano all’interno di altre aree o immobili sottoposti a vincolo paesaggistico);
+- Le aree istituzionalmente tutelate a cui si applica la specifica disciplina a prescindere dalla presenza o meno del vincolo paesaggistico (aree SIC, ZPS, Oasi Faunistiche; Parchi etc.);
+- Le aree di recupero ambientale, ossia aree degradate dove il piano paesaggistico promuove attività di mitigazione e recupero del degrado (aree industriali, sottoposte a precedenti prelievi di cava etc.), a prescindere dalla presenza o meno del vincolo paesaggistico;
+- Le componenti di paesaggio, ossia esegue una ricognizione del territorio regionale qualificando i suoli sulla base del loro stato di utilizzo distinguendo tra aree antropizzate (componente insediativa) e aree non antropizzate (componente ambientale), e dettando per ciascuna componente rilevata gli indirizzi, gli obiettivi e le prescrizioni di piano, a prescindere dalla sussistenza o meno di un vincolo paesaggistico.
+
+### Vincoli ambientali
+<img src="../risorse/immagini/vincoliambientali.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+
+Appartengono a questa categoria i vincoli che, a prescindere dal vincolo paesaggistico, sono posti a tutela di condizioni ambientali peculiari e dei relativi ecosistemi, suscettibili di essere alterati dall’attività antropica e ove sono previste forme “aggravate” di autorizzazione come la Valutazione di Incidenza e la Valutazione di Impatto Ambientale.
+
+I siti interessati da tali vincoli ambientali sono così classificati:
+
+- Siti di interesse comunitario (SIC);
+- Zone di protezione speciale (ZPS);
+- Zone di speciale conservazione (ZSC);
+- Important Bird Area (IBA avifauna).
+
+Queste aree fanno riferimento alla “Rete Natura 2000” della politica europea per il mantenimento, a lungo termine, degli habitat naturali, delle specie di flora e fauna minacciati o rari a livello comunitario. Per approfondire questo argomento è possibile visitare il sito sito regionale <a href="https://portal.sardegnasira.it/sic-e-zps" target="_blank">cliccando qui</a>.
+
+Fanno parte di questa categoria di beni vincolati anche gli “Alberi Monumentali” che, oltre a essere soggetti a vincolo paesaggistico, sono anche protetti dalla L. 10/2013 e dal DM 24.10.2014.
+
+
 
 
 
