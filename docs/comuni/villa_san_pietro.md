@@ -42,6 +42,8 @@ Il Comune di Villa san Pietro ha pubblicato diverse mappe, dimostrando un impegn
 
 ---
 
+## Piano Urbanistico Comunale
+La mappa del Piano Urbanistico Comunale permette di individuare per ogni particella la relativa destinazione urbanistica, di raggiungere le rispettive norme di utilizzo nonchè di interagire con la mappa per eseguire analisi urbanistiche di base come misurazioni, importare file esterni per sovrapposizioni, disegnare e stampare. Dalla mappa è inoltre possibile estrapolare un report dettagliato per ogni particella e generare anche una anteprima del certificato di destinazione urbanistica.
 
 
 
