@@ -14,8 +14,11 @@
 
 ## In arrivo QGIS 4
 23/11/2025
+<img src="../risorse/immagini/QGIS4.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 
-
+Sarà presto disponibile la nuova versione 4.0 di QGIS, i cambiamenti saranno tanti, soprattutto dietro le quinte, sono previsti diversi e importanti cambiamenti nel cuore pulsante di QGIS per aggiornarlo alle più moderne piattaforme. Una prima panoramica sui cambiamenti l’ha fornita Salvatore Fiandaca sul suo canale You Tube:
 
 
 
