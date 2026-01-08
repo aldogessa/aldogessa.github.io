@@ -52,7 +52,7 @@ La mappa del Piano Urbanistico Comunale permette di individuare per ogni partice
 
 La mappa è in costante aggiornamento e miglioramento, nel tempo sono stati aggiunti diversi Tool mostrati nei video qui di seguito riportati:
 
-
+https://youtu.be/xmTbAm2HDqk
 
 
 
