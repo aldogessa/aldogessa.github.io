@@ -6,17 +6,29 @@
   <title>AGis – Documentazione</title>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify/themes/vue.css" />
-
 </head>
 
 <body>
 
-  <!-- Contatore visite Hits.sh -->
-<p style="text-align:center; margin-top:20px;">
-  <img src="https://hits.sh/aldogessa.github.io/aldogessa.github.io.svg?style=flat-square&label=VISITE&color=blue" />
-</p>
-  
   <div id="app">Caricamento...</div>
+
+  <!-- Contatore visite Hits.sh fisso in basso a destra -->
+  <style>
+    #visite-counter {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      opacity: 0.7;
+      z-index: 9999;
+    }
+    #visite-counter:hover {
+      opacity: 1;
+    }
+  </style>
+
+  <div id="visite-counter">
+    <img src="https://hits.sh/aldogessa.github.io/aldogessa.github.io.svg?style=flat-square&label=VISITE&color=blue" />
+  </div>
 
   <script>
     window.$docsify = {
