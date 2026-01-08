@@ -36,7 +36,7 @@ Sarà presto disponibile la nuova versione 4.0 di QGIS, i cambiamenti saranno ta
 
 Puoi trovare la notizia ufficiale diffusa dall'organizzazione di QGIS <a href="https://blog.qgis.org/2025/04/17/qgis-is-moving-to-qt6-and-launching-qgis-4-0/" target="_blank">cliccando qui</a>.
 
-
+---
 
 <br><br>
 
