@@ -64,8 +64,35 @@ Qui sotto il video di Paolo Corradeghini:
   ▶️ Catasto sempre più open data
 </a>
 
-Di seguito i link ai servizi catastali già attivi:
+Di seguito i link ai servizi catastali attivi:
 
+<a href="https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/vendita-della-cartografia-catastale/fornitura-dati-cartografici-online-professionisti" target="_blank"
+   style="display:inline-block; padding:10px 15px; background:#2c7be5; color:white; border-radius:6px; text-decoration:none;">
+ 🌍 Nuovo servizio download cartografia vettoriale
+</a>
 
+<a href="https://geodati.gov.it/geoportale/visualizzazione-metadati/scheda-metadati/?uuid=age%3AS_0000_ITALIA" target="_blank"
+   style="display:inline-block; padding:10px 15px; background:#2c7be5; color:white; border-radius:6px; text-decoration:none;">
+ 🌍 Repertorio nazionale dati territoriali
+</a>
+
+<a href="https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia" target="_blank"
+   style="display:inline-block; padding:10px 15px; background:#2c7be5; color:white; border-radius:6px; text-decoration:none;">
+ 🌍 Servizio WMS Agenzia delle Entrate
+</a>
+
+<a href="https://www.agenziaentrate.gov.it/portale/cartografia-catastale-wfs" target="_blank"
+   style="display:inline-block; padding:10px 15px; background:#2c7be5; color:white; border-radius:6px; text-decoration:none;">
+ 🌍 Servizio WFS Agenzia delle Entrate
+</a>
+
+**Attenzione** che la cartografia catastale è messa a disposizione del pubblico con alcune limitazioni secondo la licenza **CC-BY 4.0**, qui sotto il link alla licenza:
+
+<a href="https://creativecommons.org/licenses/by/4.0/deed.it" target="_blank"
+   style="display:inline-block; padding:10px 15px; background:#2c7be5; color:white; border-radius:6px; text-decoration:none;">
+ 🌍 Licenza CC-BY 4.0
+</a>
+
+<br><br>
 
 </div>
