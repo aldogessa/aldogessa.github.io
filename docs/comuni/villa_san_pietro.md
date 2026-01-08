@@ -19,6 +19,11 @@ Il Comune di Villa San Pietro ha realizzato diverse mappe WebGis e ha allestito 
 ## Sezione dedicata all'urbanistica
 Al seguente link puoi raggiungere la sezione dedicata all'urbanistica:
 
+<a href="https://servizi.comune.villasanpietro.ca.it/villasanpietro/zf/index.php/servizi-aggiuntivi/index/index/idtesto/98" target="_blank"
+   style="display:inline-block; padding:10px 15px; background:#2c7be5; color:white; border-radius:6px; text-decoration:none;">
+ 🌍 Sezione Urbanistica e Territorio
+</a>
+
 
 
 
