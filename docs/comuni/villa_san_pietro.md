@@ -42,15 +42,16 @@ Il Comune di Villa san Pietro ha pubblicato diverse mappe, dimostrando un impegn
 
 ---
 
-## Piano Urbanistico Comunale
-La mappa del Piano Urbanistico Comunale permette di individuare per ogni particella la relativa destinazione urbanistica, di raggiungere le rispettive norme di utilizzo nonchè di interagire con la mappa per eseguire analisi urbanistiche di base come misurazioni, importare file esterni per sovrapposizioni, disegnare e stampare. Dalla mappa è inoltre possibile estrapolare un report dettagliato per ogni particella e generare anche una anteprima del certificato di destinazione urbanistica. Sul sito istituzionale sono pubblicati diversi tutorial che spiegano il funzionamento della mappa e sono raggiungibili al seguente link:
+## Tool aggiuntivi
+Le mappe permettono di individuare per ogni particella la relativa destinazione urbanistica, di raggiungere le rispettive norme di utilizzo nonchè di interagire per eseguire analisi urbanistiche di base come misurazioni, importare file esterni per sovrapposizioni, disegnare e stampare. Dalle mappe è inoltre possibile estrapolare report e generare anche una anteprima del certificato di destinazione urbanistica. Sul sito istituzionale sono pubblicati diversi tutorial che spiegano il funzionamento della mappa e sono raggiungibili al seguente link:
 
 <a href="https://servizi.comune.villasanpietro.ca.it/villasanpietro/zf/index.php/servizi-aggiuntivi/index/index/idtesto/109" target="_blank"
    style="display:inline-block; padding:10px 15px; background:#2c7be5; color:white; border-radius:6px; text-decoration:none;">
  🌍 Video Tutorial
 </a>
 
-La mappa è in costante aggiornamento e miglioramento, nel tempo sono stati aggiunti diversi Tool mostrati nei video qui di seguito riportati:
+Le mappe sono in costante aggiornamento e miglioramento, nel tempo sono stati aggiunti diversi Tool. Di seguito alcuni di questi Tool aggiuntivi che migliorano l'esperienza utente:
+### Piano Urbanistico Comunale - Anteprima del certificato di destinazione urbanistica
 
 <div style="
   border:1px solid #e0e0e0;
@@ -84,19 +85,42 @@ La mappa è in costante aggiornamento e miglioramento, nel tempo sono stati aggi
 
 </div>
 
+<br><br>
 
+### Mappa dei valori territoriali ai fini IMU
 
+<div style="
+  border:1px solid #e0e0e0;
+  border-radius:6px;
+  padding:12px;
+  margin:18px 0;
+  box-shadow:0 1px 4px rgba(0,0,0,0.06);
+  background:#fafafa;
+  max-width:800px;
+">
 
+  <h3 style="margin:0 0 10px 0; font-size:18px; font-weight:600;">
+    🎥 MAPPA VALORI TERRITORIALI I FINI IMU
+  </h3>
 
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:4px;">
+    <iframe 
+      src="https://www.youtube.com/embed/8_hD4vcnkcU"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:4px;">
+    </iframe>
+  </div>
 
+  <p style="margin-top:8px; font-size:14px;">
+    🔗 <a href="https://www.youtube.com/watch?v=8_hD4vcnkcU" target="_blank">
+      Apri su YouTube
+    </a>
+  </p>
 
+</div>
 
-
-
-
-
-
-
-
+<br><br>
 
 </div>
