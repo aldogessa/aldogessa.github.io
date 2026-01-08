@@ -1,3 +1,5 @@
+<div style="max-width:800px; width:100%;">
+  
 <div style="display:flex; align-items:center; gap:15px;">
 
   <img src="../risorse/immagini/Icona.png" alt="AGis" width="60">
@@ -172,3 +174,5 @@ Anche se i dati catastali sono sempre più open data e questa procedura risulta 
    ">
   ▶️ Conclusione della cartografia catastale vettoriale
   </a>
+
+</div>
