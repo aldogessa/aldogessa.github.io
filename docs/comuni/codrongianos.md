@@ -325,8 +325,14 @@ dispositivi mobili, utile in caso di utilizzo della mappa per verifiche sul camp
 <br>
 
 #### 18/12/2025 - Cenni sulla stratificazione dei vincoli in Sardegna
+<img src="../risorse/immagini/vincolisovracomunali.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 
-
+La mappa del PUC rappresenta anche tutti i vincoli insistenti nel territorio comunale e questo può rendere la mappa  
+leggermente più complicata da interpretare. Per utilizzarla al meglio può essere utile conoscere, almeno in linea di  
+principio, come è articolato il sistema vincolistico regionale e cosa questi vincoli rappresentano. Questo argomento è  
+stato trattato in un’apposita pagina raggiungibile cliccando qui:
 
 
 
