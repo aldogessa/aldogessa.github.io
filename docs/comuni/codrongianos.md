@@ -22,7 +22,7 @@ Il Comune ha pubblicato le seguenti mappe:
 - Piano Urbanistico Comunale;
 - Piano Particolareggiato del Centro Matrice.
 
-**Piano Urbanistico Comunale**
+#### Piano Urbanistico Comunale
 La mappa Web Gis del Piano Urbanistico Comunale oltre a contenere il catasto e la zoonizzazione del PUC, contiene le previsioni e i vincoli della pianificazione sovraordinata:
 
 - Aree tutelate per legge;
@@ -41,7 +41,7 @@ La mappa permette diverse interrogazioni e interazioni, ad esempio:
 - Report;
 - Stampe.
 
-**Piano Particolareggiato del Centro Matrice**
+#### Piano Particolareggiato del Centro Matrice
 La mappa Web Gis del Piano Particolareggiato del Centro Matrice permette di individuare le Unità Edilizie (UE) e di accedere alle rispettive Schede e agli altri documenti che riguardano il Piano:
 
 - DCC n. 61/2016;
@@ -63,7 +63,7 @@ Le mappe permettono di individuare per ogni particella la relativa destinazione 
   📄 Scarica il manuale PDF
 </a>
 
-### Mappa del Piano Urbanistico Comunale
+#### Mappa del Piano Urbanistico Comunale
 Questo video mostra le principali funzionalità della mappa
 
 <div style="
@@ -97,9 +97,9 @@ Questo video mostra le principali funzionalità della mappa
   </p>
 
 </div>
-<br><br>
+<br>
 
-### Mappa del Piano Particolareggiato del Centro Matrice
+#### Mappa del Piano Particolareggiato del Centro Matrice
 Questo video mostra le principali funzionalità della mappa
 
 <div style="
@@ -133,7 +133,7 @@ Questo video mostra le principali funzionalità della mappa
   </p>
 
 </div>
-<br><br>
+<br>
 
 ---
 
