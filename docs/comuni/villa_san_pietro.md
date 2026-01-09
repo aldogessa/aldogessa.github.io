@@ -42,7 +42,7 @@ Il Comune di Villa san Pietro ha pubblicato diverse mappe, dimostrando un impegn
 
 ---
 
-## Tool aggiuntivi
+## Tutorial
 Le mappe permettono di individuare per ogni particella la relativa destinazione urbanistica, di raggiungere le rispettive norme di utilizzo nonchè di interagire per eseguire analisi urbanistiche di base come misurazioni, importare file esterni per sovrapposizioni, disegnare e stampare. Dalle mappe è inoltre possibile estrapolare report e generare anche una anteprima del certificato di destinazione urbanistica. Sul sito istituzionale sono pubblicati diversi tutorial che spiegano il funzionamento della mappa e sono raggiungibili al seguente link:
 
 <a href="https://servizi.comune.villasanpietro.ca.it/villasanpietro/zf/index.php/servizi-aggiuntivi/index/index/idtesto/109" target="_blank"
@@ -50,8 +50,10 @@ Le mappe permettono di individuare per ogni particella la relativa destinazione 
  🌍 Video Tutorial
 </a>
 
-Le mappe sono in costante aggiornamento e miglioramento, nel tempo sono stati aggiunti diversi Tool. Di seguito alcuni di questi Tool aggiuntivi che migliorano l'esperienza utente:
-### Piano Urbanistico Comunale - Anteprima del certificato di destinazione urbanistica
+Le mappe sono in costante aggiornamento in un otica di costante miglioramento, nel tempo sono stati aggiunti diversi Tool e diverse mappe. Di seguito alcuni ulteriori tutorial che approfondiscono alcune delle funzionalità più interessanti delle mappe:
+
+### PUC - Anteprima del certificato di destinazione urbanistica
+Questo Tool permette di scaricare l'anteprima del certificato di destinazione urbanistica di una selezione di particelle.
 
 <div style="
   border:1px solid #e0e0e0;
@@ -88,6 +90,7 @@ Le mappe sono in costante aggiornamento e miglioramento, nel tempo sono stati ag
 <br><br>
 
 ### Mappa dei valori territoriali ai fini IMU
+Questa mappa contiene i valori stimati, ai fini IMU, delle particelle per il periodo 2016-2020. Il valore si riferisce alla terra nuda senza considerare alcun soprassuolo.
 
 <div style="
   border:1px solid #e0e0e0;
