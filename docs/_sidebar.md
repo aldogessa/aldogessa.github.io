@@ -6,11 +6,11 @@
 
 - **Lizmap**
   - [Da QGIS al WEB](lizmap/pubblicazione.md)
+  - [Ampliare Lizmap con JavaScript](lizmap/Java.md)
 
 - **Utilities**
   - [Cenni di pianificazione e vincoli](agis/cenni_pianificazione.md)
-  - [Sistemi di riferimento](agis/sistemi_riferimento.md)
-  - [Ampliare Lizmap con JavaScript](lizmap/Java.md)
+  - [Sistemi di riferimento](agis/sistemi_riferimento.md)  - 
   - [News](agis/news.md)
  
 - **Mappe Web Gis**
