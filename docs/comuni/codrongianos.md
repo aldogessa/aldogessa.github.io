@@ -13,16 +13,16 @@
 <div style="max-width:800px; width:100%;">
 
 Il Comune di Codrongianos sta realizzando il proprio Sistema Informativo Territoriale (SIT) rendendo accessibili al pubblico i dati territoriali attraverso la pubblicazione di mappe tematiche WebGis che rendono accessibili ai cittadini informazioni di carattere ambientale, urbanistico, territoriale offrendo una navigazione su base cartografica delle stesse. Da questa pagina puoi scaricare e visualizzare il materiale disponibile per l’avvio all’utilizzo delle Mappe WebGis del Comune di Codrongianos, nonché rimanere aggiornato sulle eventuali modifiche.
-<br><br>
 
 ---
-## <span style="color:red;">Piano Urbanistico Comunale</span>
----
 
-<img src="../risorse/immagini/PUC_COD.PNG" 
-     alt="immagine" 
-     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+## Le mappe pubblicate
+Il Comune ha pubblicato le seguenti mappe:
 
+- Piano Urbanistico Comunale;
+- Piano Particolareggiato del Centro Matrice.
+
+**Piano Urbanistico Comunale**
 La mappa Web Gis del Piano Urbanistico Comunale oltre a contenere il catasto e la zoonizzazione del PUC, contiene le previsioni e i vincoli della pianificazione sovraordinata:
 
 - Aree tutelate per legge;
@@ -41,15 +41,30 @@ La mappa permette diverse interrogazioni e interazioni, ad esempio:
 - Report;
 - Stampe.
 
-Il manuale in pdf contenente le istruzioni per l'avvio alle principali funzionalità disponibili nella mappa può essere scaricato cliccando sul seguente link:
+**Piano Particolareggiato del Centro Matrice**
+La mappa Web Gis del Piano Particolareggiato del Centro Matrice permette di individuare le Unità Edilizie (UE) e di accedere alle rispettive Schede e agli altri documenti che riguardano il Piano:
+
+- DCC n. 61/2016;
+- Det. Ras. Prot. 23979/2017;
+- Relazione;
+- Norme tecniche;
+- Scheda unità immobiliare;
+- Profilo isolato;
+- Abaco elementi architettonici;
+- Tabelle parametriche.
+
+---
+
+## Tutorial
+Le mappe permettono di individuare per ogni particella la relativa destinazione urbanistica, di raggiungere le rispettive norme di utilizzo nonchè di interagire per eseguire analisi urbanistiche di base come misurazioni, importare file esterni per sovrapposizioni, disegnare e stampare. Dalle mappe è inoltre possibile estrapolare report e generare anche una anteprima del certificato di destinazione urbanistica. Per facilitare l'utilizzo delle mappe è stato realizzato un breve manuale e alcuni video tutorial:
 
 <a href="../risorse/documenti/codrongianos_manualewebgis_puc.pdf" download
    style="display:inline-block; padding:10px 15px; background:#2c7be5; color:white; border-radius:6px; text-decoration:none;">
   📄 Scarica il manuale PDF
 </a>
 
-
-Qui sotto un video tutorial che mostra concretamente come utilizzare le principali funzionalità della mappa:
+### Mappa del Piano Urbanistico Comunale
+Questo video mostra le principali funzionalità della mappa
 
 <div style="
   border:1px solid #e0e0e0;
@@ -84,26 +99,8 @@ Qui sotto un video tutorial che mostra concretamente come utilizzare le principa
 </div>
 <br><br>
 
----
-## <span style="color:red;">Centro Matrice</span>
----
-
-<img src="../risorse/immagini/CM_CODRO.PNG" 
-     alt="immagine" 
-     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
-
-La mappa Web Gis del Piano Particolareggiato del Centro Matrice permette di individuare le Unità Edilizie (UE) e di accedere alle rispettive Schede e agli altri documenti che riguardano il Piano:
-
-- DCC n. 61/2016;
-- Det. Ras. Prot. 23979/2017;
-- Relazione;
-- Norme tecniche;
-- Scheda unità immobiliare;
-- Profilo isolato;
-- Abaco elementi architettonici;
-- Tabelle parametriche.
-
-Il seguente video mostra come utilizzare la mappa:
+### Mappa del Piano Particolareggiato del Centro Matrice
+Questo video mostra le principali funzionalità della mappa
 
 <div style="
   border:1px solid #e0e0e0;
@@ -139,22 +136,23 @@ Il seguente video mostra come utilizzare la mappa:
 <br><br>
 
 ---
-## <span style="color:red;">Aggiornamenti e approfondimenti</span>
----
+
+## Approfondimenti e News
+Le mappe sono in costante aggiornamento in un ottica di continuo miglioramento, nel tempo sono state eseguite diverse modifiche e aggiunti diversi Tool. Di seguito sono documentate le modifiche apportate, sono resi disponibili ulteriori tutorial e approfondimenti sulle modifiche apportate e le funzionalità più interessanti delle mappe:
 
 #### 10/11/2025 - Aggiornamento colori interfaccia
 <img src="../risorse/immagini/AggInterfaccia.png" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 E' stato eseguito l'aggiornamento dei colori dell'interfaccia per richiamare quelli dello stemma comunale, nessuna modifica funzionale.
-<br><br>
+<br>
 
 #### 10/11/2025 - Specificazioni sulle mappe di sfondo
 <img src="../risorse/immagini/MappeSfondo.png" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 Le mappe di sfondo o mappe di base, sono servite da terze parti mediante collegamento WMS, può capitare che in alcuni momenti non siano disponibili in coincidenza delle manutenzioni periodiche dei server. La mappa comunale continua comunque a funzionare. Il disservizio è in genere temporaneo e si risolve nel giro di poco tempo. Le ortofoto, in particolare, sono servite dalla Regione Sardegna e non sono disponibili quando il Geoportale Regionale è in manutenzione. Generalmente è sempre disponibile, invece, OpenStreetMap.
-<br><br>
+<br>
 
 #### 20/11/2025 - Tool per catturare le coordinate del punto di click
 
@@ -304,7 +302,7 @@ La geolocalizzazione è attiva, ma sul PC non funzionerà correttamente perché 
 <img src="../risorse/immagini/Geolocalizzazione.PNG" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
-<br><br>
+<br>
 
 #### 18/12/2025 - Cenni sulla stratificazione dei vincoli in Sardegna
 <img src="../risorse/immagini/vincolisovracomunali.png" 
