@@ -52,7 +52,7 @@ Le mappe permettono di individuare per ogni particella la relativa destinazione 
 
 Le mappe sono in costante aggiornamento in un ottica di continuo miglioramento, nel tempo sono stati aggiunti diversi Tool e diverse mappe. Di seguito alcuni ulteriori tutorial che approfondiscono alcune delle funzionalità più interessanti delle mappe:
 
-### PUC - Anteprima del certificato di destinazione urbanistica
+#### PUC - Anteprima del certificato di destinazione urbanistica
 Questo Tool permette di scaricare l'anteprima del certificato di destinazione urbanistica di una selezione di particelle.
 
 <div style="
@@ -89,7 +89,7 @@ Questo Tool permette di scaricare l'anteprima del certificato di destinazione ur
 
 <br><br>
 
-### Mappa dei valori territoriali ai fini IMU
+#### Mappa dei valori territoriali ai fini IMU
 Questa mappa contiene i valori stimati, ai fini IMU, delle particelle per il periodo 2016-2020. Il valore si riferisce alla terra nuda senza considerare alcun soprassuolo.
 
 <div style="
