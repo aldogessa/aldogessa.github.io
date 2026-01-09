@@ -8,5 +8,5 @@
 
 <div style="max-width:800px; width:100%;">
 
-## Cosa si può fare con javascript
+## Cosa si può fare con JavaScript
 Lizmap è un progetto open sourse con codice aperto e può essere manipolato e ampliato anche con codice Javascript.
