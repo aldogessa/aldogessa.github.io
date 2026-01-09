@@ -308,6 +308,38 @@ Questo script cattura le coordinate del punto cliccato e le salva negli appunti 
 })();
 ```
 
+<div style="
+  border:1px solid #e0e0e0;
+  border-radius:6px;
+  padding:12px;
+  margin:18px 0;
+  box-shadow:0 1px 4px rgba(0,0,0,0.06);
+  background:#fafafa;
+  max-width:800px;
+">
+
+  <h3 style="margin:0 0 10px 0; font-size:18px; font-weight:600;">
+    🎥 TOOL CATTURA COORDINATE
+  </h3>
+
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:4px;">
+    <iframe 
+      src="https://www.youtube.com/embed/zfuS4VJMftI"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:4px;">
+    </iframe>
+  </div>
+
+  <p style="margin-top:8px; font-size:14px;">
+    🔗 <a href="https://www.youtube.com/watch?v=zfuS4VJMftI" target="_blank">
+      Apri su YouTube
+    </a>
+  </p>
+
+</div>
+
 ---
 
 ## Deseleziona tutto velocemente
