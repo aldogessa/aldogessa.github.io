@@ -27,7 +27,7 @@ Al seguente link puoi raggiungere la sezione dedicata all'urbanistica:
 ---
 
 ## Le mappe pubblicate
-Il Comune di Villa san Pietro ha pubblicato diverse mappe, dimostrando un impegno costante e concreto verso la trasnisione al digitale e alla trasparenza dei dati geografici:
+Il Comune di Villa san Pietro ha pubblicato diverse mappe, dimostrando un impegno costante e concreto verso la transizione al digitale e alla trasparenza dei dati geografici:
 
 - Piano Urbanistico Comunale;
 - Aree tutelate;
@@ -50,7 +50,7 @@ Le mappe permettono di individuare per ogni particella la relativa destinazione 
  🌍 Video Tutorial
 </a>
 
-Le mappe sono in costante aggiornamento in un otica di costante miglioramento, nel tempo sono stati aggiunti diversi Tool e diverse mappe. Di seguito alcuni ulteriori tutorial che approfondiscono alcune delle funzionalità più interessanti delle mappe:
+Le mappe sono in costante aggiornamento in un ottica di costante miglioramento, nel tempo sono stati aggiunti diversi Tool e diverse mappe. Di seguito alcuni ulteriori tutorial che approfondiscono alcune delle funzionalità più interessanti delle mappe:
 
 ### PUC - Anteprima del certificato di destinazione urbanistica
 Questo Tool permette di scaricare l'anteprima del certificato di destinazione urbanistica di una selezione di particelle.
