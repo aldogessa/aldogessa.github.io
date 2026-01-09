@@ -2,7 +2,7 @@
 
   <img src="../risorse/immagini/Icona.png" alt="AGis" width="60">
 
-  <h1 style="margin:0;">CENNI DI PIANIFICAZIONE E VINCOLI</h1>
+  <h1 style="margin:0;">AMPLIARE LIZMAP CON JAVASCRIPT</h1>
 
 </div>
 
