@@ -10,6 +10,7 @@
 - **Utilities**
   - [Cenni di pianificazione e vincoli](agis/cenni_pianificazione.md)
   - [Sistemi di riferimento](agis/sistemi_riferimento.md)
+  - [Ampliare Lizmap con Javascript](agis/Javascript.md)
   - [News](agis/news.md)
  
 - **Mappe Web Gis**
