@@ -87,7 +87,7 @@ Questo Tool permette di scaricare l'anteprima del certificato di destinazione ur
 
 </div>
 
-<br><br>
+<br>
 
 #### Mappa dei valori territoriali ai fini IMU
 Questa mappa contiene i valori stimati, ai fini IMU, delle particelle per il periodo 2016-2020. Il valore si riferisce alla terra nuda senza considerare alcun soprassuolo.
@@ -124,6 +124,6 @@ Questa mappa contiene i valori stimati, ai fini IMU, delle particelle per il per
 
 </div>
 
-<br><br>
+<br>
 
 </div>
