@@ -103,7 +103,7 @@ Questa mappa contiene i valori stimati, ai fini IMU, delle particelle per il per
 ">
 
   <h3 style="margin:0 0 10px 0; font-size:18px; font-weight:600;">
-    🎥 MAPPA VALORI TERRITORIALI I FINI IMU
+    🎥 MAPPA VALORI TERRITORIALI AI FINI IMU
   </h3>
 
   <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:4px;">
