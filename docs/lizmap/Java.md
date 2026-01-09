@@ -455,7 +455,7 @@ Questo script permette di deselezionare tutti gli elementi con il click di un bo
 
 ---
 
-## Genera CDU automatizzato
+## Genera CDU
 Questo script permette di generare l'anteprima del certificato di destinazione urbanistica in formato doc e di scaricarlo sul proprio computer. Lo script recupera i dati da una tabella precedentemente predisposta e li copia all'interno di un file preconfigurato:
 
 ```javascript
