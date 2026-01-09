@@ -127,7 +127,7 @@ Questa mappa contiene i valori stimati, ai fini IMU, delle particelle per il per
 <br>
 
 #### Caricare file esterni alla mappa
-E' possibile caricare file esterni alle mappe, in formato KML, GPX e GeoJSON, per eseguire delle analisi urbanistiche. Questo video mostra come caricare un percorso tutistico in formato KML.
+E' possibile caricare file esterni alle mappe, in formato KML, GPX e GeoJSON, per eseguire delle analisi urbanistiche. Questo video mostra, per esempio, come caricare un percorso tutistico in formato KML per analizzare i vincoli insistenti lungo il percorso.
 
 <div style="
   border:1px solid #e0e0e0;
