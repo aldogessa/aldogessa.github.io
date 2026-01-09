@@ -956,6 +956,38 @@ Questo script permette di generare l'anteprima del certificato di destinazione u
 ## Vedi somma valori
 Questo script esegue la somma dei valori delle particelle catastali selezionate e gli stampa a video:
 
+<div style="
+  border:1px solid #e0e0e0;
+  border-radius:6px;
+  padding:12px;
+  margin:18px 0;
+  box-shadow:0 1px 4px rgba(0,0,0,0.06);
+  background:#fafafa;
+  max-width:800px;
+">
+
+  <h3 style="margin:0 0 10px 0; font-size:18px; font-weight:600;">
+    🎥 MAPPA VALORI TERRITORIALI I FINI IMU
+  </h3>
+
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:4px;">
+    <iframe 
+      src="https://www.youtube.com/embed/8_hD4vcnkcU"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:4px;">
+    </iframe>
+  </div>
+
+  <p style="margin-top:8px; font-size:14px;">
+    🔗 <a href="https://www.youtube.com/watch?v=8_hD4vcnkcU" target="_blank">
+      Apri su YouTube
+    </a>
+  </p>
+
+</div>
+
 ```javascript
 /* SommaValori.js – calcola totali per V2016, V2017_2018, V2019_2020 */
 (function () {
