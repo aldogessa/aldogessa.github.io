@@ -12,7 +12,7 @@
 
 <div style="max-width:800px; width:100%;">
 
-Da questa pagina puoi scaricare e visualizzare il materiale disponibile per l’avvio all’utilizzo delle Mappe WebGis autoprodotte del Comune di Codrongianos, nonché rimanere aggiornato sulle eventuali modifiche.
+Il Comune di Codrongianos sta realizzando il proprio Sistema Informativo Territoriale (SIT) rendendo accessibili al pubblico i dati territoriali attraverso la pubblicazione di mappe tematiche WebGis che rendono accessibili ai cittadini informazioni di carattere ambientale, urbanistico, territoriale offrendo una navigazione su base cartografica delle stesse. Da questa pagina puoi scaricare e visualizzare il materiale disponibile per l’avvio all’utilizzo delle Mappe WebGis del Comune di Codrongianos, nonché rimanere aggiornato sulle eventuali modifiche.
 <br><br>
 
 ---
