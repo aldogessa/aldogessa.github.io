@@ -355,9 +355,7 @@ E' possibile caricare file esterni alle mappe, in formato KML, GPX e GeoJSON, pe
 <a href="https://www.comune.codrongianos.ss.it/" target="_blank"
    style="display:inline-block; padding:10px 15px; background:#2c7be5; color:white; border-radius:6px; text-decoration:none;">
  🌍 Sito istituzionale
-</a>
-
-<a href="https://map.gishosting.eu/?repository=comunecodrongianos" target="_blank"
+</a> <a href="https://map.gishosting.eu/?repository=comunecodrongianos" target="_blank"
    style="display:inline-block; padding:10px 15px; background:#2c7be5; color:white; border-radius:6px; text-decoration:none;">
  🌍 Mappe Web GIS
 </a>
