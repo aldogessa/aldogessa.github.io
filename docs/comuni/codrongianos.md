@@ -352,8 +352,15 @@ E' possibile caricare file esterni alle mappe, in formato KML, GPX e GeoJSON, pe
 
 ## Link
 
-Le mappe permettono di individuare per ogni particella la relativa destinazione urbanistica, di raggiungere le rispettive norme di utilizzo nonchè di interagire per eseguire analisi urbanistiche di base come misurazioni, importare file esterni per sovrapposizioni, disegnare e stampare. Dalle mappe è inoltre possibile estrapolare report e generare anche una anteprima del certificato di destinazione urbanistica. Per facilitare l'utilizzo delle mappe è stato realizzato un breve manuale e alcuni video tutorial:
+<a href="https://www.comune.codrongianos.ss.it/" target="_blank"
+   style="display:inline-block; padding:10px 15px; background:#2c7be5; color:white; border-radius:6px; text-decoration:none;">
+ 🌍 Sito istituzionale
+</a>
 
+<a href="https://map.gishosting.eu/?repository=comunecodrongianos" target="_blank"
+   style="display:inline-block; padding:10px 15px; background:#2c7be5; color:white; border-radius:6px; text-decoration:none;">
+ 🌍 Mappe Web GIS
+</a>
 
 </div>
 
