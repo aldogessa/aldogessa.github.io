@@ -166,12 +166,30 @@ E' possibile caricare file esterni alle mappe, in formato KML, GPX e GeoJSON, pe
 ## Approfondimenti e News
 Le mappe sono in costante aggiornamento in un ottica di continuo miglioramento, nel tempo sono state eseguite diverse modifiche e aggiunti diversi Tool. Di seguito sono documentate le modifiche apportate, sono resi disponibili ulteriori tutorial e approfondimenti sulle modifiche apportate e le funzionalità più interessanti delle mappe:
 
+#### 18/12/2025 - Chiarimenti sulla geolocalizzazione
+La geolocalizzazione è attiva, ma sul PC non funzionerà correttamente perché i servizi di geolocalizzazione non sono disponibili sulle work station tradizionali. Il servizio di geolocalizzazione è pensato per i dispositivi mobili, utile in caso di utilizzo della mappa per verifiche sul campo.
+<img src="../risorse/immagini/Geolocalizzazione.PNG" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
+
+#### 12/01/2026 - Aggiornamento a Lizmap 3.9
+Nella giornata di Sabato 17 Gennaio 2026 è previsto, salvo imprevisti, l'aggiornamento della piattaforma a Lizmap 3.9. Durante l'aggiornamento potrebbero verificarsi dei disservizi momentanei che dovrebbero risolversi entro il fine settimana.
+
+#### 18/12/2025 - Cenni sulla stratificazione dei vincoli in Sardegna
+<img src="../risorse/immagini/vincolisovracomunali.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+
+La mappa del PUC rappresenta anche tutti i vincoli insistenti nel territorio comunale e questo può rendere la mappa leggermente più complicata da interpretare. Per utilizzarla al meglio può essere utile conoscere, almeno in linea di principio, come è articolato il sistema vincolistico regionale e cosa questi vincoli rappresentano. Questo argomento è stato trattato in un’apposita pagina raggiungibile <a href="#/agis/cenni_pianificazione" target="_blank">cliccando qui</a>.
+
+<br>
+
 #### 10/11/2025 - Specificazioni sulle mappe di sfondo
 <img src="../risorse/immagini/MappeSfondo.png" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 Le mappe di sfondo o mappe di base, sono servite da terze parti mediante collegamento WMS, può capitare che in alcuni momenti non siano disponibili in coincidenza delle manutenzioni periodiche dei server. La mappa comunale continua comunque a funzionare. Il disservizio è in genere temporaneo e si risolve nel giro di poco tempo. Le ortofoto, in particolare, sono servite dalla Regione Sardegna e non sono disponibili quando il Geoportale Regionale è in manutenzione. Generalmente è sempre disponibile, invece, OpenStreetMap.
-<br>
 
 ---
 
