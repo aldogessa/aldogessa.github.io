@@ -166,6 +166,16 @@ E' possibile caricare file esterni alle mappe, in formato KML, GPX e GeoJSON, pe
 ## Approfondimenti e News
 Le mappe permettono di individuare per ogni particella la relativa destinazione urbanistica, di raggiungere le rispettive norme di utilizzo nonchè di interagire per eseguire analisi urbanistiche di base come misurazioni, importare file esterni per sovrapposizioni, disegnare e stampare. Dalle mappe è inoltre possibile estrapolare report e generare anche una anteprima del certificato di destinazione urbanistica. Sul sito istituzionale sono pubblicati diversi tutorial che spiegano il funzionamento della mappa e sono raggiungibili al seguente link:
 
+#### 10/11/2025 - Specificazioni sulle mappe di sfondo
+<img src="../risorse/immagini/MappeSfondo.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+Le mappe di sfondo o mappe di base, sono servite da terze parti mediante collegamento WMS, può capitare che in alcuni momenti non siano disponibili in coincidenza delle manutenzioni periodiche dei server. La mappa comunale continua comunque a funzionare. Il disservizio è in genere temporaneo e si risolve nel giro di poco tempo. Le ortofoto, in particolare, sono servite dalla Regione Sardegna e non sono disponibili quando il Geoportale Regionale è in manutenzione. Generalmente è sempre disponibile, invece, OpenStreetMap.
+<br>
+
+
+
+
 ---
 
 ## Link
