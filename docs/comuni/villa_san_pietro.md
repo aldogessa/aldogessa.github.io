@@ -166,15 +166,16 @@ E' possibile caricare file esterni alle mappe, in formato KML, GPX e GeoJSON, pe
 ## Approfondimenti e News
 Le mappe sono in costante aggiornamento in un ottica di continuo miglioramento, nel tempo sono state eseguite diverse modifiche e aggiunti diversi Tool. Di seguito sono documentate le modifiche apportate, sono resi disponibili ulteriori tutorial e approfondimenti sulle modifiche apportate e le funzionalità più interessanti delle mappe:
 
+#### 12/01/2026 - Aggiornamento a Lizmap 3.9
+Nella giornata di Sabato 17 Gennaio 2026 è previsto, salvo imprevisti, l'aggiornamento della piattaforma a Lizmap 3.9. Durante l'aggiornamento potrebbero verificarsi dei disservizi momentanei che dovrebbero risolversi entro il fine settimana.
+<br>
+
 #### 18/12/2025 - Chiarimenti sulla geolocalizzazione
 La geolocalizzazione è attiva, ma sul PC non funzionerà correttamente perché i servizi di geolocalizzazione non sono disponibili sulle work station tradizionali. Il servizio di geolocalizzazione è pensato per i dispositivi mobili, utile in caso di utilizzo della mappa per verifiche sul campo.
 <img src="../risorse/immagini/Geolocalizzazione.PNG" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 <br>
-
-#### 12/01/2026 - Aggiornamento a Lizmap 3.9
-Nella giornata di Sabato 17 Gennaio 2026 è previsto, salvo imprevisti, l'aggiornamento della piattaforma a Lizmap 3.9. Durante l'aggiornamento potrebbero verificarsi dei disservizi momentanei che dovrebbero risolversi entro il fine settimana.
 
 #### 18/12/2025 - Cenni sulla stratificazione dei vincoli in Sardegna
 <img src="../risorse/immagini/vincolisovracomunali.png" 
