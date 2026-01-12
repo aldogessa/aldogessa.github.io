@@ -173,9 +173,6 @@ Le mappe sono in costante aggiornamento in un ottica di continuo miglioramento, 
 Le mappe di sfondo o mappe di base, sono servite da terze parti mediante collegamento WMS, può capitare che in alcuni momenti non siano disponibili in coincidenza delle manutenzioni periodiche dei server. La mappa comunale continua comunque a funzionare. Il disservizio è in genere temporaneo e si risolve nel giro di poco tempo. Le ortofoto, in particolare, sono servite dalla Regione Sardegna e non sono disponibili quando il Geoportale Regionale è in manutenzione. Generalmente è sempre disponibile, invece, OpenStreetMap.
 <br>
 
-
-
-
 ---
 
 ## Link
