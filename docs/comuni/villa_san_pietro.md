@@ -164,7 +164,7 @@ E' possibile caricare file esterni alle mappe, in formato KML, GPX e GeoJSON, pe
 ---
 
 ## Approfondimenti e News
-Le mappe permettono di individuare per ogni particella la relativa destinazione urbanistica, di raggiungere le rispettive norme di utilizzo nonchè di interagire per eseguire analisi urbanistiche di base come misurazioni, importare file esterni per sovrapposizioni, disegnare e stampare. Dalle mappe è inoltre possibile estrapolare report e generare anche una anteprima del certificato di destinazione urbanistica. Sul sito istituzionale sono pubblicati diversi tutorial che spiegano il funzionamento della mappa e sono raggiungibili al seguente link:
+Le mappe sono in costante aggiornamento in un ottica di continuo miglioramento, nel tempo sono state eseguite diverse modifiche e aggiunti diversi Tool. Di seguito sono documentate le modifiche apportate, sono resi disponibili ulteriori tutorial e approfondimenti sulle modifiche apportate e le funzionalità più interessanti delle mappe:
 
 #### 10/11/2025 - Specificazioni sulle mappe di sfondo
 <img src="../risorse/immagini/MappeSfondo.png" 
