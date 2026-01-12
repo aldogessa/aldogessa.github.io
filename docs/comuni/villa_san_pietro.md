@@ -42,7 +42,7 @@ Il Comune di Villa san Pietro ha pubblicato diverse mappe, dimostrando un impegn
 
 ---
 
-## Tutorial e News
+## Tutorial
 Le mappe permettono di individuare per ogni particella la relativa destinazione urbanistica, di raggiungere le rispettive norme di utilizzo nonchè di interagire per eseguire analisi urbanistiche di base come misurazioni, importare file esterni per sovrapposizioni, disegnare e stampare. Dalle mappe è inoltre possibile estrapolare report e generare anche una anteprima del certificato di destinazione urbanistica. Sul sito istituzionale sono pubblicati diversi tutorial che spiegano il funzionamento della mappa e sono raggiungibili al seguente link:
 
 <a href="https://servizi.comune.villasanpietro.ca.it/villasanpietro/zf/index.php/servizi-aggiuntivi/index/index/idtesto/109" target="_blank"
@@ -160,6 +160,11 @@ E' possibile caricare file esterni alle mappe, in formato KML, GPX e GeoJSON, pe
   </p>
 
 </div>
+
+---
+
+## Approfondimenti e News
+Le mappe permettono di individuare per ogni particella la relativa destinazione urbanistica, di raggiungere le rispettive norme di utilizzo nonchè di interagire per eseguire analisi urbanistiche di base come misurazioni, importare file esterni per sovrapposizioni, disegnare e stampare. Dalle mappe è inoltre possibile estrapolare report e generare anche una anteprima del certificato di destinazione urbanistica. Sul sito istituzionale sono pubblicati diversi tutorial che spiegano il funzionamento della mappa e sono raggiungibili al seguente link:
 
 ---
 
