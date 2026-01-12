@@ -135,30 +135,9 @@ Questo video mostra le principali funzionalità della mappa
 </div>
 <br>
 
----
+Le mappe sono in costante aggiornamento in un ottica di continuo miglioramento, nel tempo sono stati aggiunti diversi Tool e diverse mappe. Di seguito alcuni ulteriori tutorial che approfondiscono alcune delle funzionalità più interessanti delle mappe:
 
-## Approfondimenti e News
-Le mappe sono in costante aggiornamento in un ottica di continuo miglioramento, nel tempo sono state eseguite diverse modifiche e aggiunti diversi Tool. Di seguito sono documentate le modifiche apportate, sono resi disponibili ulteriori tutorial e approfondimenti sulle modifiche apportate e le funzionalità più interessanti delle mappe:
-
-#### 12/01/2026 - Aggiornamento a Lizmap 3.9
-Nella giornata di Sabato 17 Gennaio 2026 è previsto, salvo imprevisti, l'aggiornamento della piattaforma a Lizmap 3.9. Durante l'aggiornamento potrebbero verificarsi dei disservizi momentanei che dovrebbero risolversi entro il fine settimana.
-<br>
-
-#### 10/11/2025 - Aggiornamento colori interfaccia
-<img src="../risorse/immagini/AggInterfaccia.png" 
-     alt="immagine" 
-     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
-E' stato eseguito l'aggiornamento dei colori dell'interfaccia per richiamare quelli dello stemma comunale, nessuna modifica funzionale.
-<br>
-
-#### 10/11/2025 - Specificazioni sulle mappe di sfondo
-<img src="../risorse/immagini/MappeSfondo.png" 
-     alt="immagine" 
-     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
-Le mappe di sfondo o mappe di base, sono servite da terze parti mediante collegamento WMS, può capitare che in alcuni momenti non siano disponibili in coincidenza delle manutenzioni periodiche dei server. La mappa comunale continua comunque a funzionare. Il disservizio è in genere temporaneo e si risolve nel giro di poco tempo. Le ortofoto, in particolare, sono servite dalla Regione Sardegna e non sono disponibili quando il Geoportale Regionale è in manutenzione. Generalmente è sempre disponibile, invece, OpenStreetMap.
-<br>
-
-#### 20/11/2025 - Tool per catturare le coordinate del punto di click
+#### Tool per catturare le coordinate del punto di click
 
 <div style="
   border:1px solid #e0e0e0;
@@ -193,7 +172,7 @@ Le mappe di sfondo o mappe di base, sono servite da terze parti mediante collega
 </div>
 <br>
 
-#### 24/11/2025 - Temi Mappa
+#### Temi Mappa
 Per facilitare la consultazione dei diversi vincoli che interessano un’area specifica di studio, sono stati introdotti i temi mappa che raggruppano i vincoli omogenei con un singolo click per velocizzare la consultazione. Di seguito un piccolo video illustrativo:
 
 <div style="
@@ -229,7 +208,7 @@ Per facilitare la consultazione dei diversi vincoli che interessano un’area sp
 </div>
 <br>
 
-#### 24/11/2025 - Tool per l'anteprima del certificato di destinazione urbanistica
+#### Tool per l'anteprima del certificato di destinazione urbanistica
 Per facilitare l’utilizzo di una delle funzionalità più interessanti della mappa, di seguito un breve video del Tool che permette di estrapolare in pochi click l’anteprima del certificato di destinazione urbanistica di una serie di particelle catastali:
 
 <div style="
@@ -265,7 +244,7 @@ Per facilitare l’utilizzo di una delle funzionalità più interessanti della m
 </div>
 <br>
 
-#### 28/11/2025 - Tool per deselezionare velocemente
+#### Tool per deselezionare velocemente
 Per rendere più intuitivo e veloce deselezionare gli elementi mappa è stato implementato un nuovo Tool che permette di deselezionare tutto, semplicemente cliccando l’apposito bottone sul Dock dei comandi, evitando di avviare il Tool di selezione. Quando un elemento di un layer è selezionato, il bottone diventa verde per attirare l’attenzione dell’utente sulla possibilità di deselezionare tutto velocemente:
 
 <div style="
@@ -301,23 +280,7 @@ Per rendere più intuitivo e veloce deselezionare gli elementi mappa è stato im
 </div>
 <br>
 
-#### 18/12/2025 - Chiarimenti sulla geolocalizzazione
-La geolocalizzazione è attiva, ma sul PC non funzionerà correttamente perché i servizi di geolocalizzazione non sono disponibili sulle work station tradizionali. Il servizio di geolocalizzazione è pensato per i dispositivi mobili, utile in caso di utilizzo della mappa per verifiche sul campo.
-<img src="../risorse/immagini/Geolocalizzazione.PNG" 
-     alt="immagine" 
-     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
-<br>
-
-#### 18/12/2025 - Cenni sulla stratificazione dei vincoli in Sardegna
-<img src="../risorse/immagini/vincolisovracomunali.png" 
-     alt="immagine" 
-     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
-
-La mappa del PUC rappresenta anche tutti i vincoli insistenti nel territorio comunale e questo può rendere la mappa leggermente più complicata da interpretare. Per utilizzarla al meglio può essere utile conoscere, almeno in linea di principio, come è articolato il sistema vincolistico regionale e cosa questi vincoli rappresentano. Questo argomento è stato trattato in un’apposita pagina raggiungibile <a href="#/agis/cenni_pianificazione" target="_blank">cliccando qui</a>.
-
-<br>
-
-#### 09/01/2026 Caricare file esterni alla mappa
+#### Caricare file esterni alla mappa
 E' possibile caricare file esterni alle mappe, in formato KML, GPX e GeoJSON, per eseguire delle analisi urbanistiche. Questo video mostra, per esempio, come caricare un percorso turistico in formato KML al fine di analizzare i vincoli insistenti lungo il percorso.
 
 <div style="
@@ -351,6 +314,43 @@ E' possibile caricare file esterni alle mappe, in formato KML, GPX e GeoJSON, pe
   </p>
 
 </div>
+
+---
+
+## Approfondimenti e News
+Le mappe sono in costante aggiornamento in un ottica di continuo miglioramento, nel tempo sono state eseguite diverse modifiche e aggiunti diversi Tool. Di seguito sono documentate le modifiche apportate, sono resi disponibili ulteriori tutorial e approfondimenti sulle modifiche apportate e le funzionalità più interessanti delle mappe:
+
+#### 12/01/2026 - Aggiornamento a Lizmap 3.9
+Nella giornata di Sabato 17 Gennaio 2026 è previsto, salvo imprevisti, l'aggiornamento della piattaforma a Lizmap 3.9. Durante l'aggiornamento potrebbero verificarsi dei disservizi momentanei che dovrebbero risolversi entro il fine settimana.
+<br>
+
+#### 18/12/2025 - Cenni sulla stratificazione dei vincoli in Sardegna
+<img src="../risorse/immagini/vincolisovracomunali.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+
+La mappa del PUC rappresenta anche tutti i vincoli insistenti nel territorio comunale e questo può rendere la mappa leggermente più complicata da interpretare. Per utilizzarla al meglio può essere utile conoscere, almeno in linea di principio, come è articolato il sistema vincolistico regionale e cosa questi vincoli rappresentano. Questo argomento è stato trattato in un’apposita pagina raggiungibile <a href="#/agis/cenni_pianificazione" target="_blank">cliccando qui</a>.
+<br>
+
+#### 18/12/2025 - Chiarimenti sulla geolocalizzazione
+La geolocalizzazione è attiva, ma sul PC non funzionerà correttamente perché i servizi di geolocalizzazione non sono disponibili sulle work station tradizionali. Il servizio di geolocalizzazione è pensato per i dispositivi mobili, utile in caso di utilizzo della mappa per verifiche sul campo.
+<img src="../risorse/immagini/Geolocalizzazione.PNG" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
+
+#### 10/11/2025 - Aggiornamento colori interfaccia
+<img src="../risorse/immagini/AggInterfaccia.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+E' stato eseguito l'aggiornamento dei colori dell'interfaccia per richiamare quelli dello stemma comunale, nessuna modifica funzionale.
+<br>
+
+#### 10/11/2025 - Specificazioni sulle mappe di sfondo
+<img src="../risorse/immagini/MappeSfondo.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+Le mappe di sfondo o mappe di base, sono servite da terze parti mediante collegamento WMS, può capitare che in alcuni momenti non siano disponibili in coincidenza delle manutenzioni periodiche dei server. La mappa comunale continua comunque a funzionare. Il disservizio è in genere temporaneo e si risolve nel giro di poco tempo. Le ortofoto, in particolare, sono servite dalla Regione Sardegna e non sono disponibili quando il Geoportale Regionale è in manutenzione. Generalmente è sempre disponibile, invece, OpenStreetMap.
 
 ---
 
