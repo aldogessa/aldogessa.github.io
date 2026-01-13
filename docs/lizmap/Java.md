@@ -1430,6 +1430,14 @@ Questo script esporta i dati da una tabella correlata agli elementi selezionati 
 
 })();
 ```
+
+---
+
+## Ragruppa il popup dei figli
+Di default in Lizmap, quando i popup sono realizzati con HTML, i popup dei figli in relazione, se si sceglie di visualizzarli, si dispongono sotto al popup del padre e non esiste alcuna funzione nativa per poterli raggruppare, a differenza di quanto accade se si sceglie il popup generato automaticamente. Quando i figli sono tanti, sotto al genitore può generarsi una lunga fila di popup che può rendere poco gradevole l'esperienza utente, sopratutto quando l'interrogazione riguarda più layer sovrapposti e non è utile in quel momento visualizzare le informazioni dei figli. Nel mio caso specifico, ad esempio, la particella catastale, ha come figli tutte le intersezioni con il piano urbanistico e i vincoli. è facile intuire che alcune particelle possono arrivare anche ad avere più di una decina di intersezioni, e dunque di popup figli. Poter visionare tutto ciò che riguarda una singola particella nel popup in modo ordinato è sicuramente utile ma, qualche volta, l'interrogazione può avere alri scopi in cui le singole intersezioni non sono utili e dunque possono ingombrare. Per questo ho sviluppato, con l'aiuto dell'IA una combinazione di CSS e JavaScript che risolve questo problema: di default i figli sono compatti (non visibili) e utilizzando un apposito pulsante possono essere espansi per essere visionati, con lo stesso pulsante e possibile raggruppare nuovamente i figli. Di seguito un breve video illustrativo e a seguire gli script che hanno reso possibile questa funzionalità:
+
+
+
 </div>
 
 <br>
