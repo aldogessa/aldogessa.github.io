@@ -66,7 +66,7 @@ Al fine di rendere più agevole la lettura dei popup, sopratutto quando sono att
 ">
 
   <h3 style="margin:0 0 10px 0; font-size:18px; font-weight:600;">
-    🎥 TOOL ANTEPRIMA CERTIFICATI DI DESTINAZIONE URBANISTICA
+    🎥 RAGGRUPPA O RACCHIUDI L'ANALISI URBANISTICA
   </h3>
 
   <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:4px;">
