@@ -1436,7 +1436,240 @@ Questo script esporta i dati da una tabella correlata agli elementi selezionati 
 ## Ragruppa il popup dei figli
 Di default in Lizmap, quando i popup sono realizzati con HTML, i popup dei figli in relazione, se si sceglie di visualizzarli, si dispongono sotto al popup del padre e non esiste alcuna funzione nativa per poterli raggruppare, a differenza di quanto accade se si sceglie il popup generato automaticamente. Quando i figli sono tanti, sotto al genitore può generarsi una lunga fila di popup che può rendere poco gradevole l'esperienza utente, sopratutto quando l'interrogazione riguarda più layer sovrapposti e non è utile in quel momento visualizzare le informazioni dei figli. Nel mio caso specifico, ad esempio, la particella catastale, ha come figli tutte le intersezioni con il piano urbanistico e i vincoli. è facile intuire che alcune particelle possono arrivare anche ad avere più di una decina di intersezioni, e dunque di popup figli. Poter visionare tutto ciò che riguarda una singola particella nel popup in modo ordinato è sicuramente utile ma, qualche volta, l'interrogazione può avere alri scopi in cui le singole intersezioni non sono utili e dunque possono ingombrare. Per questo ho sviluppato, con l'aiuto dell'IA una combinazione di CSS e JavaScript che risolve questo problema: di default i figli sono compatti (non visibili) e utilizzando un apposito pulsante possono essere espansi per essere visionati, con lo stesso pulsante e possibile raggruppare nuovamente i figli. Di seguito un breve video illustrativo e a seguire gli script che hanno reso possibile questa funzionalità:
 
+<div style="
+  border:1px solid #e0e0e0;
+  border-radius:6px;
+  padding:12px;
+  margin:18px 0;
+  box-shadow:0 1px 4px rgba(0,0,0,0.06);
+  background:#fafafa;
+  max-width:800px;
+">
 
+  <h3 style="margin:0 0 10px 0; font-size:18px; font-weight:600;">
+    🎥 RAGGRUPPA O RACCHIUDI L'ANALISI URBANISTICA
+  </h3>
+
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:4px;">
+    <iframe 
+      src="https://www.youtube.com/embed/ySL47fjnhcc"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:4px;">
+    </iframe>
+  </div>
+
+  <p style="margin-top:8px; font-size:14px;">
+    🔗 <a href="https://www.youtube.com/watch?v=ySL47fjnhcc" target="_blank">
+      Apri su YouTube
+    </a>
+  </p>
+
+</div>
+
+***Step 1 - Predisporre il pulsante in coda all'HTML del layer padre***
+```HTML
+<button class="toggle-children">
+    <span class="label"><strong>VEDI ANALISI URBANISTICA</strong></span>
+</button>
+```
+
+***Step 2 - Predisporre il pulsante in coda all'HTML del layer figlio***
+```HTML
+<button class="close-analysis-child">Chiudi analisi urbanistica</button>
+```
+
+***Step 3 - Impostare il CSS***
+```CSS
+/* Figli relazionali nascosti di default*/
+.lizmapPopupChildren .lizmapPopupSingleFeature {
+    display: none;
+}
+
+/*Grafico DataViz nascosto di default*/
+.lizdataviz {
+    display: none;
+    overflow-x: hidden !important; /* evita scroll orizzontale */
+}
+
+/*Fix mobile Plotly: impedisce larghezze fisse (700pc ecc.)*/
+.lizdataviz .plot-container,
+.lizdataviz .svg-container,
+.lizdataviz .main-svg,
+.lizdataviz .js-plotly-plot,
+.lizdataviz .plotly,
+.lizdataviz .user-select-none {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+
+/* Pulsante padre */
+.toggle-children {
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background: #2e8b57; /* verde */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.2s ease;
+}
+
+.toggle-children:hover {
+    background: #27764b;
+}
+
+/* Stato aperto → rosso */
+.toggle-children.open {
+    background: #b22222;
+}
+
+.toggle-children.open:hover {
+    background: #8f1c1c;
+}
+
+/* Figli relazionali */
+.close-analysis-child {
+    margin-top: 12px;
+    padding: 6px 10px;
+    font-size: 12px;
+    background: #b22222;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto;
+    display: inline-block;
+}
+
+.close-analysis-child:hover {
+    background: #8f1c1c;
+}
+```
+
+***Step 4 - Script JavaScript***
+```javascript
+(function ($) {
+    'use strict';
+
+    /**
+     * Utility: ottiene il popup corrente (solo per il padre)
+     */
+    function getPopupContext(el) {
+        const popup = $(el).closest('.lizmapPopupDiv');
+        return popup.length ? popup : $(document);
+    }
+
+    /**
+     * ========================================================
+     * BOTTONE PADRE – .toggle-children
+     * ========================================================
+     */
+
+    $('body').on('click', '.toggle-children', function (event) {
+
+        event.stopImmediatePropagation(); // blocca refresh Lizmap
+
+        const btn = $(this);
+        const popup = getPopupContext(btn);
+
+        const label = btn.find('.label');
+        const children = popup.find('.lizmapPopupChildren .lizmapPopupSingleFeature');
+        const dataviz = popup.find('.lizdataviz, .lizmapDataviz, .plotly-graph-div');
+
+        const isOpen = btn.hasClass('open');
+
+        // --- COLLASSA ---
+        if (isOpen) {
+
+            children.slideUp(200);
+            dataviz.slideUp(200, function () {
+                label.html('<b>VEDI ANALISI URBANISTICA</b>');
+                btn.removeClass('open');
+            });
+
+            return;
+        }
+
+        // --- ESPANDI ---
+        children.slideDown(200);
+        dataviz.slideDown(200, function () {
+
+            label.html('<b>CHIUDI ANALISI URBANISTICA</b>');
+            btn.addClass('open');
+
+            // Resize DataViz
+            if (lizMap?.dataViz?.resizeAll) {
+                lizMap.dataViz.resizeAll();
+            }
+
+            // Forza resize finestra (utile per grafici Plotly)
+            setTimeout(() => window.dispatchEvent(new Event('resize')), 80);
+
+            // Reposition popup
+            setTimeout(() => {
+                if (lizMap?.popup?.updatePosition) {
+                    lizMap.popup.updatePosition();
+                }
+            }, 250);
+        });
+    });
+
+    /**
+     * ========================================================
+     * BOTTONE FIGLIO – .close-analysis-child
+     * ========================================================
+     */
+
+    $('body').on('click', '.close-analysis-child', function (event) {
+
+        event.stopImmediatePropagation(); // blocca refresh Lizmap
+
+        /**
+         * RISALITA CORRETTA:
+         *
+         * Bottone figlio → dentro popup figlio:
+         *
+         * .lizmapPopupChildren
+         *    └── .lizmapPopupSingleFeature
+         *            └── .lizmapPopupDiv   ← popup figlio
+         *
+         * Popup principale è 3 livelli sopra.
+         */
+
+        const popup = $(this)
+            .closest('.lizmapPopupDiv')   // popup del figlio
+            .parent()                     // .lizmapPopupSingleFeature
+            .parent()                     // .lizmapPopupChildren
+            .parent()                     // popup principale
+            .closest('.lizmapPopupDiv');  // popup principale
+
+        const btnParent = popup.find('.toggle-children').first();
+        const label = btnParent.find('.label');
+
+        const children = popup.find('.lizmapPopupChildren .lizmapPopupSingleFeature');
+        const dataviz = popup.find('.lizdataviz, .lizmapDataviz, .plotly-graph-div');
+
+        // Chiusura
+        children.slideUp(200);
+        dataviz.slideUp(200, function () {
+
+            // Sincronizzazione bottone padre
+            label.html('<b>VEDI ANALISI URBANISTICA</b>');
+            btnParent.removeClass('open');
+        });
+    });
+
+})(jQuery);
+
+</button>
+```
+<br>
 
 </div>
 
