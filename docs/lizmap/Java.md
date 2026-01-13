@@ -1666,8 +1666,6 @@ Di default in Lizmap, quando i popup sono realizzati con HTML, i popup dei figli
     });
 
 })(jQuery);
-
-</button>
 ```
 <br>
 
