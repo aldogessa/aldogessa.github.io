@@ -1434,7 +1434,17 @@ Questo script esporta i dati da una tabella correlata agli elementi selezionati 
 ---
 
 ## Ragruppa il popup dei figli
-Di default in Lizmap, quando i popup sono realizzati con HTML, i popup dei figli in relazione, se si sceglie di visualizzarli, si dispongono sotto al popup del padre e non esiste alcuna funzione nativa per poterli raggruppare, a differenza di quanto accade se si sceglie il popup generato automaticamente. Quando i figli sono tanti, sotto al genitore può generarsi una lunga fila di popup che può rendere poco gradevole l'esperienza utente, sopratutto quando l'interrogazione riguarda più layer sovrapposti e non è utile in quel momento visualizzare le informazioni dei figli. Nel mio caso specifico, ad esempio, la particella catastale, ha come figli tutte le intersezioni con il piano urbanistico e i vincoli. è facile intuire che alcune particelle possono arrivare anche ad avere più di una decina di intersezioni, e dunque di popup figli. Poter visionare tutto ciò che riguarda una singola particella nel popup in modo ordinato è sicuramente utile ma, qualche volta, l'interrogazione può avere alri scopi in cui le singole intersezioni non sono utili e dunque possono ingombrare. Per questo ho sviluppato, con l'aiuto dell'IA una combinazione di CSS e JavaScript che risolve questo problema: di default i figli sono compatti (non visibili) e utilizzando un apposito pulsante possono essere espansi per essere visionati, con lo stesso pulsante e possibile raggruppare nuovamente i figli. Di seguito un breve video illustrativo e a seguire gli script che hanno reso possibile questa funzionalità:
+Di default in Lizmap, quando i popup sono realizzati in HTML e i layer figli sono in relazione al layer padre in QGIS, scegliendo di visualizzarli nel popup del padre, i contenuti dei figli vengono disposti in sequenza sotto al popup principale. A differenza del popup generato automaticamente, non esiste una funzione nativa per raggrupparli o gestirne la visibilità.
+Quando i figli sono numerosi, si genera una lunga coda di contenuti che può compromettere l’esperienza utente, soprattutto in presenza di interrogazioni su più layer sovrapposti, dove le informazioni dei figli non sono sempre rilevanti.
+Nel mio caso specifico, ad esempio, la particella catastale ha come figli tutte le intersezioni con il piano urbanistico e i vincoli. Alcune particelle possono generare decine di popup figli, creando un effetto “kilometrico” poco funzionale.
+Pur rimanendo utile poter visualizzare tutte le informazioni in un unico popup, esistono casi in cui l’interrogazione ha obiettivi diversi e la visualizzazione dei figli diventa un ingombro.
+Per questo ho sviluppato, con l’aiuto dell’IA, una soluzione basata su CSS e JavaScript che risolve il problema:
+
+- i figli sono inizialmente compatti (non visibili);
+
+- un apposito pulsante consente di espanderli o raggrupparli nuovamente.
+
+Segue un breve video illustrativo e gli script che rendono possibile questa funzionalità.
 
 <div style="
   border:1px solid #e0e0e0;
