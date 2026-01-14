@@ -8,7 +8,6 @@
   </url>
 
   <!-- Sezione: agis -->
-  <url><loc>https://aldogessa.github.io/#/agis/Javascript</loc></url>
   <url><loc>https://aldogessa.github.io/#/agis/cenni_pianificazione</loc></url>
   <url><loc>https://aldogessa.github.io/#/agis/news</loc></url>
   <url><loc>https://aldogessa.github.io/#/agis/sistemi_riferimento</loc></url>
@@ -20,10 +19,8 @@
   <!-- Sezione: lizmap -->
   <url><loc>https://aldogessa.github.io/#/lizmap/Java</loc></url>
   <url><loc>https://aldogessa.github.io/#/lizmap/pubblicazione</loc></url>
-  <url><loc>https://aldogessa.github.io/#/lizmap/widget</loc></url>
-
+  
   <!-- Sezione: qgis -->
-  <url><loc>https://aldogessa.github.io/#/qgis/introduzione</loc></url>
-  <url><loc>https://aldogessa.github.io/#/qgis/procedure</loc></url>
+  <url><loc>https://aldogessa.github.io/#/qgis/introduzione</loc></url>  
 
 </urlset>
