@@ -2,21 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://aldogessa.github.io/</loc>
+    <loc>https://aldogessa.github.io/#/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <url>
-    <loc>https://aldogessa.github.io/README.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  <!-- Sezione: agis -->
+  <url><loc>https://aldogessa.github.io/#/agis/Javascript</loc></url>
+  <url><loc>https://aldogessa.github.io/#/agis/cenni_pianificazione</loc></url>
+  <url><loc>https://aldogessa.github.io/#/agis/news</loc></url>
+  <url><loc>https://aldogessa.github.io/#/agis/sistemi_riferimento</loc></url>
 
-  <url>
-    <loc>https://aldogessa.github.io/_sidebar.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
+  <!-- Sezione: comuni -->
+  <url><loc>https://aldogessa.github.io/#/comuni/codrongianos</loc></url>
+  <url><loc>https://aldogessa.github.io/#/comuni/villa_san_pietro</loc></url>
+
+  <!-- Sezione: lizmap -->
+  <url><loc>https://aldogessa.github.io/#/lizmap/Java</loc></url>
+  <url><loc>https://aldogessa.github.io/#/lizmap/pubblicazione</loc></url>
+  <url><loc>https://aldogessa.github.io/#/lizmap/widget</loc></url>
+
+  <!-- Sezione: qgis -->
+  <url><loc>https://aldogessa.github.io/#/qgis/automazioni</loc></url>
+  <url><loc>https://aldogessa.github.io/#/qgis/introduzione</loc></url>
+  <url><loc>https://aldogessa.github.io/#/qgis/procedure</loc></url>
 
 </urlset>
