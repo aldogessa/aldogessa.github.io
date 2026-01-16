@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sitemap AGis - versione con hash routing -->
+<!-- Google potrebbe non indicizzare gli URL con #, ma la testiamo comunque -->
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://aldogessa.github.io/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Sezione Qgis -->
+  <url>
+    <loc>https://aldogessa.github.io/#/qgis/introduzione</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Sezione Lizmap -->
+  <url>
+    <loc>https://aldogessa.github.io/#/lizmap/pubblicazione</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://aldogessa.github.io/#/lizmap/Java</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Utilities -->
+  <url>
+    <loc>https://aldogessa.github.io/#/agis/cenni_pianificazione</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+ <url>
+    <loc>https://aldogessa.github.io/#/agis/sistemi_riferimento</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+ <url>
+    <loc>https://aldogessa.github.io/#/agis/news</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Mappe Web Gis -->
+  <url>
+    <loc>https://aldogessa.github.io/#/comuni/codrongianos</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+ <url>
+    <loc>https://aldogessa.github.io/#/comuni/villa_san_pietro</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
