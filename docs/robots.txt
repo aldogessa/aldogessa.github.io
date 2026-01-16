@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aldogessa.github.io/docs/sitemap.xml
+Sitemap: https://aldogessa.github.io/sitemap.xml
