@@ -21,4 +21,4 @@ Gli script sono progettati per funzionare con le seguenti caratteristiche dei la
       allegato - numero/lettera allegato foglio di tipo string;   
       mappale - numero della particella di tipo string (può contenere anche lettere es. 11a);   
       Area1 - superficie della particella di tipo real (per la massima precisione);   
-   2)
+2) gggg
