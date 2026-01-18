@@ -25,7 +25,7 @@ necessari alcuni aggiustamenti.
 Lo script è progettato per funzionare con le seguenti caratteristiche dei layer:   
 1) Nel progetto deve essere presente il layer delle particelle catastali
    che deve avere una chiave esterna predisposta (in questo caso VIRTID);     
-2) Nel progetto deve essere presente il layer contenente le inersezioni (in questo caso DestinazioniUrbanistiche)
+2) Nel progetto deve essere presente il layer contenente le intersezioni (in questo caso DestinazioniUrbanistiche)
    con la medesima chiave esterna, da preservare durante l'esecuzione delle intersezioni (in questo caso virtid);
 3) Colonne della tabella intersezioni coerente con la tabella del template .doc.
 
