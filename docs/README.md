@@ -68,7 +68,7 @@ LIZMAP;
 GISHOSTING.
 
 ---
-<a href="https://github.com/tuo-username/tuo-repo" target="_blank">Repository GitHub</a>
+<a href="https://github.com/aldogessa/aldogessa.github.io/tree/main" target="_blank">Repository GitHub</a>
 ---
 
 </div>
