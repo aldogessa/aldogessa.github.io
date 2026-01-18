@@ -34,4 +34,6 @@ Gli script sono progettati per funzionare con le seguenti caratteristiche dei la
       * zona tipo string;
       * descrizion tipo string;
       * percent che ospiterà la percentuale di sovrapposizione di tipo integer.
-   
+## Come installare le azioni
+Sul layer "Particelle" va definita una azione Python con lo script "GeneraTabellaCDU.py".
+Sul layer "TabellaCDU" va definita una azione Python con lo script "GeneraTabellaCDU.py".
