@@ -1,3 +1,16 @@
+"""
+===========================================================================================
+VERSIONE TESTATA IN QGIS 3.40
+Questo script si usa nelle azioni layer.
+Lo script è costruito su layer specifici e preventivamente configurati, dalla selezione
+delle particelle catastali recupera le intersezioni già precedentemente eseguite ed
+archiviate nel layer DEstinazioniUrbanistiche in relazione con una chiave esterna VIRTID.
+Le righe recuperato sono utilizzate per popolare la tabella del template del CDU
+preconfigurato. E' necessario omogeneizzare i campi della tabella del template con i
+campi del layer di estrazione.
+===========================================================================================
+"""
+
 from qgis.PyQt.QtWidgets import QFileDialog
 from qgis.core import QgsProject, QgsFeature
 from docx import Document
@@ -11,8 +24,8 @@ from qgis.utils import iface
 
 def export_related_data_to_existing_table():
     try:
-        # Recupera il layer padre (_Particelle_) e verifica se esiste
-        parent_layer = QgsProject.instance().mapLayersByName("_Particelle_")
+        # Recupera il layer padre (_Particelle_) e verifica se esiste # Qui definire il layer delle particelle catastali
+        parent_layer = QgsProject.instance().mapLayersByName("_Particelle_") # Qui definire il layer delle particelle catastali
         if not parent_layer or len(parent_layer) == 0:
             iface.messageBar().pushMessage("Errore", "Layer '_Particelle_' non trovato! Controlla il nome e riprova.", level=3)
             return
@@ -37,7 +50,7 @@ def export_related_data_to_existing_table():
             return
 
         # Determina il percorso del file modello CDU_Schema
-        template_path = os.path.join(QgsProject.instance().homePath(), "Immagini", "00_CDU_Schema.docx")
+        template_path = os.path.join(QgsProject.instance().homePath(), "Immagini", "00_CDU_Schema.docx") # Qui definire il percorso del template del .doc
         if not os.path.exists(template_path):
             iface.messageBar().pushMessage("Errore", f"File modello non trovato: {template_path}", level=3)
             return
@@ -46,7 +59,7 @@ def export_related_data_to_existing_table():
         doc = Document(template_path)
 
         # Recupera il layer figlio (DestinazioniUrbanistiche) e verifica
-        child_layer = QgsProject.instance().mapLayersByName("DestinazioniUrbanistiche")
+        child_layer = QgsProject.instance().mapLayersByName("DestinazioniUrbanistiche") # Qui definire il layer che contiene le intersezioni preventivamente eseguite
         if not child_layer or len(child_layer) == 0:
             iface.messageBar().pushMessage("Errore", "Layer 'DestinazioniUrbanistiche' non trovato! Controlla il nome e riprova.", level=3)
             return
@@ -61,7 +74,7 @@ def export_related_data_to_existing_table():
 
         # Imposta l'intestazione della tabella
         header_cells = table.rows[0].cells
-        headers = ["Fg.", "All.", "Map.", "Tema", "Zona", "Dettaglio", "Norme Specifiche", "Q.tà* %"]
+        headers = ["Fg.", "All.", "Map.", "Tema", "Zona", "Dettaglio", "Norme Specifiche", "Q.tà* %"] # Qui definisci l'intestazione dei campi della tabella nel .doc
         for i, header in enumerate(headers):
             header_cells[i].text = header
             for paragraph in header_cells[i].paragraphs:
@@ -75,7 +88,7 @@ def export_related_data_to_existing_table():
 
         # Popola la tabella con i dati correlati
         for parent_feature in selected_features:
-            virtid = parent_feature["VIRTID"]
+            virtid = parent_feature["VIRTID"] # Qui definisci i campi chiave esterna figlio (virtid)-padre (VIRTID)
             # Ordina i dati correlati
             related_features = sorted(
                 [f for f in child_layer.getFeatures() if f["VIRTID"] == virtid],
