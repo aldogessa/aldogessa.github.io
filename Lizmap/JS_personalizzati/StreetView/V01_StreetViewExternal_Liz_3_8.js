@@ -1,5 +1,10 @@
-//VERSIONE PER LIZ 3.8
-//=========================================
+/*
+=========================================================================================
+VERSIONE PER LIZ 3.8
+Avviare Street View in una nuova finestra del browser alle corrdinate del punto di click
+==========================================================================================
+*/
+
 (function () {
   var TOOL_ID = 'Streetview';
   var active = false;
