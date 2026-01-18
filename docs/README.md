@@ -67,12 +67,12 @@ QGIS;
 LIZMAP;
 GISHOSTING.
 
+</div>
+
 ---
 
 [Reposity Github](.)
 
 ---
-
-</div>
 
 <br>
