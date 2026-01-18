@@ -1,0 +1,99 @@
+
+/*
+============================================================
+VERSIONE PER LIZ 3.8
+CONTROLLO POPUP FIGLIO LAYER PARTICELLE CSS COMPLETO
+Figli relazionali + DataViz + Bottoni + Fix mobile
+DA INCOLLARE ALLA FINE DEL FILE MAP.CSS
+============================================================
+*/
+
+/*
+------------------------------------------------------------
+   1) Figli relazionali nascosti di default
+------------------------------------------------------------
+*/
+.lizmapPopupChildren .lizmapPopupSingleFeature {
+    display: none;
+}
+
+
+/* 
+------------------------------------------------------------
+   2) Grafico DataViz nascosto di default
+   ------------------------------------------------------------
+*/
+.lizdataviz {
+    display: none;
+    overflow-x: hidden !important; /* evita scroll orizzontale */
+}
+
+/* 
+------------------------------------------------------------
+   3) Fix mobile Plotly: impedisce larghezze fisse (700px ecc.)
+------------------------------------------------------------ 
+*/
+.lizdataviz .plot-container,
+.lizdataviz .svg-container,
+.lizdataviz .main-svg,
+.lizdataviz .js-plotly-plot,
+.lizdataviz .plotly,
+.lizdataviz .user-select-none {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+/* 
+------------------------------------------------------------
+   4) Bottone principale (padre)
+------------------------------------------------------------ 
+*/
+.toggle-children {
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background: #2e8b57; /* verde */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.2s ease;
+}
+
+.toggle-children:hover {
+    background: #27764b;
+}
+
+/* Stato aperto → rosso */
+.toggle-children.open {
+    background: #b22222;
+}
+
+.toggle-children.open:hover {
+    background: #8f1c1c;
+}
+
+
+/* 
+------------------------------------------------------------
+   5) Bottone interno (figli)
+------------------------------------------------------------ 
+*/
+.close-analysis-child {
+    margin-top: 12px;
+    padding: 6px 10px;
+    font-size: 12px;
+    background: #b22222;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto;
+    display: inline-block;
+}
+
+.close-analysis-child:hover {
+    background: #8f1c1c;
+}
