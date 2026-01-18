@@ -40,13 +40,7 @@ Sul layer "Particelle" va definita una azione Python con lo script "GeneraTabell
 Sul layer "TabellaCDU" va definita una azione Python con lo script "GeneraTabellaCDU.py".
 
 ## Anteprima
-[![Guarda il video su YouTube](https://img.youtube.com/vi/nxNJLOkNjqU/0.jpg)](https://youtu.be/nxNJLOkNjqU)
+<a href="https://youtu.be/nxNJLOkNjqU" target="_blank">
+  <img src="https://img.youtube.com/vi/nxNJLOkNjqU/0.jpg" alt="Video YouTube">
+</a>
 
-
-  <p style="margin-top:8px; font-size:14px;">
-    🔗 <a href="https://www.youtube.com/watch?v=nxNJLOkNjqU" target="_blank">
-      Apri su YouTube
-    </a>
-  </p>
-
-</div>
