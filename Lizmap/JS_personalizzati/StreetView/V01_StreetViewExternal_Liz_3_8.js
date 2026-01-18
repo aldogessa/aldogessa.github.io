@@ -1,3 +1,5 @@
+//VERSIONE PER LIZ 3.8
+//=========================================
 (function () {
   var TOOL_ID = 'Streetview';
   var active = false;
