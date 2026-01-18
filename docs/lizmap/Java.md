@@ -26,7 +26,9 @@ Con il tempo, e con l'aiuto dell'intelligenza artificiale ho realizzato alcuni J
 - Deseleziona tutto velocemente;
 - Genera CDU automatizzato;
 - Vedi somma valori;
-- Esporta Tabella valori.
+- Esporta Tabella valori;
+- Controllo popup figli;
+- altro...
 
 ---
 
@@ -185,7 +187,7 @@ Questo script crea un Tool che al click sulla mappa apre, in una nuova finestra 
 
 <br>
 
-Reasta aggiornato sulle eventuali successive versioni, visita la pagina del <a href="https://github.com/aldogessa/aldogessa.github.io/tree/main/Lizmap/JS_personalizzati/StreetView" target="_blank">Repository GitHub</a>
+Resta aggiornato sulle eventuali successive versioni, visita la pagina del <a href="https://github.com/aldogessa/aldogessa.github.io/tree/main/Lizmap/JS_personalizzati/StreetView" target="_blank">Repository GitHub</a>
 
 ---
 
@@ -376,6 +378,10 @@ Questo script cattura le coordinate del punto cliccato e le salva negli appunti 
 })();
 ```
 
+<br>
+
+Resta aggiornato sulle eventuali successive versioni, visita la pagina del <a href="https://github.com/aldogessa/aldogessa.github.io/tree/main/Lizmap/JS_personalizzati/CopiaCoordinate" target="_blank">Repository GitHub</a>
+
 ---
 
 ## Deseleziona tutto velocemente
@@ -552,6 +558,10 @@ Questo script permette di deselezionare tutti gli elementi con il click di un bo
   });
 })();
 ```
+
+<br>
+
+Resta aggiornato sulle eventuali successive versioni, visita la pagina del <a href="https://github.com/aldogessa/aldogessa.github.io/tree/main/Lizmap/JS_personalizzati/DeselezionaTuttoVelocemente" target="_blank">Repository GitHub</a>
 
 ---
 
@@ -987,6 +997,10 @@ Questo script permette di generare l'anteprima del certificato di destinazione u
 })();
 ```
 
+<br>
+
+Resta aggiornato sulle eventuali successive versioni, visita la pagina del <a href="https://github.com/aldogessa/aldogessa.github.io/tree/main/Lizmap/JS_personalizzati/CertificatoDestUrbanistica" target="_blank">Repository GitHub</a>
+
 ---
 
 ## Vedi somma valori
@@ -1179,6 +1193,10 @@ function showTotalsDialog(sum2016, sum2017, sum2019) {
 
 })();
 ```
+
+<br>
+
+Resta aggiornato sulle eventuali successive versioni, visita la pagina del <a href="https://github.com/aldogessa/aldogessa.github.io/tree/main/Lizmap/JS_personalizzati/SommaValori" target="_blank">Repository GitHub</a>
 
 ---
 
@@ -1435,6 +1453,10 @@ Questo script esporta i dati da una tabella correlata agli elementi selezionati 
 })();
 ```
 
+<br>
+
+Resta aggiornato sulle eventuali successive versioni, visita la pagina del <a href="https://github.com/aldogessa/aldogessa.github.io/tree/main/Lizmap/JS_personalizzati/SommaValori" target="_blank">Repository GitHub</a>
+
 ---
 
 ## Ragruppa il popup dei figli
@@ -1681,6 +1703,12 @@ Segue un breve video illustrativo e gli script che rendono possibile questa funz
 
 })(jQuery);
 ```
+
+<br>
+
+Resta aggiornato sulle eventuali successive versioni, visita la pagina del <a href="https://github.com/aldogessa/aldogessa.github.io/tree/main/Lizmap/JS_personalizzati/ControlloPopupFigli" target="_blank">Repository GitHub</a>
+
+
 <br>
 
 </div>
