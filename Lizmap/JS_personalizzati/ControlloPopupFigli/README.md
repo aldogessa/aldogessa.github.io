@@ -1,5 +1,5 @@
 # CONTROLLO DEI POPUP DEI FIGLI
-Questo Tool permette di controllarela visibilità   
+Questo Tool permette di controllare la visibilità   
 dei popup dei figli in una relazione impostata in QGIS,   
 anche quando i popup sono formattati con HTML
 
