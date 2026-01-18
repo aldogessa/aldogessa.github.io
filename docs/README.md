@@ -67,12 +67,10 @@ QGIS;
 LIZMAP;
 GISHOSTING.
 
+---
+<a href="https://github.com/tuo-username/tuo-repo" target="_blank">Repository GitHub</a>
+---
+
 </div>
-
----
-
-[Reposity Github](.)
-
----
 
 <br>
