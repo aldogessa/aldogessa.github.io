@@ -183,6 +183,8 @@ Questo script crea un Tool che al click sulla mappa apre, in una nuova finestra 
 })();
 ```
 
+<br>
+
 Reasta aggiornato sulle eventuali successive versioni, visita la pagina del <a href="https://github.com/aldogessa/aldogessa.github.io/tree/main/Lizmap/JS_personalizzati/StreetView" target="_blank">Repository GitHub</a>
 
 ---
