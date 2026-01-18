@@ -14,7 +14,7 @@ necessari alcuni aggiustamenti.
 ## Prerequisiti dei layer
 Gli script sono progettati per funzionare con le seguenti caratteristiche dei layer:   
 1) Nel progetto deve essere presente il layer poligonale delle particelle catastali
-   che deve avere i seguenti campi:
+   che deve avere i seguenti campi:   
       fid - chiave primaria di tipo integer;   
       COMUNE - nome del comune di tipo string;   
       foglio - numero di foglio di tipo integr;   
