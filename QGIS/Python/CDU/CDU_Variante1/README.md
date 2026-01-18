@@ -15,10 +15,10 @@ necessari alcuni aggiustamenti.
 Gli script sono progettati per funzionare con le seguenti caratteristiche dei layer:   
 1) Nel progetto deve essere presente il layer poligonale delle particelle catastali
    che deve avere i seguenti campi:   
-      fid - chiave primaria di tipo integer;   
-      COMUNE - nome del comune di tipo string;   
-      foglio - numero di foglio di tipo integr;   
-      allegato - numero/lettera allegato foglio di tipo string;   
-      mappale - numero della particella di tipo string (può contenere anche lettere es. 11a);   
-      Area1 - superficie della particella di tipo real (per la massima precisione);   
+      * fid - chiave primaria di tipo integer;   
+      * COMUNE - nome del comune di tipo string;   
+      * foglio - numero di foglio di tipo integr;   
+      * allegato - numero/lettera allegato foglio di tipo string;   
+      * mappale - numero della particella di tipo string (può contenere anche lettere es. 11a);   
+      * Area1 - superficie della particella di tipo real (per la massima precisione);   
 2) gggg
