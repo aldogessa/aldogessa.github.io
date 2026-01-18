@@ -11,7 +11,7 @@ Vantaggi:
 1) minima elaborazione CPU ed elavata velocità di esecuzione, lo script deve solo raccogliere informazioni senza calcolare;
 2) libertà di organizzazione dell'albero dei layer;
 3) la strategia può essere utilizzata nei WebGis Lizmap, per non caricare il server ed incidere sulle prestazioni,
-   perchè non richiede calcoli commplessi (intersezioni);
+   perchè non richiede calcoli complessi (intersezioni);
 5) la strategia permette di avere coerenza tra QGIS locale e WebGis Lizmap.
 
 Svantaggi:
