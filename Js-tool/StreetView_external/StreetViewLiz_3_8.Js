@@ -1,4 +1,3 @@
-```javascript
 (function () {
   var TOOL_ID = 'Streetview';
   var active = false;
@@ -112,6 +111,5 @@
         }
       });
     }
-```
   });
 })();
