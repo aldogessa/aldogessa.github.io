@@ -21,4 +21,17 @@ Gli script sono progettati per funzionare con le seguenti caratteristiche dei la
       * allegato - numero/lettera allegato foglio di tipo string;   
       * mappale - numero della particella di tipo string (può contenere anche lettere es. 11a);   
       * Area1 - superficie della particella di tipo real (per la massima precisione);   
-2) gggg
+2) I laye all'interno del gruppo "URBANISTICA" possono avere qualsiasi nome valido ma campi omogenei:
+      * fid - chiave primaria integer;
+      * tema - indicazione del piano/programma/vincolo che il layer rappresenta di tipo string;
+      * zona - acronimo della zona rappresentata di tipo string;
+      * descrizion - descrizione della zona di tipo string;
+3) TabellaCDU con i campi strutturati per accogliere le intersezioni:
+      * foglio tipo integer;
+      * allegato tipo string;
+      * mappale tipo string;
+      * tema tipo string;
+      * zona tipo string;
+      * descrizion tipo string;
+      * percent che ospiterà la percentuale di sovrapposizione di tipo integer.
+   
