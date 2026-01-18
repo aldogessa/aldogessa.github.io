@@ -34,6 +34,41 @@ Gli script sono progettati per funzionare con le seguenti caratteristiche dei la
       * zona tipo string;
       * descrizion tipo string;
       * percent che ospiterà la percentuale di sovrapposizione di tipo integer.
+
 ## Come installare le azioni
 Sul layer "Particelle" va definita una azione Python con lo script "GeneraTabellaCDU.py".
 Sul layer "TabellaCDU" va definita una azione Python con lo script "GeneraTabellaCDU.py".
+
+## Anteprima
+https://youtu.be/nxNJLOkNjqU
+<div style="
+  border:1px solid #e0e0e0;
+  border-radius:6px;
+  padding:12px;
+  margin:18px 0;
+  box-shadow:0 1px 4px rgba(0,0,0,0.06);
+  background:#fafafa;
+  max-width:800px;
+">
+
+  <h3 style="margin:0 0 10px 0; font-size:18px; font-weight:600;">
+    🎥 GENERA CDU VAR. 1
+  </h3>
+
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:4px;">
+    <iframe 
+      src="https://www.youtube.com/embed/nxNJLOkNjqU"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:4px;">
+    </iframe>
+  </div>
+
+  <p style="margin-top:8px; font-size:14px;">
+    🔗 <a href="" target="_blank">
+      Apri su YouTube
+    </a>
+  </p>
+
+</div>
