@@ -1,0 +1,20 @@
+/*
+============================================================================
+DEFINIZIONE DEL BOTTONE PERSONALIZZATO
+VERSIONE TESTATA LIZMAP 3.9
+============================================================================
+*/
+
+#mapmenu li.Tutorial a.agis-desktop {
+    background-color: red;
+    background-image: url("/index.php/view/media/getMedia?repository=MyReoisutory&project=MyProject&path=/media/MioLogo.png");//URL dell'immagine
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    background-size: 31px;
+    padding-left: 5px;
+    filter: brightness(1.25) drop-shadow(0 0 3px rgba(0,0,0,1));
+}
+
+#mapmenu li.Tutorial {
+    order: 999;
+}
