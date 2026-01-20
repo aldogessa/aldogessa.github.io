@@ -9,4 +9,6 @@ Lo script CSS va incollato alla fine del file map.css.
 Versione stabile con Liz 3.9 (20.01.2026)
 
 ## ANTEPRIMA
-
+<img src="docs/risorse/immagini/AnteprimaBottonePersonalizzato.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
