@@ -11,4 +11,4 @@ Versione stabile con Liz 3.9 (20.01.2026)
 ## ANTEPRIMA
 <img src="AnteprimaBottonePersonalizzato.png" 
      alt="immagine" 
-     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+     style="display:block; margin:20px 0; max-width:200px; width:100%; border-radius:4px;">
