@@ -7,11 +7,6 @@ Versione usata e stabile fino al 18.01.2026 con Liz 3.8
 Funzionante anche in Liz 3.9 (19.01.2026)
 
 ## ANTEPRIMA
-
-
-
-
-
-https://www.youtube.com/watch?v=zfuS4VJMftI
-
-
+<a href="https://www.youtube.com/watch?v=zfuS4VJMftI" target="_blank">
+  <img src="https://img.youtube.com/vi/zfuS4VJMftI/0.jpg" alt="Video YouTube">
+</a>
