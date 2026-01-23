@@ -9,9 +9,6 @@ Lo script è testato nella versione QGIS 3.28 per le versioni successive potrebb
 necessari alcuni aggiustamenti.
 
 ## Anteprima
-
-
-
-
-https://youtu.be/Kzn9bhV_2f8
-
+<a href="https://youtu.be/Kzn9bhV_2f8" target="_blank">
+  <img src="https://img.youtube.com/vi/Kzn9bhV_2f8/0.jpg" alt="Video YouTube">
+</a>
