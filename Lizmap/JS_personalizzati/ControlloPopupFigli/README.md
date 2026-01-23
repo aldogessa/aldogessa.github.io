@@ -13,7 +13,7 @@ Il Tool è composto da 4 file:
 3) incollare le regole css in coda al file map.css
 4) salvare il javascript
 
-## - ANTEPRIMA
+## ANTEPRIMA
 <a href="https://www.youtube.com/watch?v=ySL47fjnhcc" target="_blank">
   <img src="https://img.youtube.com/vi/ySL47fjnhcc/0.jpg" alt="Video YouTube">
 </a>
