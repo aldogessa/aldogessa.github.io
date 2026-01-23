@@ -12,3 +12,6 @@ Il Tool è composto da 4 file:
 2) ceare il bottone nel popup figli (html)
 3) incollare le regole css in coda al file map.css
 4) salvare il javascript
+
+## - ANTEPRIMA
+https://www.youtube.com/watch?v=ySL47fjnhcc
