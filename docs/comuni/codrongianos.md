@@ -357,6 +357,10 @@ E' possibile caricare file esterni alle mappe, in formato KML, GPX e GeoJSON, pe
 ## Approfondimenti e News
 Di seguito sono documentate le novità che riguardano le mappe, gli aggiornamenti del sistema nonchè ulteriori indicazioni e precisazioni che riguardano l'utilizzo:
 
+#### 11/02/2026 - Tile ortofoto AGEA-RAS 2016
+Per far fronte alle crescenti difficoltà nella connessione al geoportale regionale per la visualizzazione delle ortofoto, è stata realizzata l'ortofoto del 2016 servita in formato "Tile", un pò meno definita ma dalle  prestazioni elevate. E' in via di sviluppo la realizzazione, in formato "Tile", anche dell'ortofoto 2022. Per il momento l'ortofoto 2016 "Tile" è disponibile per la mappa del PUC.
+<br>
+
 #### 12/01/2026 - Aggiornamento a Lizmap 3.9
 Nella giornata di Sabato 17 Gennaio 2026 è previsto, salvo imprevisti, l'aggiornamento della piattaforma a Lizmap 3.9. Durante l'aggiornamento potrebbero verificarsi dei disservizi momentanei che dovrebbero risolversi entro il fine settimana.
 <br>
