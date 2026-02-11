@@ -359,6 +359,9 @@ Di seguito sono documentate le novità che riguardano le mappe, gli aggiornament
 
 #### 11/02/2026 - Tile ortofoto AGEA-RAS 2016
 Per far fronte alle crescenti difficoltà nella connessione al geoportale regionale per la visualizzazione delle ortofoto, è stata realizzata l'ortofoto del 2016 servita in formato "Tile", un pò meno definita ma dalle  prestazioni elevate. E' in via di sviluppo la realizzazione, in formato "Tile", anche dell'ortofoto 2022. Per il momento l'ortofoto 2016 "Tile" è disponibile per la mappa del PUC.
+<img src="../risorse/immagini/TileCodro.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 <br>
 
 #### 12/01/2026 - Aggiornamento a Lizmap 3.9
