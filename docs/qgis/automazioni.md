@@ -8,6 +8,6 @@
 
 </div>
 
-<img src="../risorse/immagini/LogoQgis.png" 
+<img src="../risorse/immagini/python.png" 
      alt="immagine" 
      style="display:block; margin:20px 0;">
