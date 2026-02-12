@@ -3,7 +3,7 @@
 
 - **QGIS**
   - [Avvio all'uso di QGIS](qgis/introduzione.md)
-  - [Automationi con Python](qgis/automazioni.md)
+  - [Automazioni con Python](qgis/automazioni.md)
 
 - **Lizmap**
   - [Da QGIS al WEB](lizmap/pubblicazione.md)
