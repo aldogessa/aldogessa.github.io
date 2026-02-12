@@ -15,7 +15,7 @@
 ## Cosa si può fare con Python
 Python è un potente linguaggio di programmazione con cui è possibile scrivere script capaci di automatizzare procedure in QGIS.   
 Con Python è possibile costruire intere procedure per realizzare azioni che eseguono comandi in QGIS e integrano anche operazioni esterne a QGIS.   
-Con l'assistenza dell'Intelligenza Artificiale ho scritto alcuni script per automatizzare parte del mio lavoro e gli sto raccogliendo nel mio repositori Github.   
+Con l'assistenza dell'Intelligenza Artificiale ho scritto alcuni script per automatizzare parte del mio lavoro e gli sto raccogliendo nel mio repository Github.   
 Puoi raggiungerlo cliccando nel seguente link:   
 
 <a href="https://github.com/aldogessa/aldogessa.github.io/tree/main/QGIS/Python" target="_blank"
