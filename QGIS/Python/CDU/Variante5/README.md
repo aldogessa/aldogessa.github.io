@@ -52,6 +52,7 @@ Deve essere raggiungibile dal progetto QGIS un template .doc con una tabella coe
 
 ## Anteprima
 Il funzionamento è analogo alla versione 3, dunque si propone la stessa anteprima, cambia solo la selezione dei layer coinvolti nel processo e la possibilità di scegliere la posizione di salvataggio del template CDU.
+<br>
 <a href="https://youtu.be/ijOvWNzAK3o" target="_blank">
   <img src="https://img.youtube.com/vi/ijOvWNzAK3o/0.jpg" alt="Video YouTube">
 </a>
