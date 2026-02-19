@@ -39,7 +39,8 @@ Solo i layer "ParticelleRAS" e "IntersezioniCATRAS" devo avere lo stesso nome ri
 
 ## Come installare l'azione
 Sul layer "ParticelleRAS" va definita una azione Python con lo script "EseguiIntersezioni.py".   
-Sul layer "IntersezioniCATRAS" va definita una azione Python con lo script "GeneraTabellaCDU_da_Intersezioni.py".
+Sul layer "IntersezioniCATRAS" va definita una azione Python con lo script "GeneraCDU_da_Intersezioni.py".
+Deve essere raggiungibile dal progetto QGIS un template .doc con una tabella coerente con quella del layer "IntersezioniCATRAS".
 
 ## Anteprima
 <a href="https://youtu.be/ijOvWNzAK3o" target="_blank">
