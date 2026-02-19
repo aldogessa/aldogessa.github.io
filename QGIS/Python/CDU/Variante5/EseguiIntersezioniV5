@@ -552,11 +552,20 @@ def esegui_script():
         output_tables = [
             lyr for lyr in QgsProject.instance().mapLayers().values()
             if hasattr(lyr, "geometryType") and lyr.geometryType() == 2
-]
+        ]
 
+        # 🔒 Layer dell’azione, non quello “attivo”
+        layer_id = "[% @layer_id %]"
+        active_layer = QgsProject.instance().mapLayer(layer_id)
 
+        if not active_layer:
+            iface.messageBar().pushMessage(
+                "Errore",
+                "Impossibile identificare il layer dell'azione.",
+                level=Qgis.Critical
+            )
+            return
 
-        active_layer = iface.activeLayer()
         dialog = LayerSelectionDialog(polygon_layers, parcel_layers, output_tables, active_layer)
 
 
