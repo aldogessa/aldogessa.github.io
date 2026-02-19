@@ -41,6 +41,6 @@ Solo i layer "ParticelleRAS" e "IntersezioniCATRAS" devo avere lo stesso nome ri
 Sul layer "Particelle" va definita una azione Python con lo script "EseguiIntersezioni.py".
 
 ## Anteprima
-<a href="https://youtu.be/ZibaKQC1TEM" target="_blank">
-  <img src="https://img.youtube.com/vi/ZibaKQC1TEM/0.jpg" alt="Video YouTube">
+<a href="https://youtu.be/ijOvWNzAK3o" target="_blank">
+  <img src="https://img.youtube.com/vi/ijOvWNzAK3o/0.jpg" alt="Video YouTube">
 </a>
