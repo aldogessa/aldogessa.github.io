@@ -2,7 +2,7 @@
 ===================================================================================
 VERSIONE MIGLIORATA – QGIS 3.40
 Generazione CDU da layer intersezioni, con:
-✔ riconoscimento automatico del layer attivo
+✔ riconoscimento automatico del layer dell’azione (via @layer_id)
 ✔ finestra di dialogo per selezionare il template .docx
 ✔ memoria persistente del template
 ===================================================================================
@@ -14,6 +14,7 @@ from qgis.PyQt.QtWidgets import (
 )
 from qgis.PyQt.QtCore import QSettings
 from qgis.utils import iface
+from qgis.core import QgsProject
 
 from docx import Document
 from docx.shared import Pt
@@ -93,12 +94,13 @@ class TemplateSelectorDialog(QDialog):
 def export_selected_data_to_existing_table():
     try:
         # ---------------------------------------------------------
-        # 1) RICONOSCIMENTO AUTOMATICO DEL LAYER ATTIVO
+        # 1) RECUPERO SICURO DEL LAYER DELL’AZIONE (NON activeLayer)
         # ---------------------------------------------------------
-        layer = iface.activeLayer()
+        layer_id = "[% @layer_id %]"   # QGIS sostituisce automaticamente l’ID
+        layer = QgsProject.instance().mapLayer(layer_id)
 
         if not layer:
-            iface.messageBar().pushMessage("Errore", "Nessun layer attivo trovato.", level=3)
+            iface.messageBar().pushMessage("Errore", "Impossibile identificare il layer dell'azione.", level=3)
             return
 
         if layer.selectedFeatureCount() == 0:
