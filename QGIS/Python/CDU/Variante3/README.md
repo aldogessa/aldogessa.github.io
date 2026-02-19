@@ -38,7 +38,8 @@ E' possibile assegnare al nome dei campi qualsiasi alias.
 Solo i layer "ParticelleRAS" e "IntersezioniCATRAS" devo avere lo stesso nome riportato nello script, se gli si vuole cambiare il nome sarà sufficiente aggiornare il nuovo nome nella variabile dello script.
 
 ## Come installare l'azione
-Sul layer "Particelle" va definita una azione Python con lo script "EseguiIntersezioni.py".
+Sul layer "ParticelleRAS" va definita una azione Python con lo script "EseguiIntersezioni.py".   
+Sul layer "IntersezioniCATRAS" va definita una azione Python con lo script "GeneraTabellaCDU_da_Intersezioni.py".
 
 ## Anteprima
 <a href="https://youtu.be/ijOvWNzAK3o" target="_blank">
