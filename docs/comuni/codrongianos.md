@@ -359,6 +359,9 @@ Di seguito sono documentate le novità che riguardano le mappe, gli aggiornament
 
 #### 21/02/2026 - Tile ortofoto AGEA-RAS 2022 e CTR
 Il geoportale regionale è persistente fase critica e la visualizzazione delle ortofoto e degli altri servizi WMS è sempre più difficoltosa, sono state realizzate, dunque, le TILES dell'ortofoto 2022 e del Database Multiprecisione 10K (CTR), un pò meno definite ma dalle  prestazioni elevate. Le mappe WMS RAS sono ancora disponibili ma verranno visualizzate solo quando il servizio sarà disponibile, quando non sarà disponibile, lo sfondo sarà vuoto, per ovviare il problema sarà sufficiente selezionare una mappa TILES (Ortofoto 2022; Ortofoto 2016; OpenStreetMaps).
+<img src="../risorse/immagini/Tiles2022.PNG" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 <br>
 
 #### 11/02/2026 - Tile ortofoto AGEA-RAS 2016
