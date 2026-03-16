@@ -204,6 +204,17 @@ E' possibile caricare file esterni alle mappe, in formato KML, GPX e GeoJSON, pe
 ## Approfondimenti e News
 Di seguito sono documentate le novità che riguardano le mappe, gli aggiornamenti del sistema nonchè ulteriori indicazioni e precisazioni che riguardano l'utilizzo:
 
+### 16/03/2026 - Modulo commenti e segnalazioni
+Per favorire la partecipazione attiva degli utenti, è stata realizzata una google form per la raccolta di valutazioni, commenti, segnalazioni e suggerimenti da parte di chiunque intenda partecipare attivamente al processo di continuo miglioramento del servizio. La form è completamente anonima e i commenti non saranno pubblicati, rappresenta esclusivamente uno strumento di valutazione interna sull'indice di gradimento del progetto e per l'individuazione di criticità, inesattezze e possibili miglioramenti.
+<img src="../risorse/immagini/Contribuire.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
+
+#### 21/02/2026 - Tile ortofoto AGEA-RAS 2022 e CTR
+Il geoportale regionale è in persistente fase critica e la visualizzazione delle ortofoto e degli altri servizi WMS è sempre più difficoltosa, sono state realizzate, dunque, le TILES dell'ortofoto 2022 e del Database Multiprecisione 10K (CTR), un pò meno definite ma dalle  prestazioni elevate. Le mappe WMS RAS sono ancora disponibili ma verranno visualizzate solo quando il servizio sarà disponibile, quando non sarà disponibile, lo sfondo sarà vuoto, per ovviare il problema sarà sufficiente selezionare una mappa TILES (Ortofoto 2022; Ortofoto 2016; OpenStreetMaps).
+<br>
+
 #### 11/02/2026 - Tile ortofoto AGEA-RAS 2016
 Per far fronte alle crescenti difficoltà nella connessione al geoportale regionale per la visualizzazione delle ortofoto, è stata realizzata l'ortofoto del 2016 servita in formato "Tile", un pò meno definita ma dalle  prestazioni elevate. E' in via di sviluppo la realizzazione, in formato "Tile", anche dell'ortofoto 2022. Per il momento l'ortofoto 2016 "Tile" è disponibile per le mappe del PUC, delle Aree Vincolate e dei Valori Territoriali ai fini IMU.
 <img src="../risorse/immagini/TileVSP.png" 
