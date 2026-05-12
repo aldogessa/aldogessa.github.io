@@ -357,6 +357,10 @@ E' possibile caricare file esterni alle mappe, in formato KML, GPX e GeoJSON, pe
 ## Approfondimenti e News
 Di seguito sono documentate le novità che riguardano le mappe, gli aggiornamenti del sistema nonchè ulteriori indicazioni e precisazioni che riguardano l'utilizzo:
 
+### 11/05/2026 - Aggiornamento cartografia catastale
+La cartografia catastale è stata aggiornata alla data del 11/05/2026.
+<br>
+
 ### 16/03/2026 - Modulo commenti e segnalazioni
 Per favorire la partecipazione attiva degli utenti, è stata realizzata una google form per la raccolta di valutazioni, commenti, segnalazioni e suggerimenti da parte di chiunque intenda partecipare attivamente al processo di continuo miglioramento del servizio. La form è completamente anonima e i commenti non saranno pubblicati, rappresenta esclusivamente uno strumento di valutazione interna sull'indice di gradimento del progetto e per l'individuazione di criticità, inesattezze e possibili miglioramenti.
 <img src="../risorse/immagini/Contribuire.png" 
