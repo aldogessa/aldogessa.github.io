@@ -30,4 +30,6 @@ Layer dell'analisi urbanistica (che riceve il risultato dell'intersezione):
 fid	FOGLIO	ALLEGATO	MAPPALE	TEMA	ZONA	DETTAGLIO	NORME	PERCENT	PERCENT_V	IMGZONA	DESCRIZ_A	DESCRIZ_B	DESCRIZ_C	LINK_A	DESLINK_A	LINK_B	DESLINK_B	LINK_C	DESLINK_C	LINK_D	DESLINK_D	LINK_E	DESLINK_E	LINK_F	DESLINK_F	LINK_G	DESLINK_G	ORD	FK_CAT	VIRTID.
 
 ## Template
-Il template utilizzato deve essere conforme a quello pubblicato qui:
+Il template utilizzato deve essere conforme a quello pubblicato qui:   
+[Modello CDU](docs/risorse/documenti/00_CDU_Schema.docx)
+
