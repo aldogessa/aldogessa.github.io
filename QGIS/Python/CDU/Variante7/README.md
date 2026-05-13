@@ -31,5 +31,4 @@ fid	FOGLIO	ALLEGATO	MAPPALE	TEMA	ZONA	DETTAGLIO	NORME	PERCENT	PERCENT_V	IMGZONA	
 
 ## Template
 Il template utilizzato deve essere conforme a quello pubblicato qui:   
-[Modello CDU](docs/risorse/documenti/00_CDU_Schema.docx)
-
+[Scarica il modello CDU (DOCX)](https://raw.githubusercontent.com/aldogessa/aldogessa.github.io/main/docs/risorse/documenti/00_CDU_Schema.docx)
