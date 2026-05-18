@@ -357,6 +357,9 @@ E' possibile caricare file esterni alle mappe, in formato KML, GPX e GeoJSON, pe
 ## Approfondimenti e News
 Di seguito sono documentate le novità che riguardano le mappe, gli aggiornamenti del sistema nonchè ulteriori indicazioni e precisazioni che riguardano l'utilizzo:
 
+### 18/05/2026 - Refactoring javascript
+Per migliorare l’affidabilità delle mappe, soprattutto in caso di connessioni lente, è stato aggiornato e reso più robusti gli script che gestiscono i pulsanti personalizzati. Prima, in condizioni di rete sfavorevoli, alcuni strumenti potevano non attivarsi, lasciando visibili solo quelli standard. Ora l’interfaccia attende correttamente il caricamento completo della mappa, favorendo un funzionamento più stabile e uniforme per tutti gli utenti.
+
 ### 11/05/2026 - Aggiornamento cartografia catastale
 La cartografia catastale è stata aggiornata alla data del 11/05/2026.
 <br>
