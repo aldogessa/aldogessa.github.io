@@ -357,6 +357,43 @@ E' possibile caricare file esterni alle mappe, in formato KML, GPX e GeoJSON, pe
 ## Approfondimenti e News
 Di seguito sono documentate le novità che riguardano le mappe, gli aggiornamenti del sistema nonchè ulteriori indicazioni e precisazioni che riguardano l'utilizzo:
 
+### 19/05/2026 - Ricerca e selezione particelle da tabella
+Per velocizzare le operazioni di ricerca e selezione delle particelle catastali, e procedere eventualmente con la generazione dell'anteprima del certificato di destinazione urbanistica, è stata incorporata una nuova funzionalità che permette di individuare e selezionare le particelle dalla tabella degli attributi contenente la lista di tutte le particelle presenti nel dataset. Questa nuova opzione unisce in un unico ambiente la funzionalità di ricerca del tool di localizzazione e la funzionalità di selezione del popup, favorendo maggior controllo sulla ricerca e selezione degli elementi. Questo breve video mostra come utilizzare la tabella degli attributi.
+
+<div style="
+  border:1px solid #e0e0e0;
+  border-radius:6px;
+  padding:12px;
+  margin:18px 0;
+  box-shadow:0 1px 4px rgba(0,0,0,0.06);
+  background:#fafafa;
+  max-width:800px;
+">
+
+  <h3 style="margin:0 0 10px 0; font-size:18px; font-weight:600;">
+    🎥 RICERCA E SELEZIONE PARTICELLE DA TABELLA
+  </h3>
+
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:4px;">
+    <iframe 
+      src="https://www.youtube.com/embed/x4HURalokSM"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:4px;">
+    </iframe>
+  </div>
+
+  <p style="margin-top:8px; font-size:14px;">
+    🔗 <a href="https://www.youtube.com/watch?v=x4HURalokSM" target="_blank">
+      Apri su YouTube
+    </a>
+  </p>
+
+</div>
+
+---
+
 ### 18/05/2026 - Refactoring javascript
 Per migliorare l’affidabilità delle mappe, soprattutto in caso di connessioni lente, è stato aggiornato e reso più robusti gli script che gestiscono i pulsanti personalizzati. Prima, in condizioni di rete sfavorevoli, alcuni strumenti potevano non attivarsi, lasciando visibili solo quelli standard. Ora l’interfaccia attende correttamente il caricamento completo della mappa, favorendo un funzionamento più stabile e uniforme per tutti gli utenti.
 
