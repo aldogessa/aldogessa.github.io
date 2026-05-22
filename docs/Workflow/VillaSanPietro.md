@@ -454,6 +454,30 @@ Queste scelte contribuiscono a un’esperienza utente stabile, pulita e professi
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 <br>
 
+### Layer
+In questa sezione si definiscono le descrizioni dei gruppi e dei layer, i popup, il comportamento del pannello dei layer e delle mappe di sfondo visualizzate attraverso connessioni esterne.
+
+#### Descrizione dei gruppi e dei layer
+Una corretta descrizione dei gruppi e dei layer è fondamentale per garantire trasparenza, manutenibilità e professionalità del progetto cartografico. Ogni elemento pubblicato nella mappa dovrebbe riportare informazioni chiare e sintetiche su:
+- cosa rappresenta;
+- quale funzione svolge nel sistema informativo;
+- da quale fonte proviene il dato;
+- con quale frequenza viene aggiornato;
+- chi è il referente o l’ente produttore.
+
+Queste informazioni, inserite nelle proprietà del layer e visibili nel pannello informativo di Lizmap, permettono di:
+- facilitare la cooperazione tra uffici e tecnici nel tempo;
+- rendere immediatamente comprensibile la struttura del progetto anche a chi non lo ha realizzato;
+- garantire tracciabilità e affidabilità del dato;
+- supportare eventuali audit, verifiche o aggiornamenti futuri;
+- migliorare l’esperienza dell’utente finale, che può comprendere l’origine e l’autorevolezza delle informazioni visualizzate.
+
+Una descrizione accurata dei gruppi e dei layer contribuisce a costruire uno strumento cartografico robusto, trasparente e istituzionalmente affidabile, in linea con le buone pratiche dei sistemi informativi territoriali.
+
+<img src="../risorse/immagini/DescGruppi.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
 
 
 
