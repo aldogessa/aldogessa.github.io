@@ -14,6 +14,10 @@
   - [Sistemi di riferimento](agis/sistemi_riferimento.md)
   - [News](agis/news.md)
  
-- **Mappe Web Gis**
+- **Mappe Web Gis Realizzate**
+  - [Codrongianos](comuni/codrongianos.md)
+  - [Villa San Pietro](comuni/villa_san_pietro.md)
+
+- **Work Flow QGIS+QGIS Server+Lizmap**
   - [Codrongianos](comuni/codrongianos.md)
   - [Villa San Pietro](comuni/villa_san_pietro.md)
