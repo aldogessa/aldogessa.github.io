@@ -36,21 +36,14 @@ In Sardegna è possibile utilizzare EPSG:3003 (Roma40 / Monte Mario) oppure EPSG
 Le conversioni 3003 <-> 3857 e 7791 <-> 3857 sono standard e non presentano criticità.
 La conversione 3003 <-> 7791, invece, non è standard e richiede l’uso dei grigliati IGM per garantire precisione metrica. In assenza dei grigliati è necessario evitare questa trasformazione, poiché comporta errori dell’ordine di diversi metri.
 
- ┌──────────────────────────────┐
-│   Dataset MASTER             │
-│   EPSG:3003 / EPSG:7791      │
-│   (editing, analisi, CDU)    │
-└───────────────┬──────────────┘
-                │ riproiezione
-                ▼
-┌──────────────────────────────┐
-│   Dataset PUBBLICAZIONE      │
-│   EPSG:3857                  │
-│   (Lizmap, WebGIS)           │
-└───────────────┬──────────────┘
-                │
-                ▼
-       Lizmap / QGIS Server
+[MASTER 3003/7791] 
+        │  (editing, analisi)
+        ▼
+[Riproiezione standard → 3857]
+        ▼
+[Dataset di pubblicazione 3857]
+        ▼
+[Lizmap / QGIS Server]
 
 ### Layer catastali
 L’Agenzia delle Entrate mette a disposizione dei professionisti, tramite accesso con credenziali CIE/SPID/CNS, la fornitura dei dati catastali vettoriali comunali in diversi formati e sistemi di riferimento.
