@@ -743,25 +743,25 @@ I tool implementati sono:
 - Tool di deselezione rapida Permette di rimuovere la selezione corrente senza utilizzare lo strumento nativo di Lizmap, rendendo l’interazione più fluida e immediata.
 - Tool per la generazione del Certificato di Destinazione Urbanistica (CDU) Alimentato dalla tabella Analisi urbanistica, consente di generare l'anteprima del certificato di destinazione urbanistica in formato .doc.
 
-Street View   
+### Street View   
 <img src="../risorse/immagini/StreetView.png" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 <br>
 
-Cattura Coordinate   
+### Cattura Coordinate   
 <img src="../risorse/immagini/CatturaCoordinate.png" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 <br>
 
-Deselziona rapidamente   
+### Deselziona rapidamente   
 <img src="../risorse/immagini/DeselezionaVelocemente.png" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 <br>
 
-Genera CDU   
+### Genera CDU   
 <img src="../risorse/immagini/AnteprimaCDU.png" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
