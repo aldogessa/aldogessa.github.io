@@ -213,6 +213,29 @@ Mantenendo l’ordinamento come fase manuale, si ottengono due vantaggi fondamen
 
 In altre parole lo script automatizza ciò che deve essere stabile, mentre l’ordinamento rimane flessibile e sotto controllo umano.
 
+### Organizzazione dei dati in GeoPackage tematici
+Per garantire la scalabilità del sistema e facilitare gli aggiornamenti periodici, è consigliabile suddividere i dati in GeoPackage tematici, anziché concentrare tutti i layer in un unico file. Questa scelta presenta numerosi vantaggi operativi:
+- aggiornamenti più semplici e mirati: ogni GeoPackage può essere aggiornato indipendentemente dagli altri, senza rischiare di compromettere l’intero dataset;
+- riduzione del rischio di corruzione: un file più piccolo e tematicamente coerente è meno soggetto a danneggiamenti e, in caso di problemi, l’impatto è limitato al solo tema interessato;
+- maggiore modularità: ogni GeoPackage può essere collegato a più progetti QGIS o a più mappe Lizmap, che si aggiorneranno automaticamente quando il singolo dataset viene sostituito o aggiornato;
+- prestazioni migliori: QGIS e Lizmap gestiscono più efficacemente file più piccoli e tematicamente omogenei, riducendo i tempi di caricamento e migliorando la reattività del sistema.
+
+Ad esempio il GeoPackage del Tema 01 del PUC conterrà solamente:
+- T01.01.01_Zonizzazione_vigente;
+- T01.01.02_Zonizzazione_variante;
+- T01.02.01_Variante_OP_Ospedale;
+- T01.02.02_Variante_OP_Strada_Centro_Storico.
+
+Il GeoPackage del Tema 02 del PAI conterrà solamente:
+- T02.01.01_Reticolo_Idrografico_Vigente;
+- T02.01.02_Reticolo_Idrografico_Variante;
+- T02.02.01_Pericolosita_Idraulica_Vigente;
+- T02.02.02_Pericolosita_Israulica_Variante;
+- T02.03.01_Pericolosita_Frana_Vigente;
+- T02.03.02_Pericolosita_Frana_variante;
+- ...
+
+
 
 
 
