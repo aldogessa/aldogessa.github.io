@@ -45,4 +45,52 @@ Layer Particelle
 - layer — text, campo derivato dalla fornitura per verificare che siano state estratte solo le particelle.
 - anno — text, anno della fornitura catastale.
 - agg — text, data di aggiornamento della fornitura.
+<br>
+
+#### Perché non automatizzare la normalizzazione
+Le forniture catastali dell’Agenzia delle Entrate non sono completamente uniformi nel tempo: possono variare nella denominazione dei campi, nella presenza di attributi aggiuntivi o nella struttura interna dei layer. Automatizzare la normalizzazione significherebbe assumere che la struttura sia sempre identica, con il rischio di introdurre errori silenziosi difficili da individuare.
+L’esecuzione manuale della normalizzazione consente invece di verificare ogni volta la coerenza della fornitura, garantendo che i dati siano correttamente allineati alla struttura standard adottata dal progetto.
+
+### Layer Tematici
+I layer tematici rappresentano gli strati informativi che descrivono il territorio e che si sovrappongono alla cartografia catastale e alle mappe di base. Possono essere numerosi e molto eterogenei tra loro; per questo motivo è opportuno organizzarli in una struttura logica e gerarchica che ne faciliti la gestione, la lettura e l’utilizzo nelle automazioni.
+Si suggerisce di suddividere i layer in temi principali, identificati da un codice numerico progressivo, e in sotto temi, anch’essi codificati in modo coerente.   
+Esempio di organizzazione dei temi:
+- T01 – Piano urbanistico Comunale;
+- T02 – Piano di assetto idrogeologico;
+- ...
+<br>
+
+Esempio di organizzazione dei sotto temi:
+T01 – Piano urbanistico comunale
+- T01.01 - Zonizzazione;
+- T01.02 – Variante strada;
+- T01.03 – Variante localizzazione ospedale;
+- T01.04 - ...;
+
+T02 – Piano di assetto idrogeologico
+- T02.01 – Pericolosità idraulica;
+- T02.02 – Pericolosità geologica;
+- ...
+<br>
+
+La codifica dei temi non deve essere casuale, ma definita in base all’ordine con cui si desidera che i layer compaiano nella tabella del Certificato di Destinazione Urbanistica.
+In questo modo, ad esempio, il Piano Urbanistico Comunale (T01) verrà riportato per primo, seguito dalle sue varianti (T01.xx), e successivamente dalle informazioni relative alla pericolosità idraulica e geologica (T02.xx).   
+Questa struttura garantisce:
+- coerenza tra progetto QGIS, Lizmap e CDU;
+- ordinamento stabile e prevedibile;
+- facilità di manutenzione nel tempo;
+- maggiore leggibilità per tecnici e cittadini;
+- automazioni più robuste e meno soggette a errori.
+
+
+
+
+
+
+
+
+
+
+
+
 
