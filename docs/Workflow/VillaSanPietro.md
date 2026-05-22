@@ -837,27 +837,34 @@ Perché questa architettura è la più efficace nel nostro contesto:
 - Manutenzione semplice: la rigenerazione dell’analisi è un’operazione rapida e sicura.
 
 ## CONCLUSIONI
-Il workflow descritto in questo documento nasce dall’esigenza di costruire un sistema informativo territoriale robusto, performante e facilmente manutenibile, capace di integrare in modo coerente QGIS, QGIS Server e Lizmap. L’esperienza maturata nel Comune di Villa San Pietro ha dimostrato che un approccio metodico, basato su:
+Il workflow descritto in questo documento nasce dall’esigenza di costruire un Sistema Informativo Territoriale robusto, performante e facilmente manutenibile, capace di integrare in modo coerente QGIS, QGIS Server e Lizmap.
+
+L’esperienza maturata nel Comune di Villa San Pietro ha dimostrato che un approccio metodico basato su:
+
 - normalizzazione dei dati;
 - strutture tabellari stabili;
 - intersezioni offline;
 - GeoPackage tematici;
-- relazioni padre figlio;
+- relazioni padre–figlio;
 - popup strutturati;
 - strumenti personalizzati;
 - ottimizzazioni mirate in Lizmap;
 
-permette di ottenere un sistema scalabile, veloce e affidabile, utilizzabile quotidianamente sia dagli uffici tecnici sia dai cittadini.
-La scelta di spostare offline le operazioni più pesanti (intersezioni, ordinamenti, generazione del CDU) non è un compromesso, ma una precisa strategia architetturale che garantisce:
+consente di ottenere un sistema scalabile, veloce e affidabile, utilizzabile quotidianamente sia dagli uffici tecnici sia dai cittadini.
+
+La scelta di spostare offline le operazioni più pesanti — come intersezioni, ordinamenti e template del CDU — non rappresenta un compromesso, ma una precisa strategia architetturale finalizzata a garantire:
+
 - prestazioni elevate anche con dataset complessi;
-- stabilità del servizio anche con molti utenti simultanei;
-- totale controllo sul flusso dei dati;
+- stabilità del servizio anche in presenza di utenti simultanei;
+- controllo completo del flusso dei dati;
 - ripetibilità e auditabilità dei processi;
 - riduzione dei rischi operativi.
 
-Il risultato è un sistema che funziona in modo prevedibile e professionale.   
-La modularità introdotta tramite GeoPackage tematici, popup standardizzati, Dataviz, viste, strumenti personalizzati e relazioni QGIS → Lizmap rende il workflow facilmente estendibile a nuovi temi, nuovi layer e nuove esigenze di pubblicazione, senza dover riprogettare l’intero impianto.   
-Questo documento rappresenta quindi non solo una guida operativa, ma un modello architetturale per la costruzione di mappe web GIS funzionali e orientate all’utente.
+Il risultato è un sistema prevedibile, stabile e professionale, progettato per essere mantenuto nel tempo.
+
+La modularità introdotta tramite GeoPackage tematici, popup standardizzati, Dataviz, viste, strumenti personalizzati e relazioni QGIS → Lizmap rende inoltre il workflow facilmente estendibile a nuovi tematismi, nuovi layer e future esigenze di pubblicazione, senza dover riprogettare l’intero impianto.
+
+Questo documento rappresenta quindi non solo una guida operativa, ma anche un possibile modello architetturale per la costruzione di WebGIS funzionali, sostenibili e orientati all’utente.
 
 ## SCRIPT E AUTOMAZIONI
 Di seguito verranno inseriti i collegamenti agli script Python e JavaScript utilizzati nel workflow.
