@@ -756,7 +756,7 @@ Cattura Coordinate
 <br>
 
 Deselziona rapidamente   
-<img src="../risorse/immagini/DeselezionaRapidamente.png" 
+<img src="../risorse/immagini/DeselezionaVelocemente.png" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 <br>
