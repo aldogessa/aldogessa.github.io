@@ -3,7 +3,15 @@
 ## INTRODUZIONE
 Il workflow presentato in questo documento non è un esercizio teorico, ma il risultato di un lavoro concreto, sviluppato e applicato nel Sistema Informativo Territoriale del Comune di Villa San Pietro.
 Da oltre due anni le mappe prodotte con questa metodologia sono pubblicate in modo stabile attraverso l’infrastruttura di Gter (servizio GisHosting – Piano Base) e vengono utilizzate quotidianamente sia dagli uffici tecnici sia dai cittadini.
-Questa esperienza reale ha permesso di affinare ogni passaggio del processo, rendendolo affidabile, scalabile e facilmente aggiornabile. Il workflow nasce quindi dall’esigenza di costruire un sistema robusto, coerente e replicabile, capace di supportare in modo efficace la gestione dei dati territoriali e la produzione del Certificato di Destinazione Urbanistica.
+Questa esperienza reale ha permesso di affinare ogni passaggio del processo, rendendolo affidabile, scalabile e facilmente aggiornabile. Il workflow nasce quindi dall’esigenza di costruire un sistema robusto, coerente e replicabile, capace di supportare in modo efficace la gestione dei dati territoriali e la produzione del Certificato di Destinazione Urbanistica.   
+Il risultato ottenuto è stabilmente pubblicato al seguente link:   
+
+<a href="https://map.gishosting.eu/index.php/view/map?repository=comunevillasanpietro&project=A03CPianoUrbanisticoComunale" target="_blank"
+   style="display:inline-block; padding:10px 15px; background:#2c7be5; color:white; border-radius:6px; text-decoration:none;">
+ 🌍 Piano urbanistico comunale Comune di Villa San Pietro
+</a>
+
+---
 
 ## PREPARAZIONE DEI DATI
 
