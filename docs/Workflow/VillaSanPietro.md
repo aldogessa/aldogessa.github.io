@@ -730,7 +730,7 @@ La configurazione corretta prevede:
 
 In questo modo, una volta scelto il Foglio, Lizmap mostrerà solo i mappali realmente presenti in quel Foglio, evitando all’utente errori di digitazione o tentativi frustranti.
 
-<img src="../risorse/immagini/Localizzazioneparticella.png" 
+<img src="../risorse/immagini/Localizzazioneparticelle.png" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 <br>
