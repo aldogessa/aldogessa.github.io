@@ -60,7 +60,7 @@ Esempio di organizzazione dei temi:
 - ...
 <br>
 
-Esempio di organizzazione dei sotto temi:
+Esempio di organizzazione dei sotto temi:   
 T01 – Piano urbanistico comunale
 - T01.01 - Zonizzazione;
 - T01.02 – Variante strada;
