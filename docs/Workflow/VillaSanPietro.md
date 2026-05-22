@@ -181,7 +181,37 @@ La procedura consigliata è la seguente:
 
 Questa procedura garantisce che Lizmap visualizzi i risultati dell’analisi urbanistica nell’ordine corretto, rispettando la gerarchia dei temi e la struttura del Certificato di Destinazione Urbanistica.
 
+#### Automazione delle intersezioni
+Lo script Python è progettato come azione associata al layer delle particelle, in modo da ridurre al minimo la possibilità di errore da parte dell’operatore.   
+Lo script:
+- individua automaticamente il layer delle particelle, evitando selezioni errate;
+- permette di selezionare il layer predisposto per accogliere l’analisi urbanistica e mantiene in memoria tale scelta per le esecuzioni successive;
+- consente di selezionare i layer tematici da includere nell’intersezione e ricorda anche questa selezione;
+- per dataset molto estesi, supporta la modalità incrementale, elaborando blocchi consecutivi di particelle e salvando progressivamente i risultati nella stessa tabella, senza sovrascrivere i dati già presenti.
 
+Questa modalità incrementale è particolarmente utile quando si lavora con:
+- migliaia di particelle selezionate;
+- layer tematici complessi;
+- server o workstation con risorse limitate.
+
+In questo modo l’analisi rimane robusta, scalabile e ripetibile, senza rischiare blocchi o perdita di dati.
+
+#### Perché non automatizzare l’ordinamento
+L’ordinamento finale dell’analisi urbanistica è un’operazione:
+- semplice;
+- veloce;
+- soggetta a possibili variazioni a ogni aggiornamento dei dati.
+- 
+Automatizzarlo all’interno dello script significherebbe:
+- irrigidire il processo;
+- dover modificare lo script ogni volta che cambia una regola di ordinamento;
+- introdurre potenziali fragilità in un componente che deve rimanere stabile.
+
+Mantenendo l’ordinamento come fase manuale, si ottengono due vantaggi fondamentali:
+- Lo script rimane sempre coerente e robusto, perché lavora solo su dati stabili e consolidati.
+- L’operatore mantiene il controllo su eventuali modifiche da apportare all’ordinamento in occasione di aggiornamenti, varianti o nuove esigenze di pubblicazione.
+
+In altre parole lo script automatizza ciò che deve essere stabile, mentre l’ordinamento rimane flessibile e sotto controllo umano.
 
 
 
