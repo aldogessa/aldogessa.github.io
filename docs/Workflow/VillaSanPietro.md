@@ -24,10 +24,11 @@ La fornitura GeoJSON contiene tutti gli strati catastali; per ottenere un buon e
 
 #### Normalizzazione della fornitura catastale e struttura dei layer
 Per garantire la robustezza delle automazioni e favorire la replicabilità dei processi è necessario stabilire una struttura predefinita della tabella degli attributi. La fornitura dei dati catastali ottenuta dal portale dell’Agenzia delle Entrate può presentare variazioni nella struttura dei campi tra un aggiornamento e l’altro; per questo motivo, anche se la normalizzazione potrebbe essere automatizzata, si suggerisce di eseguirla manualmente, così da mantenere pieno controllo sia sulla struttura originale sia su quella finale.
-Una volta verificata e normalizzata la fornitura, si consiglia di adottare le seguenti strutture standardizzate.
+Una volta verificata e normalizzata la fornitura, si consiglia di adottare le seguenti strutture standardizzate.   
+<br>
 Layer Fogli
-•	fid — integer, chiave primaria interna.
-•	COMUNE — text, nome del Comune.
-•	FOGLIO — integer, numero del foglio catastale.
-•	COD_CAT — text, codice catastale del Comune.
+- fid — integer, chiave primaria interna.
+- COMUNE — text, nome del Comune.
+- FOGLIO — integer, numero del foglio catastale.
+- COD_CAT — text, codice catastale del Comune.
 
