@@ -394,5 +394,17 @@ La pubblicazione WFS è indispensabile per consentire a Lizmap di:
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 <br>
 
+## PLUGIN LIZMAP
+Attraverso il plugin Lizmap avviene l’impostazione della pubblicazione vera e propria della mappa, vengono definiti i popup, gli strumenti e personalizzati alcuni comportamenti.
 
+### Opzioni generali
+Nelle opzioni generali è consigliabile:
+- Disabilitare il permalink automatico - Questo evita che un uso eccessivo della funzione generi un numero elevato di richieste al server, con potenziali impatti sulle prestazioni.
+- Attivare il caricamento dei layer come singolo WMS.
+
+Questa ultima impostazione permette a QGIS Server di restituire un’unica immagine WMS contenente tutti i layer visibili. Il vantaggio è duplice:
+- riduzione del numero di chiamate al server;
+- miglioramento della fluidità di navigazione, soprattutto su connessioni lente o dispositivi mobili.
+
+Queste due impostazioni contribuiscono in modo significativo alla stabilità e alla reattività della mappa pubblicata.
 
