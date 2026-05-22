@@ -348,11 +348,26 @@ Nel pannello “Informazioni” è possibile inserire:
 - note tecniche,
 - eventuali attribuzioni: queste informazioni saranno visibili agli utenti nel pannello informativo di Lizmap.
 
+<img src="../risorse/immagini/PannelloInformazioni.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
+
 ### Attribuzioni delle mappe di base
 Se si utilizzano servizi esterni (OSM, ortofoto regionali, WMS terzi), è necessario riportare correttamente le attribuzioni richieste dal fornitore, come previsto dalle licenze d’uso.
 
+<img src="../risorse/immagini/Attribuzioni.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
+
 ### Risposta delle geometrie al click
 QGIS Server permette di evidenziare in giallo i contorni della geometria cliccata tramite GetFeatureInfo. Nel workflow descritto questa funzione è disattivata, poiché sostituita da un segnaposto personalizzato in JavaScript, più leggero e più coerente con l’esperienza utente desiderata.
+
+<img src="../risorse/immagini/BordiGialli.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
 
 ### Pubblicazione WFS
 E' fondamentale attivare la pubblicazione WFS per tutti i layer che devono supportare:
@@ -374,7 +389,10 @@ La pubblicazione WFS è indispensabile per consentire a Lizmap di:
 - mostrare popup informativi;
 - gestire le relazioni padre figlio.
 
-
+<img src="../risorse/immagini/OubbWFS.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
 
 
 
