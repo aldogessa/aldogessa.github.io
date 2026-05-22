@@ -722,6 +722,18 @@ Questa soluzione mantiene la coerenza del modello informativo e offre all’uten
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 <br>
 
+### Localizza da layer
+Per rendere la mappa realmente funzionale e intuitiva, è indispensabile configurare la localizzazione da layer sul layer Particelle. Questa funzione permette all’utente di individuare una particella inserendo Foglio e Mappale, escludendo la digitalizzazione di valori non validi.   
+La configurazione corretta prevede:
+- Mappale come primo campo di ricerca;
+- Folgio come secondo campo che filtra i Mappali dinamicamente in base al Foglio selezionato.
+
+In questo modo, una volta scelto il Foglio, Lizmap mostrerà solo i mappali realmente presenti in quel Foglio, evitando all’utente errori di digitazione o tentativi frustranti.
+
+<img src="../risorse/immagini/Localizzazioneparticella.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
 
 
 
