@@ -653,6 +653,21 @@ Questa sezione è il cuore del popup: restituisce l’informazione urbanistica p
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 <br>
 
+### Gestione della tabella attributi
+Per rendere i layer selezionabili, filtrabili e intercettabili dal click è necessario pubblicare in Lizmap le relative trabelle degli attributi. Lizmap consente però di decidere se mostrare o meno la tabella degli attributi per ciascun layer selezionabile. Questa scelta è importante sia per la leggibilità dell’interfaccia sia per le prestazioni.
+È consigliabile:
+- nascondere la tabella attributi per tutti i layer tematici;
+- mostrare la tabella attributi solo per il layer Particelle.
+
+Questa configurazione offre diversi vantaggi:
+- evita di esporre tabelle molto estese e complesse (tipiche dei tematismi);
+- migliora la leggibilità dei dati per l’utente;
+- riduce il carico sul browser e sul server;
+- mantiene l’interfaccia più pulita e coerente.
+
+
+
+
 
 
 
