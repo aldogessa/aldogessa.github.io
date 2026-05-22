@@ -479,6 +479,32 @@ Una descrizione accurata dei gruppi e dei layer contribuisce a costruire uno str
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 <br>
 
+### Opzioni dell’albero livelli
+Lo strumento di configurazione della visualizzazione permette di definire:
+- quali layer devono comparire nel pannello dei layer dell’utente;
+- quali layer devono essere attivi all’avvio e quindi visibili sulla mappa al primo caricamento.
+
+È fondamentale configurare questi aspetti con attenzione, poiché influenzano direttamente sia l’esperienza utente sia le prestazioni complessive della mappa.
+#### Layer da non visualizzare
+Come già evidenziato, il layer Analisi urbanistica non deve essere visualizzato né attivato:
+- non deve comparire nel pannello dei layer;
+- non deve essere visibile all’avvio;
+- non deve essere attivabile dall’utente.
+
+Si tratta infatti di un layer tecnico, destinato esclusivamente a fornire informazioni ai popup e al Certificato di Destinazione Urbanistica. La sua visualizzazione sarebbe inutile, potenzialmente confusiva e penalizzante per le prestazioni.
+
+#### Layer attivi all’avvio
+È consigliabile selezionare con cura i layer che devono essere visibili al primo accesso. I criteri principali sono:
+- attivare solo i layer indispensabili per iniziare la consultazione;
+- ridurre al minimo il carico iniziale, così da garantire un avvio rapido e fluido;
+- evitare layer pesanti o con geometrie complesse tra quelli attivi all’apertura.
+
+Un caricamento iniziale leggero migliora sensibilmente la percezione di velocità e la qualità dell’esperienza utente, soprattutto su dispositivi mobili o connessioni non ottimali.
+
+<img src="../risorse/immagini/AlberoLivelli.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
 
 
 
