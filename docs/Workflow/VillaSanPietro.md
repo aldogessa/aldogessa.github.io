@@ -505,9 +505,20 @@ Un caricamento iniziale leggero migliora sensibilmente la percezione di velocit�
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 <br>
+ 
+### Controllare i gruppi
+Per preservare le prestazioni e mantenere coerente l’impostazione progettuale, è consigliabile nascondere la casella di controllo dei gruppi nel pannello dei layer. In questo modo l’utente non può attivare o disattivare interi blocchi di layer, evitando configurazioni incoerenti o carichi eccessivi sulla mappa.
+Parallelamente, è opportuno attivare automaticamente il primo tema della mappa all’avvio. Questa scelta garantisce:
+- un’esperienza utente immediata e guidata;
+- un caricamento iniziale leggero e prevedibile;
+- una struttura di consultazione ordinata, in cui l’utente parte sempre da un contesto chiaro.
 
+Questa combinazione — gruppi non disattivabili e primo tema attivo — contribuisce a mantenere la mappa stabile, pulita e coerente con il modello informativo definito.
 
-
+<img src="../risorse/immagini/ControllaGruppi.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
 
 
 
