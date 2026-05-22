@@ -191,6 +191,12 @@ Il layer di destinazione, se si segue lo schema dei layer catastali e tematici f
 - FK_CAT: integer – preservato dall’algoritmo che associa ad ogni intersezione la chiave primaria della particella;
 - VIRTID: text – derivata dal layer particelle.
 
+<br>
+<img src="../risorse/immagini/ScriptPython.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
+
 #### Ordinamento della tabella analisi urbanistica
 Per ottenere un ordinamento stabile e coerente dei risultati dell’analisi urbanistica è necessario definire l’ordinamento   
 <br>
