@@ -273,6 +273,18 @@ Quando il progetto contiene numerosi layer, è consigliabile organizzarli in gru
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 <br>
 
+### Le viste
+In presenza di molti layer tematici, è utile sfruttare le Viste di QGIS, organizzandole secondo gli stessi temi logici dei gruppi. Le viste possono essere rese disponibili in Lizmap e consentono all’utente di attivare rapidamente un intero tema (ad esempio “Piano Urbanistico”, “PAI”, “Vincoli”), senza dover intervenire manualmente sul pannello dei layer.
+Questa organizzazione:
+- migliora l’esperienza utente;
+- riduce il numero di operazioni manuali;
+- limita le richieste al server;
+- migliora le prestazioni complessive.
+
+<img src="../risorse/immagini/Viste.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
 
 
 
