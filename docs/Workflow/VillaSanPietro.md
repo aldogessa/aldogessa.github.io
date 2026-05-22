@@ -847,6 +847,19 @@ Il risultato è un sistema che funziona in modo prevedibile e professionale.
 La modularità introdotta tramite GeoPackage tematici, popup standardizzati, Dataviz, viste, strumenti personalizzati e relazioni QGIS → Lizmap rende il workflow facilmente estendibile a nuovi temi, nuovi layer e nuove esigenze di pubblicazione, senza dover riprogettare l’intero impianto.   
 Questo documento rappresenta quindi non solo una guida operativa, ma un modello architetturale per la costruzione di mappe web GIS funzionali e orientate all’utente.
 
+## SCRIPT E AUTOMAZIONI
+Di seguito verranno inseriti i collegamenti agli script Python e JavaScript utilizzati nel workflow.
+### Script Python
+- Script per la generazione dell’Analisi urbanistica (intersezioni + merge tematico) → link da inserire
+
+Script JavaScript
+- Tool Street View → link da inserire
+- Tool cattura coordinate → link da inserire
+- Tool deselezione rapida → link da inserire
+- Tool generazione CDU → link da inserire
+- Segnaposto
+- Controllo popup figlio
+
 
 
 
