@@ -853,17 +853,30 @@ Di seguito verranno inseriti i collegamenti agli script Python e JavaScript util
 - Script per la generazione dell’Analisi urbanistica (intersezioni + merge tematico) → link da inserire
 
 Script JavaScript
-- Tool Street View → link da inserire
-- Tool cattura coordinate → link da inserire
-- Tool deselezione rapida → link da inserire
-- Tool generazione CDU → link da inserire
-- Segnaposto
-- Controllo popup figlio
+---
 
+<a href="https://github.com/aldogessa/aldogessa.github.io/tree/main/Lizmap/JS_personalizzati/StreetView" target="_blank">Tool Street View</a>
 
+---
 
+<a href="https://github.com/aldogessa/aldogessa.github.io/tree/main/Lizmap/JS_personalizzati/CopiaCoordinate" target="_blank">Tool Copia coordinate</a>
 
+---
 
+<a href="https://github.com/aldogessa/aldogessa.github.io/tree/main/Lizmap/JS_personalizzati/DeselezionaTuttoVelocemente" target="_blank">Deseleziona rapidamente</a>
 
+---
+
+<a href="https://github.com/aldogessa/aldogessa.github.io/tree/main/Lizmap/JS_personalizzati/CertificatoDestUrbanistica" target="_blank">Genera CDU</a>
+
+---
+
+<a href="https://github.com/aldogessa/aldogessa.github.io/tree/main/Lizmap/JS_personalizzati/Segnaposto" target="_blank">Segnaposto</a>
+
+---
+
+<a href="https://github.com/aldogessa/aldogessa.github.io/tree/main/Lizmap/JS_personalizzati/ControlloPopupFigli" target="_blank">Controllo popup figlio</a>
+
+---
 
 
