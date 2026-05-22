@@ -767,7 +767,54 @@ I tool implementati sono:
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 <br>
 
+## ALCUNI COMMENTI SULLE SCELTE ARCHITETTURALI
+La scelta di produrre in locale le intersezioni dell’Analisi urbanistica deriva dalla volontà di mantenere il sistema:
+- fluido;
+- reattivo;
+- scalabile;
+- indipendente dal carico del server.
 
+Le intersezioni tra particelle e tematismi sono operazioni computazionalmente pesanti. Eseguirle online, in tempo reale, comporterebbe:
+- rallentamenti significativi;
+- carico elevato sul server;
+- possibili timeout;
+- un’esperienza utente poco soddisfacente, soprattutto su mobile.
+
+### Vantaggio principale: prestazioni elevate
+Generare le intersezioni offline, tramite uno script Python dedicato, permette di:
+- eliminare completamente i calcoli runtime;
+- garantire tempi di risposta immediati;
+- mantenere la mappa veloce anche con molti utenti simultanei;
+- ridurre drasticamente il carico sul server.
+
+Il layer Analisi urbanistica diventa così un layer statico, leggero e immediatamente interrogabile.
+
+### Svantaggio: necessità di aggiornamento periodico
+Ogni variazione dei layer:
+- catastali (particelle), oppure
+- tematici urbanistici,
+richiede la rigenerazione della tabella dell’Analisi urbanistica.   
+Tuttavia, questo non rappresenta un problema operativo: lo script Python progettato per questo scopo esegue la rigenerazione in modo rapido, deterministico e ripetibile, riducendo l’operazione a pochi minuti.
+
+### Generazione del documento .doc per l’utente
+Anche il documento finale (CDU) restituito all’utente non viene generato dinamicamente dal server.
+Per preservare prestazioni e stabilità:
+- il sistema non costruisce il documento online;
+- utilizza un template .doc pre-caricato nella cartella media;
+- inserisce nel template solo i dati provenienti dall’interrogazione WFS, basata sulla relazione tra: la particella selezionata, e i relativi record figli del layer Analisi urbanistica.   
+
+Questo approccio garantisce:
+- un documento sempre coerente e ben formattato;
+- nessun carico aggiuntivo sul server;
+- un flusso di generazione semplice, veloce e affidabile.
+
+Perché questa architettura è la più efficace nel nostro contesto:
+- Prestazioni massime: nessun calcolo pesante online.
+- Stabilità: nessun rischio di blocchi o timeout.
+- Controllo totale: lo script Python garantisce risultati ripetibili e auditabili.
+- Coerenza: il documento finale è sempre identico nella struttura.
+- Scalabilità: anche con molti utenti simultanei, il sistema rimane veloce.
+- Manutenzione semplice: la rigenerazione dell’analisi è un’operazione rapida e sicura.
 
 
 
