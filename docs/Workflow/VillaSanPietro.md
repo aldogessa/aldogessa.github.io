@@ -692,7 +692,7 @@ Questa impostazione garantisce:
 - coerenza progettuale, mantenendo il layer Analisi urbanistica come layer di servizio;
 - un’interfaccia pulita, senza tabelle o popup non pertinenti.
 
-## DATAVIZ
+### Dataviz
 Il modulo Dataviz di Lizmap consente di creare piccoli grafici tematici basati sui dati presenti nella mappa. Si tratta di uno strumento leggero ma molto efficace per rendere l’esperienza utente più coinvolgente e intuitiva, soprattutto quando si vogliono rappresentare proporzioni o distribuzioni.
 Per mantenere coerenza con l’impostazione progettuale e valorizzare il lavoro svolto sul layer Analisi urbanistica, è consigliabile configurare il Dataviz in modo da mostrare:
 - le porzioni urbanistiche che compongono ciascuna particella;
