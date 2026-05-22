@@ -125,6 +125,45 @@ Questa scelta rende la struttura estremamente flessibile: puoi avere layer molto
 - Supporta Lizmap in modo nativo (popup, media, immagini, link, descrizioni).
 - Rende il CDU leggibile e completo, con testi e riferimenti normativi.
 
+### Analisi urbanistica: intersezione tra particelle e layer tematici
+Una volta predisposti i layer catastali e i layer tematici normalizzati, è possibile eseguire l’analisi urbanistica mediante l’intersezione tra le particelle e i layer tematici, calcolando per ciascuna particella le percentuali di sovrapposizione e preservando tutte le informazioni provenienti dai diversi temi.
+Esistono diverse strategie per eseguire questa analisi. La più diffusa consiste nel reiterare l’intersezione tra le particelle e ciascun layer tematico, producendo tanti risultati quante sono le sorgenti informative. Tuttavia, la normalizzazione eseguita sui layer tematici non è stata introdotta solo per uniformare la struttura dei dati, ma anche per rendere più efficiente l’intero processo di analisi.
+Poiché tutti i layer tematici condividono la stessa struttura, è possibile eseguire un merge tra essi, ottenendo un unico layer tematico che contiene al suo interno tutte le zone rilevanti ai fini dell’analisi urbanistica, con una struttura perfettamente coerente con quella di ciascun layer di origine.
+In questo modo, anziché eseguire tante intersezioni quante sono le sorgenti tematiche, è sufficiente eseguire una sola intersezione tra le particelle catastali e il layer tematico unificato.
+Questa strategia comporta un vantaggio significativo in termini di prestazioni, velocità e stabilità del processo, soprattutto in presenza di numerosi layer tematici o di geometrie complesse.
+L’intero procedimento può essere automatizzato tramite uno script Python, sviluppato con l’assistenza dell’Intelligenza Artificiale, che consente di selezionare i layer tematici da includere nel merge e di eseguire automaticamente l’intersezione con le particelle, scrivendo i risultati in un layer appositamente predisposto.
+Il layer di destinazione, se si segue lo schema dei layer catastali e tematici fin qui descritto, deve avere la seguente struttura:
+- fid — integer, chiave primaria intern;
+- FOGLIO — integer, deriva dal layer particelle;
+- ALLEGATO — text, deriva dal layer particelle;
+- MAPPALE — text, deriva dal layer particelle;
+- TEMA: text – deriva dal layer tematico;
+- ZONA: text – deriva dal layer tematico;
+- DETTAGLIO: text – deriva dal layer tematico;
+- NORME: text – deriva dal layer tematico;
+- PERCENT: integer - percentuale calcolata dall’algoritrmo;
+- PERCENT_V: text – percentuale da visualizzare calcolata dall’algoritmo che gestisce le percentuali pari a zero;
+- IMGZONA: text – deriva dal layer tematico;
+- DESCRIZ_A: text – deriva dal layer tematico;
+- DESCRIZ_B: text – deriva dal layer tematico;
+- DESCRIZ_C: text – deriva dal layer tematico;
+- LINK_A: text – deriva dal layer tematico;
+- DESLINK_A: text – deriva dal layer tematico;
+- LINK_B: text – deriva dal layer tematico;
+- DESLINK_B: text – deriva dal layer tematico;
+- LINK_C: text – deriva dal layer tematico;
+- DESLINK_C: text – deriva dal layer tematico;
+- LINK_D: text – deriva dal layer tematico;
+- DESLINK_D: text – deriva dal layer tematico;
+- LINK_E: text – deriva dal layer tematico;
+- DESLINK_E: text – deriva dal layer tematico;
+- LINK_F: text – deriva dal layer tematico;
+- DESLINK_F: text – deriva dal layer tematico;
+- LINK_G: text – deriva dal layer tematico;
+- DESLINK_G: text – deriva dal layer tematico;
+- ORD: text – campo libero da popolare successivamente sulla base dell’ordinamento che si intende ottenere;
+- FK_CAT: integer – preservato dall’algoritmo che associa ad ogni intersezione la chiave primaria della particella;
+- VIRTID: text – derivata dal layer particelle.
 
 
 
