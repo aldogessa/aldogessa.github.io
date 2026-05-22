@@ -32,6 +32,7 @@ Layer Fogli
 - FOGLIO — integer, numero del foglio catastale.
 - COD_CAT — text, codice catastale del Comune.
 <br>
+
 Layer Particelle
 - fid — integer, chiave primaria interna.
 - FOGLIO — integer, numero del foglio catastale.
