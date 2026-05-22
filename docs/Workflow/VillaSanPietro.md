@@ -117,6 +117,17 @@ Una struttura particolarmente solida e flessibile è la seguente:
 - Opzionali: tutti i campi successivi a NORME → Lizmap li ignora se vuoti, quindi possono essere popolati solo quando necessari.
 Questa scelta rende la struttura estremamente flessibile: puoi avere layer molto semplici (solo i campi essenziali) o layer molto ricchi (descrizioni, immagini, link, approfondimenti).
 
+#### Perchè questa struttura
+- Uniforma tutti i layer tematici, anche se provengono da fonti diverse.
+- Stabilizza le automazioni (intersezioni, merge, CDU).
+- Riduce gli errori dovuti a campi mancanti o denominazioni incoerenti.
+- Permette aggiornamenti periodici senza dover riscrivere script o modelli.
+- Supporta Lizmap in modo nativo (popup, media, immagini, link, descrizioni).
+- Rende il CDU leggibile e completo, con testi e riferimenti normativi.
+
+
+
+
 
 
 
