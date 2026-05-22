@@ -1,10 +1,22 @@
-# WORKFLOW QGIS + QGIS SERVER + LIZMAP CON VETTORI GEOPACKAGE
+# WORKFLOW QGIS -> QGIS SERVER -> LIZMAP CON VETTORI GEOPACKAGE
+Sistema Informativo Territoriale Comune di Villa San Pietro
+
+<br>
+
+Hosting: Servizio Gishosting di Gter (Genova)   
+Formato vettoriale: Geopackage   
+Anno di messa in esercizio: 2023
 
 ## INTRODUZIONE
-Il workflow presentato in questo documento non è un esercizio teorico, ma il risultato di un lavoro concreto, sviluppato e applicato nel Sistema Informativo Territoriale del Comune di Villa San Pietro.
-Da oltre due anni le mappe prodotte con questa metodologia sono pubblicate in modo stabile attraverso l’infrastruttura di Gter (servizio GisHosting – Piano Base) e vengono utilizzate quotidianamente sia dagli uffici tecnici sia dai cittadini.
-Questa esperienza reale ha permesso di affinare ogni passaggio del processo, rendendolo affidabile, scalabile e facilmente aggiornabile. Il workflow nasce quindi dall’esigenza di costruire un sistema robusto, coerente e replicabile, capace di supportare in modo efficace la gestione dei dati territoriali e la produzione del Certificato di Destinazione Urbanistica.   
-Il risultato ottenuto è stabilmente pubblicato al seguente link:   
+Il workflow presentato in questo documento non è un esercizio teorico, ma il risultato di un lavoro concreto sviluppato e applicato nel Sistema Informativo Territoriale del Comune di Villa San Pietro.   
+
+Le mappe prodotte con questa metodologia sono pubblicate stabilmente attraverso l’infrastruttura di Gter (servizio GisHosting – Piano Base) e vengono utilizzate quotidianamente sia dagli uffici tecnici sia dai cittadini.   
+
+L’esperienza maturata sul campo ha permesso di affinare progressivamente ogni fase del processo, rendendo il sistema affidabile, scalabile e facilmente aggiornabile. Il workflow nasce dall’esigenza di costruire una struttura robusta, coerente e replicabile, capace di supportare efficacemente la gestione dei dati territoriali e la produzione del Certificato di Destinazione Urbanistica.   
+
+Il sistema è stato progettato per rendere accessibile anche ai piccoli comuni, con risorse economiche e infrastrutturali limitate, l’adozione di tecnologie WebGIS per la costruzione e pubblicazione del proprio Sistema Informativo Territoriale.   
+
+Il risultato ottenuto è pubblicato stabilmente al seguente link:   
 
 <a href="https://map.gishosting.eu/index.php/view/map?repository=comunevillasanpietro&project=A03CPianoUrbanisticoComunale" target="_blank"
    style="display:inline-block; padding:10px 15px; background:#2c7be5; color:white; border-radius:6px; text-decoration:none;">
