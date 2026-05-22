@@ -112,6 +112,11 @@ Una struttura particolarmente solida e flessibile è la seguente:
 - LINK_G: text – contiene l’URL a un documento o risorsa esterna;
 - DESLINK_G: text – contiene la descrizione dell’URL G (es: Vai al Piano Particolareggiato).
 
+<br>
+<img src="../risorse/immagini/OrgLayer.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
 #### Campi obbligatori e campi opzionali
 - Obbligatori: CODTEMA, DESCTEMA, TEMA, ZONA, DETTAGLIO, NORME → senza questi campi, il CDU risulterà incompleto o vuoto nelle parti essenziali.
 - Opzionali: tutti i campi successivi a NORME → Lizmap li ignora se vuoti, quindi possono essere popolati solo quando necessari.
@@ -235,6 +240,7 @@ Il GeoPackage del Tema 02 del PAI conterrà solamente:
 - T02.03.02_Pericolosita_Frana_variante;
 - ...
 <br>
+
 Organizzazione dei Geopackage
 <br>
 
