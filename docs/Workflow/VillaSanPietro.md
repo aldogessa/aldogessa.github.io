@@ -165,6 +165,22 @@ Il layer di destinazione, se si segue lo schema dei layer catastali e tematici f
 - FK_CAT: integer – preservato dall’algoritmo che associa ad ogni intersezione la chiave primaria della particella;
 - VIRTID: text – derivata dal layer particelle.
 
+#### Ordinamento della tabella analisi urbanistica
+Per ottenere un ordinamento stabile e coerente dei risultati dell’analisi urbanistica è necessario definire l’ordinamento   
+<br>
+“TEMA”||”ZONA”||”DETTAGLIO”||Lpad(“PERCENT”, ‘0’,3)   
+<br>
+Questa concatenazione garantisce un ordinamento logico e prevedibile tra temi, sotto‑temi, zone e percentuali di sovrapposizione, assicurando che la tabella finale rispetti la gerarchia definita nella codifica dei layer tematici.
+Il campo ORD riveste un ruolo fondamentale perché deve essere utilizzato per costruire i valori del campo fid del GeoPackage prima della scrittura finale. Lizmap, infatti, ordina i “figli” sulla base del loro fid in ordine decrescente; pertanto, se si mantengono i fid generati automaticamente dall’algoritmo, non vi è alcuna garanzia che i risultati vengano visualizzati nell’ordine desiderato.
+Una volta definito l’ordinamento corretto tramite il campo ORD, è necessario procedere alla rigenerazione dei fid secondo tale ordine.   
+La procedura consigliata è la seguente:
+- ordinare la tabella dell’analisi urbanistica in base al campo ORD (in cima il tema che si vuole visualizzare per ultimo);
+- copiare e incollare tutti i record in un layer temporaneo;
+- applicare al campo fid la funzione row_number() per generare una numerazione progressiva coerente con l’ordinamento desiderato;
+- utilizzare il layer temporaneo per sovrascrivere il layer dell’analisi urbanistica nel GeoPackage (se già esistente) oppure per crearlo ex novo se si tratta della prima generazione.
+
+Questa procedura garantisce che Lizmap visualizzi i risultati dell’analisi urbanistica nell’ordine corretto, rispettando la gerarchia dei temi e la struttura del Certificato di Destinazione Urbanistica.
+
 
 
 
