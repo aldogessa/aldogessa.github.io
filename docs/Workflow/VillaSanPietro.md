@@ -234,12 +234,21 @@ Il GeoPackage del Tema 02 del PAI conterrà solamente:
 - T02.03.01_Pericolosita_Frana_Vigente;
 - T02.03.02_Pericolosita_Frana_variante;
 - ...
+<br>
+Organizzazione dei Geopackage
+<br>
 
 <img src="../risorse/immagini/OrgGPKG.png" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 <br>
 
+Oraganizzazione layer nel Geopackage
+<br>
+<img src="../risorse/immagini/ContGPKG.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
 
 
 
