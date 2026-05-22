@@ -31,4 +31,17 @@ Layer Fogli
 - COMUNE — text, nome del Comune.
 - FOGLIO — integer, numero del foglio catastale.
 - COD_CAT — text, codice catastale del Comune.
+<br>
+Layer Particelle
+- fid — integer, chiave primaria interna.
+- FOGLIO — integer, numero del foglio catastale.
+- ALLEGATO — text, indicativo dell’allegato.
+- MAPPALE — text, numero della particella (può contenere lettere).
+- SUPCALC — real, area della particella utilizzata per i calcoli metrici.
+- SUPVIDEO — text, area formattata per la visualizzazione (migliaia + due decimali).
+- VIRTID — text, identificativo univoco della particella ottenuto concatenando: LPAD(FOGLIO, 5, '0') || LPAD(MAPPALE, 15, '0') Questo garantisce un codice univoco, ordinabile e privo di ambiguità (es. distingue correttamente 1/11 da 11/1).
+- id — integer, numero progressivo generato con row_number() utile per verifiche interne e per controllare la corrispondenza con fid.
+- layer — text, campo derivato dalla fornitura per verificare che siano state estratte solo le particelle.
+- anno — text, anno della fornitura catastale.
+- agg — text, data di aggiornamento della fornitura.
 
