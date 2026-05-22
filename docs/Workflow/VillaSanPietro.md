@@ -408,3 +408,29 @@ Questa ultima impostazione permette a QGIS Server di restituire un’unica immag
 
 Queste due impostazioni contribuiscono in modo significativo alla stabilità e alla reattività della mappa pubblicata.
 
+<img src="../risorse/immagini/permalink.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
+
+### Strumenti mappa
+Se si desidera offrire all’utente finale una dotazione completa di strumenti, è possibile attivarli tutti senza controindicazioni.
+Gli strumenti Lizmap:
+- hanno un impatto trascurabile sulle prestazioni;
+- sono ben distribuiti nell’interfaccia;
+- non generano confusione, grazie a un layout equilibrato e intuitivo.
+
+Una dotazione completa migliora l’esperienza utente senza appesantire il sistema.
+
+<img src="../risorse/immagini/StrumentiMappa.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
+
+
+
+
+
+
+
+
