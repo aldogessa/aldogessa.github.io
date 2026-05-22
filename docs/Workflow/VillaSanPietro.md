@@ -665,6 +665,34 @@ Questa configurazione offre diversi vantaggi:
 - riduce il carico sul browser e sul server;
 - mantiene l’interfaccia più pulita e coerente.
 
+<img src="../risorse/immagini/Nasconditabellaattributi.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
+
+### Esclusione del layer Analisi urbanistica
+Il layer Analisi urbanistica non deve essere inserito nell’elenco dei layer selezionabili.   
+Se venisse incluso:
+- anche se invisibile sulla mappa;
+- anche se non attivato nel pannello dei layer;
+
+Lizmap aprirebbe comunque il relativo popup al click, generando confusione e rompendo la logica progettuale.
+Questo layer, infatti:
+- è un layer tecnico;
+- non deve essere selezionabile;
+- non deve mostrare popup autonomi;
+- deve essere consultato solo tramite la relazione con il layer Particelle.
+
+Escluderlo dalla selezione è quindi indispensabile per mantenere coerenza, ordine e prestazioni ottimali.
+
+### Perché questa configurazione è importante
+Questa impostazione garantisce:
+- un’esperienza utente chiara, con un solo layer catastale principale selezionabile;
+- prestazioni migliori, evitando interrogazioni inutili;
+- coerenza progettuale, mantenendo il layer Analisi urbanistica come layer di servizio;
+- un’interfaccia pulita, senza tabelle o popup non pertinenti.
+
+
 
 
 
