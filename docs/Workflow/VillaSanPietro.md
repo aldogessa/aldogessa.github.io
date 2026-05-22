@@ -316,7 +316,53 @@ Si consiglia inoltre di impostare le etichette affinché siano visualizzate solo
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 <br>
 
+### Mappe di base
+Le mappe di base sono uno degli elementi più sensibili per le prestazioni complessive. È preferibile utilizzare servizi esterni ad alte prestazioni (OSM, servizi regionali, WMS ottimizzati), anziché pubblicare raster locali non ottimizzati.
+In Lizmap è consigliabile attivare l’opzione che permette di ottenere direttamente le mappe dal fornitore esterno, evitando di far transitare inutilmente il flusso attraverso il server QGIS.
 
+### Layout di stampa
+Se si desidera offrire all’utente la possibilità di esportare la mappa visualizzata, è necessario predisporre un layout di stampa in QGIS e attivare la funzione di stampa in Lizmap.
+Il layout si costruisce normalmente: Lizmap estrarrà automaticamente la mappa corrente e gli elementi necessari al momento della richiesta dell’utente.
+
+Relazione tra Il layer particelle e il layer dell’analisi urbanistica
+Nel progetto è necessario impostare una relazione padre-figlio tra il layer particelle e il layer dell’analisi urbanistica. Questa relazione è necessaria per attivare, nel popup delle particelle, la visualizzazione delle destinazioni urbanistiche che riguardano ogni particella.
+
+### Nascondere il layer dell’Analisi urbanistica
+Il layer Analisi urbanistica deve essere nascosto sia nel progetto QGIS sia nella configurazione Lizmap. La sua attivazione deve essere limitata esclusivamente al popup informativo, poiché questo layer svolge una funzione di servizio: alimenta le informazioni visualizzate sulle particelle e genera i contenuti necessari al Certificato di Destinazione Urbanistica (CDU).
+La visualizzazione diretta sulla mappa non è consigliata per due motivi:
+- Esperienza utente - Il layer contiene tutte le intersezioni tra particelle e layer tematici, quindi può raggiungere decine di migliaia di geometrie. La sua rappresentazione grafica sovrapposta agli altri layer renderebbe la mappa poco leggibile e potenzialmente confusiva per l’utente finale.
+- Prestazioni - Caricare e disegnare un layer così denso comporta un impatto significativo sulle prestazioni, sia in QGIS Desktop sia in QGIS Server. Nasconderlo garantisce una navigazione fluida e tempi di risposta ottimali, mantenendo comunque disponibili tutte le informazioni tramite popup e servizi WFS.
+
+Per questi motivi, Analisi urbanistica deve essere trattato come un layer tecnico, non destinato alla visualizzazione cartografica ma al supporto funzionale dell’applicazione.
+
+## QGIS SERVER
+In QGIS Server è necessario configurare alcuni elementi fondamentali affinché la pubblicazione tramite Lizmap risulti coerente, stabile e performante. Le principali impostazioni da definire sono le seguenti:
+- nome della mappa: è il nome che verrà visualizzato nel repository Lizmap. Deve essere chiaro, univoco e non ambiguo, poiché identifica il progetto pubblicato.
+- la pubblicazione WFS dei layer per cui si intende attivare le opzioni di selezione, pan e zoom (dovrebbero essere selezionati tutti i layer tematici, i layer catastali e il layer dell’analisi urbanistica).
+- Informazioni sulla mappa.Nel pannello “Informazioni” è possibile inserire:
+-- descrizione del progetto,
+-- riferimenti normativi,
+-- note tecniche,
+-- eventuali attribuzioni: queste informazioni saranno visibili agli utenti nel pannello informativo di Lizmap.
+- Attribuzioni delle mappe di base: se si utilizzano servizi esterni (OSM, ortofoto regionali, WMS terzi), è necessario riportare correttamente le attribuzioni richieste dal fornitore, come previsto dalle licenze d’uso.
+- Risposta delle geometrie al click: QGIS Server permette di evidenziare in giallo i contorni della geometria cliccata tramite GetFeatureInfo. Nel workflow descritto questa funzione è disattivata, poiché sostituita da un segnaposto personalizzato in JavaScript, più leggero e più coerente con l’esperienza utente desiderata.
+- Pubblicazione WFS: è fondamentale attivare la pubblicazione WFS per tutti i layer che devono supportare:
+-- selezione;
+  
+•	pan,
+•	zoom,
+•	interrogazione puntuale,
+•	interazioni avanzate in Lizmap.
+In particolare devono essere pubblicati in WFS:
+•	tutti i layer tematici,
+•	i layer catastali (Fogli e Particelle),
+•	il layer dell’analisi urbanistica.
+La pubblicazione WFS è indispensabile per consentire a Lizmap di:
+•	interrogare i layer,
+•	filtrare le particelle,
+•	eseguire zoom automatici,
+•	mostrare popup informativi,
+•	gestire le relazioni padre figlio.
 
 
 
