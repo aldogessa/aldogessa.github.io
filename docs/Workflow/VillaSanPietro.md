@@ -692,6 +692,36 @@ Questa impostazione garantisce:
 - coerenza progettuale, mantenendo il layer Analisi urbanistica come layer di servizio;
 - un’interfaccia pulita, senza tabelle o popup non pertinenti.
 
+## DATAVIZ
+Il modulo Dataviz di Lizmap consente di creare piccoli grafici tematici basati sui dati presenti nella mappa. Si tratta di uno strumento leggero ma molto efficace per rendere l’esperienza utente più coinvolgente e intuitiva, soprattutto quando si vogliono rappresentare proporzioni o distribuzioni.
+Per mantenere coerenza con l’impostazione progettuale e valorizzare il lavoro svolto sul layer Analisi urbanistica, è consigliabile configurare il Dataviz in modo da mostrare:
+- le porzioni urbanistiche che compongono ciascuna particella;
+- i valori estratti direttamente dal layer Analisi urbanistica;
+- la visualizzazione integrata nel layer padre (Particelle), così da mantenere un flusso informativo chiaro e ordinato.
+
+Questa configurazione permette di:
+- mostrare in modo immediato come una particella è suddivisa tra più zone urbanistiche;
+- visualizzare graficamente la percentuale di incidenza (PERCENT) di ciascuna zona;
+- rendere più comprensibile la complessità dell’analisi urbanistica, soprattutto per utenti non tecnici;
+- mantenere la mappa pulita, evitando layer aggiuntivi o simbolizzazioni complesse;
+- valorizzare il layer Analisi urbanistica senza mostrarlo direttamente sulla mappa.
+
+Per ottenere un Dataviz efficace e coerente:
+- utilizzare come dataset il layer Analisi urbanistica;
+- filtrare i dati in base alla particella selezionata (relazione padre → figlio).
+
+Rappresentare le porzioni urbanistiche con un grafico a torta o a barre verticali (consigliato), usando:
+- ZONA o DETTAGLIO come etichetta;
+- PERCENT come valore numerico;
+- integrare il grafico nel popup o nel pannello laterale del layer Particelle.
+
+Questa soluzione mantiene la coerenza del modello informativo e offre all’utente una lettura immediata e intuitiva della composizione urbanistica della particella.
+
+<img src="../risorse/immagini/Dataviz.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
+
 
 
 
