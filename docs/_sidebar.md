@@ -19,4 +19,4 @@
   - [Villa San Pietro](comuni/villa_san_pietro.md)
 
 - **Work Flow QGIS+QGIS Server+Lizmap**
-  - [Comune di Villa San Pietro](comuni/codrongianos.md)
+  - [Comune di Villa San Pietro](Workflow/VillaSanPietro.md)
