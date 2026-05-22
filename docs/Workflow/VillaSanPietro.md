@@ -427,8 +427,19 @@ Una dotazione completa migliora l’esperienza utente senza appesantire il siste
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 <br>
 
+### Scale
+Per garantire una navigazione coerente e un rendering ottimale, è consigliabile:
+- Impostare valori di scala per ogni livello di zoom - Questo permette di controllare la qualità del rendering e di evitare salti troppo bruschi tra una scala e l’altra.
+- Definire una scala minima e massima - Serve a impedire che l’utente possa allontanarsi troppo dalla zona di interesse; avvicinarsi oltre il limite utile, ottenendo un ingrandimento eccessivo e poco leggibile.
+- Impostare una scala massima adeguata per gli zoom automatici sulle selezioni - Questo evita che, durante la selezione di una particella o di un elemento, la mappa si avvicini troppo rendendo difficile comprendere il contesto territoriale.
+- Curare l’estensione iniziale della mappa - L’estensione iniziale è ciò che l’utente vede al primo accesso. Deve essere coerente con lo zoom all’estensione del progetto; adeguata sia per schermi desktop sia per dispositivi mobili.
 
+Una buona configurazione delle scale migliora la leggibilità e riduce il rischio di disorientamento dell’utente.
 
+<img src="../risorse/immagini/Scale.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
 
 
 
