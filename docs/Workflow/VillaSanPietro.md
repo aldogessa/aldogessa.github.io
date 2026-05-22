@@ -36,57 +36,21 @@ In Sardegna è possibile utilizzare EPSG:3003 (Roma40 / Monte Mario) oppure EPSG
 Le conversioni 3003 <-> 3857 e 7791 <-> 3857 sono standard e non presentano criticità.
 La conversione 3003 <-> 7791, invece, non è standard e richiede l’uso dei grigliati IGM per garantire precisione metrica. In assenza dei grigliati è necessario evitare questa trasformazione, poiché comporta errori dell’ordine di diversi metri.
 
-                         SISTEMA DI RIFERIMENTO DELLA MAPPA
-                         ───────────────────────────────────
-                                   Lizmap → EPSG:3857
-                                   (WGS84 / Pseudo-Mercator)
-                                             │
-                                             │  QGIS Server
-                                             ▼  riproietta automaticamente
-                         ┌───────────────────────────────────────────────┐
-                         │   Tutti i layer vengono serviti in 3857       │
-                         └───────────────────────────────────────────────┘
-
-
-                         NECESSITÀ DI DUE DATASET SINCRONIZZATI
-                         ───────────────────────────────────────
-
-   ┌──────────────────────────────┐                     ┌──────────────────────────────┐
-   │   DATASET “MASTER”           │                     │   DATASET “DI PUBBLICAZIONE” │
-   │   (editing, analisi, CDU)    │                     │   (WebGIS, Lizmap, WMS/WFS)  │
-   ├──────────────────────────────┤                     ├──────────────────────────────┤
-   │ EPSG:3003  (Roma40/MM)       │   Riproiezione →    │ EPSG:3857 (Pseudo-Mercator)  │
-   │ EPSG:7791 (ETRF2000/RDN2008) │   ← Riproiezione    │                              │
-   └──────────────────────────────┘                     └──────────────────────────────┘
-                 ▲                                                     ▲
-                 │                                                     │
-                 │  Sistemi idonei per:                                │  Sistema idoneo per:
-                 │  • editing                                           │  • pubblicazione WebGIS
-                 │  • calcoli metrici                                   │  • mappe di base OSM
-                 │  • analisi spaziali                                  │  • prestazioni elevate
-                 │  • certificazioni (CDU)                              │  • compatibilità browser
-                 │                                                     │
-                 └─────────────────────────────────────────────────────┘
-
-
-                         COMPATIBILITÀ DELLE TRASFORMAZIONI
-                         ───────────────────────────────────
-
-   ✔ 3003  ↔  3857   → trasformazione standard, nessun problema  
-   ✔ 7791  ↔  3857   → trasformazione standard, nessun problema  
-   ✘ 3003  ↔  7791   → NON standard → richiede grigliati IGM  
-                       (senza grigliati → errore di diversi metri)
-
-
-                         PRINCIPIO OPERATIVO
-                         ───────────────────
-
-   • La mappa QGIS si costruisce SEMPRE in 3003 o 7791  
-   • Il dataset master rimane nel CRS metrico  
-   • Il dataset di pubblicazione viene rigenerato in 3857  
-   • Lizmap usa solo il dataset 3857  
-   • QGIS Server riproietta automaticamente tutto verso 3857  
-
+ ┌──────────────────────────────┐
+│   Dataset MASTER             │
+│   EPSG:3003 / EPSG:7791      │
+│   (editing, analisi, CDU)    │
+└───────────────┬──────────────┘
+                │ riproiezione
+                ▼
+┌──────────────────────────────┐
+│   Dataset PUBBLICAZIONE      │
+│   EPSG:3857                  │
+│   (Lizmap, WebGIS)           │
+└───────────────┬──────────────┘
+                │
+                ▼
+       Lizmap / QGIS Server
 
 ### Layer catastali
 L’Agenzia delle Entrate mette a disposizione dei professionisti, tramite accesso con credenziali CIE/SPID/CNS, la fornitura dei dati catastali vettoriali comunali in diversi formati e sistemi di riferimento.
