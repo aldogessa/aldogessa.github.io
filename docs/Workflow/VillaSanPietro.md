@@ -337,32 +337,44 @@ Per questi motivi, Analisi urbanistica deve essere trattato come un layer tecnic
 
 ## QGIS SERVER
 In QGIS Server è necessario configurare alcuni elementi fondamentali affinché la pubblicazione tramite Lizmap risulti coerente, stabile e performante. Le principali impostazioni da definire sono le seguenti:
-- nome della mappa: è il nome che verrà visualizzato nel repository Lizmap. Deve essere chiaro, univoco e non ambiguo, poiché identifica il progetto pubblicato.
-- la pubblicazione WFS dei layer per cui si intende attivare le opzioni di selezione, pan e zoom (dovrebbero essere selezionati tutti i layer tematici, i layer catastali e il layer dell’analisi urbanistica).
-- Informazioni sulla mappa.Nel pannello “Informazioni” è possibile inserire:
--- descrizione del progetto,
--- riferimenti normativi,
--- note tecniche,
--- eventuali attribuzioni: queste informazioni saranno visibili agli utenti nel pannello informativo di Lizmap.
-- Attribuzioni delle mappe di base: se si utilizzano servizi esterni (OSM, ortofoto regionali, WMS terzi), è necessario riportare correttamente le attribuzioni richieste dal fornitore, come previsto dalle licenze d’uso.
-- Risposta delle geometrie al click: QGIS Server permette di evidenziare in giallo i contorni della geometria cliccata tramite GetFeatureInfo. Nel workflow descritto questa funzione è disattivata, poiché sostituita da un segnaposto personalizzato in JavaScript, più leggero e più coerente con l’esperienza utente desiderata.
-- Pubblicazione WFS: è fondamentale attivare la pubblicazione WFS per tutti i layer che devono supportare:
--- selezione;
-  
-•	pan,
-•	zoom,
-•	interrogazione puntuale,
-•	interazioni avanzate in Lizmap.
+
+### Nome della mappa- nome della mappa
+E' il nome che verrà visualizzato nel repository Lizmap. Deve essere chiaro, univoco e non ambiguo, poiché identifica il progetto pubblicato.
+
+### Informazioni sulla mappa.
+Nel pannello “Informazioni” è possibile inserire:
+- descrizione del progetto,
+- riferimenti normativi,
+- note tecniche,
+- eventuali attribuzioni: queste informazioni saranno visibili agli utenti nel pannello informativo di Lizmap.
+
+### Attribuzioni delle mappe di base
+Se si utilizzano servizi esterni (OSM, ortofoto regionali, WMS terzi), è necessario riportare correttamente le attribuzioni richieste dal fornitore, come previsto dalle licenze d’uso.
+
+### Risposta delle geometrie al click
+QGIS Server permette di evidenziare in giallo i contorni della geometria cliccata tramite GetFeatureInfo. Nel workflow descritto questa funzione è disattivata, poiché sostituita da un segnaposto personalizzato in JavaScript, più leggero e più coerente con l’esperienza utente desiderata.
+
+### Pubblicazione WFS
+E' fondamentale attivare la pubblicazione WFS per tutti i layer che devono supportare:
+- selezione;
+- pan;
+- zoom;
+- interrogazione puntuale;
+- interazioni avanzate in Lizmap.
+
 In particolare devono essere pubblicati in WFS:
-•	tutti i layer tematici,
-•	i layer catastali (Fogli e Particelle),
-•	il layer dell’analisi urbanistica.
+- tutti i layer tematici;
+- i layer catastali (Fogli e Particelle);
+- il layer dell’analisi urbanistica.
+
 La pubblicazione WFS è indispensabile per consentire a Lizmap di:
-•	interrogare i layer,
-•	filtrare le particelle,
-•	eseguire zoom automatici,
-•	mostrare popup informativi,
-•	gestire le relazioni padre figlio.
+- interrogare i layer;
+- filtrare le particelle;
+- eseguire zoom automatici;
+- mostrare popup informativi;
+- gestire le relazioni padre figlio.
+
+
 
 
 
