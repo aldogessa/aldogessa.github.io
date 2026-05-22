@@ -520,9 +520,138 @@ Questa combinazione — gruppi non disattivabili e primo tema attivo — contrib
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 <br>
 
+### I popup dei layer tematici
+I popup rappresentano il principale strumento di restituzione dell’informazione al click dell’utente sulla mappa. Per questo motivo devono essere chiari, gradevoli, intuitivi e coerenti in tutti i layer tematici.
+Esistono diverse strategie per la loro costruzione, ma la soluzione più efficace e flessibile è l’utilizzo del QGIS MapTip in HTML, che consente di:
+- personalizzare completamente la struttura del popup;
+- integrare immagini, icone e pulsanti;
+- combinare in modo ordinato le informazioni provenienti dalla tabella attributi;
+- garantire un layout stabile e replicabile nel tempo.
+
+Per assicurare affidabilità, prevedibilità e facilità di manutenzione, è consigliabile adottare uno schema di popup predefinito, identico per tutti i layer tematici. Lo schema ideale è suddiviso in sei sezioni verticali, ognuna con una funzione precisa.
+
+Struttura consigliata del popup tematico (6 sezioni)
+
+#### 1. Sezione – Titolo del tema
+Contiene la descrizione del tema urbanistico. È alimentata dal campo TEMA, che combina codice e descrizione (es. T01.01 PIANO URBANISTICO). Questa sezione introduce l’utente al contesto normativo dell’area cliccata.
+
+#### 2. Sezione – Immagine rappresentativa
+Visualizza un’immagine che rappresenta la zona o l’area di click. L’immagine deve essere:
+- ospitata sul server, nella cartella media;
+- richiamata tramite l’URL registrato nel campo IMGZONA.
+
+Questa sezione migliora la comprensione visiva e rende il popup più accattivante.
+
+#### 3. Sezione – Zona e titolo
+Mostra:
+- l’acronimo della zona (ZONA);
+- il titolo o la denominazione specifica (DETTAGLIO).
+
+Questa sezione fornisce immediatamente l’informazione urbanistica essenziale.
+
+#### 4. Sezione – Descrizione estesa
+Contiene la descrizione completa della zona, alimentata dai campi:
+- DESCRIZ_A
+- DESCRIZ_B
+- DESCRIZ_C
+
+Questi campi permettono di articolare testi lunghi in più blocchi, mantenendo ordine e leggibilità.
+
+#### 5. Sezione – Riferimenti normativi
+Riporta i riferimenti normativi che disciplinano l’area, alimentati dal campo NORME. Questa sezione è fondamentale per garantire trasparenza e tracciabilità delle regole applicabili.
+
+#### 6. Sezione – Link alle norme
+Contiene i link diretti ai documenti normativi richiamati nella sezione precedente. Sono alimentati dai campi LINK_X (LINK_1, LINK_2, ecc.).
+Questa sezione consente all’utente di accedere rapidamente ai testi ufficiali, migliorando l’usabilità e la completezza del popup.
+
+#### Perché adottare uno schema fisso.
+Un modello standardizzato garantisce:
+- coerenza visiva tra tutti i layer tematici;
+- manutenzione semplificata, perché ogni popup segue la stessa logica;
+- replicabilità, utile quando si aggiornano o aggiungono nuovi layer;
+- affidabilità, evitando comportamenti imprevisti o layout incoerenti;
+- professionalità, perché l’utente percepisce un’interfaccia curata e istituzionale.
+
+<img src="../risorse/immagini/popuptematico.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
 
 
+### Il popup delle particelle
+Il popup delle particelle si distingue da quello dei layer tematici perché la tabella attributi contiene informazioni di natura catastale e non urbanistica. Per garantire chiarezza, coerenza e facilità di consultazione, è consigliabile strutturarlo in tre sezioni verticali, ognuna con una funzione precisa.
 
+#### 1. Sezione – Attribuzione e logo dell’Agenzia delle Entrate
+In questa sezione viene visualizzato il logo dell’Agenzia delle Entrate, necessario per rispettare le attribuzioni previste dalla normativa sul dato catastale.
+Caratteristiche operative:
+- l’immagine è identica per tutte le particelle;
+- non è necessario un campo dedicato nella tabella attributi;
+- il logo viene richiamato tramite un URL statico, inserito direttamente nel codice HTML del popup;
+- l’immagine deve essere archiviata nella cartella media del progetto Lizmap.
+
+Questa sezione assolve alla funzione istituzionale di riconoscimento della fonte del dato.
+
+#### 2. Sezione – Dati catastali della particella
+La seconda sezione contiene le informazioni identificative della particella, organizzate preferibilmente in una tabella HTML per garantire ordine e leggibilità.   
+
+I campi da visualizzare sono:
+- FOGLIO
+- ALLEGATO
+- MAPPALE
+- SUPCART_V (superficie catastale)
+
+Questa sezione fornisce all’utente tutte le informazioni essenziali per identificare univocamente la particella.
+
+#### 3. Sezione – Accesso all’analisi urbanistica
+La terza sezione contiene un testo statico, scritto direttamente nel popup, che spiega come visualizzare l’analisi urbanistica della particella.   
+
+Il testo deve:
+- informare l’utente che l’analisi urbanistica è disponibile tramite popup dedicato;
+- chiarire che i risultati derivano dall’intersezione tra la particella e i layer tematici presenti sulla mappa;
+- guidare l’utente all’azione (es. “cliccare qui per visualizzare l’analisi urbanistica”).
+
+Questa sezione funge da ponte tra il dato catastale e il dato urbanistico, mantenendo separati i due livelli informativi ma collegandoli in modo intuitivo.
+
+<img src="../risorse/immagini/popupparticelle.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
+
+### Il popup dell’Analisi urbanistica
+Il popup del layer Analisi urbanistica è un elemento particolare, perché la tabella attributi contiene contemporaneamente:
+- le informazioni della particella catastale;
+- le informazioni della zona urbanistica derivanti dall’intersezione con i layer tematici.
+
+Per questo motivo il popup deve essere costruito come una combinazione strutturata dei due popup precedenti (particelle + tematici), mantenendo coerenza visiva e chiarezza informativa. A differenza degli altri popup, qui è possibile — e consigliabile — descrivere esplicitamente cosa l’utente sta visualizzando, poiché il layer non è destinato alla consultazione diretta ma alla restituzione dei risultati dell’analisi. Struttura consigliata del popup (3 sezioni principali).
+
+#### 1. Sezione – Identificazione della particella
+Questa sezione riprende la logica del popup delle particelle, ma in forma sintetica. Può includere:   
+Tabella con i dati essenziali:
+- FOGLIO
+- ALLEGATO
+- MAPPALE
+  
+Questa parte serve a ricordare all’utente quale particella è stata analizzata.
+
+#### 2. Sezione – Informazioni urbanistiche della zona intersecata
+Questa sezione riprende la struttura del popup tematico, ma riferita solo alla zona specifica che interseca la particella.   
+Può includere:
+- TEMA (titolo del tema urbanistico)
+- IMGZONA (immagine rappresentativa)
+- ZONA e DETTAGLIO
+- PERCENTUALE
+
+#### 3. Sezione – Descrizioni e approfondimenti
+- descrizioni estese (DESCRIZ_A, DESCRIZ_B, DESCRIZ_C)
+- riferimenti normativi (NORME)
+- link ai documenti (LINK_X)
+
+Questa sezione è il cuore del popup: restituisce l’informazione urbanistica puntuale relativa alla porzione di particella selezionata.
+
+<img src="../risorse/immagini/popupintersezioni.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
 
 
 
