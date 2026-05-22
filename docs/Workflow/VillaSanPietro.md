@@ -849,10 +849,17 @@ Questo documento rappresenta quindi non solo una guida operativa, ma un modello 
 
 ## SCRIPT E AUTOMAZIONI
 Di seguito verranno inseriti i collegamenti agli script Python e JavaScript utilizzati nel workflow.
-### Script Python
-- Script per la generazione dell’Analisi urbanistica (intersezioni + merge tematico) → link da inserire
 
-Script JavaScript
+### Script Python
+
+---
+
+<a href="https://github.com/aldogessa/aldogessa.github.io/tree/main/QGIS/Python/CDU" target="_blank">Esegui Intersezioni</a>
+
+---
+
+### Script JavaScript
+
 ---
 
 <a href="https://github.com/aldogessa/aldogessa.github.io/tree/main/Lizmap/JS_personalizzati/StreetView" target="_blank">Tool Street View</a>
