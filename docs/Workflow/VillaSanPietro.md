@@ -286,7 +286,35 @@ Questa organizzazione:
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 <br>
 
+### Nome dei layer nel pannello
+È consigliabile rinominare i layer nel pannello di QGIS prima della pubblicazione e non modificarli più. QGIS Server e Lizmap utilizzano il nome del layer registrato al momento della pubblicazione per:
+- chiamate WMS/WFS;
+- popup;
+- filtri;
+- identificazione dei layer nei layout di stampa.
 
+Se un layer viene rinominato successivamente, Lizmap continuerà a utilizzare il nome originario. Il nome effettivamente pubblicato può essere verificato tramite l’URL WFS mostrato nel pannello “Informazioni del progetto”.
+In Lizmap è possibile impostare un alias per la visualizzazione, ma questo alias non viene utilizzato nei layout di stampa, che mostrano sempre il nome del layer definito in QGIS.
+
+### Ordine di visualizzazione
+L’ordine di visualizzazione dei layer è determinato dall’ordine nel pannello di QGIS. Questo stesso ordine viene utilizzato anche per la gestione dei popup quando un click intercetta più layer.
+È possibile attivare l’ordine di visualizzazione personalizzato, ma tale ordine:
+- influisce solo sulla mappa;
+- non influisce sui popup.
+
+Per garantire coerenza tra mappa e informazioni restituite, è consigliabile non utilizzare l’ordine personalizzato e mantenere l’ordine naturale del pannello.
+
+### Etichette
+Per migliorare le prestazioni è opportuno evitare etichette generate dinamicamente tramite espressioni complesse. È preferibile registrare fisicamente l’etichetta in un campo dedicato.
+Si consiglia inoltre di impostare le etichette affinché siano visualizzate solo quando completamente contenute nella geometria, evitando:
+- testi sovrapposti;
+- etichette illeggibili;
+- carico inutile sul server.
+
+<img src="../risorse/immagini/Etichette.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
 
 
 
