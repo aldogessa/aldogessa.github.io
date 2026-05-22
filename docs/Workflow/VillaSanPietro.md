@@ -65,7 +65,7 @@ T01 – Piano urbanistico comunale
 - T01.01 - Zonizzazione;
 - T01.02 – Variante strada;
 - T01.03 – Variante localizzazione ospedale;
-- T01.04 - ...;
+- T01.04 - ...
 
 T02 – Piano di assetto idrogeologico
 - T02.01 – Pericolosità idraulica;
