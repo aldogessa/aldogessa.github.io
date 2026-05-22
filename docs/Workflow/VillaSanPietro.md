@@ -257,9 +257,21 @@ Oraganizzazione layer nel Geopackage
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 <br>
 
+## PREDISPOSIZIONE DEL PROGETTO QGIS
 
+### Tematizzazione dei layer
+I layer tematici e i layer catastali possono essere tematizzati liberamente: non esistono vincoli particolari, salvo quello di impostare correttamente le trasparenze, che incidono in modo significativo sulla leggibilità della mappa.
+Per ragioni di prestazioni è consigliabile attivare in Lizmap l’opzione che consente di eseguire una sola chiamata WMS per tutti i layer visibili, restituendo un’unica immagine composita.
+Questa modalità riduce drasticamente il numero di richieste al server, ma impedisce all’utente di modificare manualmente le trasparenze.
+Per questo motivo è fondamentale definire tematizzazioni equilibrate, che garantiscano una buona leggibilità senza richiedere interventi da parte dell’utente.
 
+### Raggruppamento dei layer
+Quando il progetto contiene numerosi layer, è consigliabile organizzarli in gruppi logici, seguendo la stessa struttura tematica definita per l’analisi urbanistica (T01, T02, …). In Lizmap è opportuno disattivare l’attivazione simultanea dei gruppi, per evitare che l’utente possa accendere accidentalmente decine di layer, generando una chiamata WMS molto pesante e potenzialmente bloccante.
 
+<img src="../risorse/immagini/QGISgruppi.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
 
 
 
