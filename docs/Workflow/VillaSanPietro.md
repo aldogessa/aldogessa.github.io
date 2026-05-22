@@ -82,6 +82,41 @@ Questa struttura garantisce:
 - maggiore leggibilità per tecnici e cittadini;
 - automazioni più robuste e meno soggette a errori.
 
+#### Normalizzazione dei layer tematici e loro struttura
+Per facilitare e velocizzare le automazioni, le intersezioni vettoriali e la produzione del Certificato di Destinazione Urbanistica, è consigliabile normalizzare i layer tematici adottando una struttura uniforme e stabile nel tempo.
+La normalizzazione deve tenere conto dei contenuti della pubblicazione che si intende realizzare e deve garantire che ogni layer tematico disponga degli attributi necessari per essere correttamente interpretato dal sistema.
+Una struttura particolarmente solida e flessibile è la seguente:
+- fid: integer – chiave primaria;
+- CODTEMA: text – contiene il codice tema (esempio T01.01);
+- DESCTEMA: text – contiene la descrizione del tema (esempio PIANO URBANISTICO);
+- TEMA: text – contiene per esteso “CODTEMA”||’ ‘||”DESCTEMA” (esempio T01.01 PIANO URBANISTICO);
+- ZONA: text – contiene l’etichetta della zona rappresentata dalla geometria (esempio A o B o C);
+- DETTAGLIO: text – contiene la descrizione della zona (esempio CENTRO STORICO o COMPLETAMENTO);
+- NORME: text – contiene i riferimenti normativi (esempio Artt. da 32 a 44 delle NTA del PUC);
+- IMGZONA: text – contiene l’URL ad una immagine sulla cartella media che caratterizza la zona;
+- DESCRIZ_A: text – contiene una descrizione più estesa e completa della zona;
+- DESCRIZ_B: text – contiene una seconda descrizione più estesa della zona per ulteriori approfondimenti;
+- DESCRIZ_C: text – contiene una terza descrizione se necessaria;
+- LINK_A: text – contiene l’URL a un documento o risorsa esterna;
+- DESLINK_A: text – contiene la descrizione dell’URL A (es: Vedi NTA del PUC);
+- LINK_B: text – contiene l’URL a un documento o risorsa esterna;
+- DESLINK_B: text – contiene la descrizione dell’URL B (es: Vedi NTA del PAI);
+- LINK_C: text – contiene l’URL a un documento o risorsa esterna;
+- DESLINK_C: text – contiene la descrizione dell’URL C (es: Vai a sito regionale);
+- LINK_D: text – contiene l’URL a un documento o risorsa esterna;
+- DESLINK_D: text – contiene la descrizione dell’URL D (es: Vedi documento);
+- LINK_E: text – contiene l’URL a un documento o risorsa esterna;
+- DESLINK_E: text – contiene la descrizione dell’URL E (es: Scarica file);
+- LINK_F: text – contiene l’URL a un documento o risorsa esterna;
+- DESLINK_F: text – contiene la descrizione dell’URL F (es: Approfondimento);
+- LINK_G: text – contiene l’URL a un documento o risorsa esterna;
+- DESLINK_G: text – contiene la descrizione dell’URL G (es: Vai al Piano Particolareggiato).
+
+#### Campi obbligatori e campi opzionali
+- Obbligatori: CODTEMA, DESCTEMA, TEMA, ZONA, DETTAGLIO, NORME → senza questi campi, il CDU risulterà incompleto o vuoto nelle parti essenziali.
+- Opzionali: tutti i campi successivi a NORME → Lizmap li ignora se vuoti, quindi possono essere popolati solo quando necessari.
+Questa scelta rende la struttura estremamente flessibile: puoi avere layer molto semplici (solo i campi essenziali) o layer molto ricchi (descrizioni, immagini, link, approfondimenti).
+
 
 
 
