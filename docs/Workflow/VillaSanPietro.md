@@ -441,6 +441,29 @@ Una buona configurazione delle scale migliora la leggibilità e riduce il rischi
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 <br>
 
+### Interfaccia mappa
+Le opzioni dell’interfaccia mappa consentono personalizzazioni estetiche e funzionali. Pur lasciando libertà all’editore, si raccomanda:
+- di non nascondere strumenti, per mantenere l’interfaccia completa e coerente;
+- di fissare a destra la finestra dei popup, così da garantire una dimensione adeguata alla quantità di informazioni da mostrare e un equilibrio visivo con la mappa;
+- di mantenere la scala statica nella mappa panoramica, per evitare variazioni inutili e preservare un’interfaccia ordinata.
+
+Queste scelte contribuiscono a un’esperienza utente stabile, pulita e professionale.
+
+<img src="../risorse/immagini/IntFaccia.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
