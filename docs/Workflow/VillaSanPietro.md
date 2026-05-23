@@ -375,7 +375,7 @@ In Lizmap è consigliabile attivare l’opzione che permette di ottenere diretta
 Se si desidera offrire all’utente la possibilità di esportare la mappa visualizzata, è necessario predisporre un layout di stampa in QGIS e attivare la funzione di stampa in Lizmap.
 Il layout si costruisce normalmente: Lizmap estrarrà automaticamente la mappa corrente e gli elementi necessari al momento della richiesta dell’utente.
 
-Relazione tra Il layer particelle e il layer dell’analisi urbanistica
+### Relazione tra Il layer particelle e il layer dell’analisi urbanistica
 Nel progetto è necessario impostare una relazione padre-figlio tra il layer particelle e il layer dell’analisi urbanistica. Questa relazione è necessaria per attivare, nel popup delle particelle, la visualizzazione delle destinazioni urbanistiche che riguardano ogni particella.
 
 ### Nascondere il layer dell’Analisi urbanistica
