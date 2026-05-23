@@ -842,17 +842,21 @@ Il layer Analisi urbanistica diventa così un layer statico, leggero e immediata
 
 ### Svantaggio: necessità di aggiornamento periodico
 Ogni variazione dei layer:
-- catastali (particelle), oppure
-- tematici urbanistici,
+- catastali (particelle)
+
+oppure
+
+- tematici urbanistici
+
 richiede la rigenerazione della tabella dell’Analisi urbanistica.   
 Tuttavia, questo non rappresenta un problema operativo: lo script Python progettato per questo scopo esegue la rigenerazione in modo rapido, deterministico e ripetibile, riducendo l’operazione a pochi minuti.
 
-### Generazione del documento .doc per l’utente
-Anche il documento finale (CDU) restituito all’utente non viene generato dinamicamente dal server.
+### Generazione dell'anteprima CDU per l’utente
+Anche il documento finale (CDU) restituito all’utente non viene generato dinamicamente dal server.   
 Per preservare prestazioni e stabilità:
 - il sistema non costruisce il documento online;
 - utilizza un template .doc pre-caricato nella cartella media;
-- inserisce nel template solo i dati provenienti dall’interrogazione WFS, basata sulla relazione tra: la particella selezionata, e i relativi record figli del layer Analisi urbanistica.   
+- inserisce nel template solo i dati provenienti dall’interrogazione WFS/WMS, basata sulla relazione tra: le particelle selezionate, e i relativi record figli del layer Analisi urbanistica.   
 
 Questo approccio garantisce:
 - un documento sempre coerente e ben formattato;
@@ -865,7 +869,7 @@ Perché questa architettura è la più efficace nel nostro contesto:
 - Controllo totale: lo script Python garantisce risultati ripetibili e auditabili.
 - Coerenza: il documento finale è sempre identico nella struttura.
 - Scalabilità: anche con molti utenti simultanei, il sistema rimane veloce.
-- Manutenzione semplice: la rigenerazione dell’analisi è un’operazione rapida e sicura.
+- Manutenzione semplice: la rigenerazione dell’analisi urbanistica è un’operazione rapida e sicura.
 
 ## CONCLUSIONI
 Il workflow descritto in questo documento nasce dall’esigenza di costruire un Sistema Informativo Territoriale robusto, performante e facilmente manutenibile, capace di integrare in modo coerente QGIS, QGIS Server e Lizmap.
@@ -895,10 +899,10 @@ Il risultato è un sistema prevedibile, stabile e professionale, progettato per 
 
 La modularità introdotta tramite GeoPackage tematici, popup standardizzati, Dataviz, viste, strumenti personalizzati e relazioni QGIS → Lizmap rende inoltre il workflow facilmente estendibile a nuovi tematismi, nuovi layer e future esigenze di pubblicazione, senza dover riprogettare l’intero impianto.
 
-Questo documento rappresenta quindi non solo una guida operativa, ma anche un possibile modello architetturale per la costruzione di WebGIS funzionali, sostenibili e orientati all’utente.
+Questo documento rappresenta quindi non solo una guida operativa, ma anche un possibile modello architetturale per la costruzione di WebGIS funzionali, sostenibili e orientati all’utente, per piccoli e medi comuni che dispongono di risorse economiche e infrastrutturali limitate.
 
 ## SCRIPT E AUTOMAZIONI
-Di seguito verranno inseriti i collegamenti agli script Python e JavaScript utilizzati nel workflow.
+Di seguito i collegamenti agli script Python e JavaScript utilizzati nel workflow.
 
 ### Script Python
 
