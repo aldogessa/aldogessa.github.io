@@ -389,7 +389,7 @@ Per questi motivi, Analisi urbanistica deve essere trattato come un layer tecnic
 ## QGIS SERVER
 In QGIS Server è necessario configurare alcuni elementi fondamentali affinché la pubblicazione tramite Lizmap risulti coerente, stabile e performante. Le principali impostazioni da definire sono le seguenti:
 
-### Nome della mappa- nome della mappa
+### Nome della mappa
 E' il nome che verrà visualizzato nel repository Lizmap. Deve essere chiaro, univoco e non ambiguo, poiché identifica il progetto pubblicato.
 
 ### Informazioni sulla mappa.
