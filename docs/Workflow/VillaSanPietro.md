@@ -2,6 +2,10 @@
 Sistema Informativo Territoriale Comune di Villa San Pietro
 
 <br>
+<img src="../risorse/immagini/LogoBenvenutoVSP.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
 
 Hosting: Servizio Gishosting di Gter (Genova)   
 Formato vettoriale: Geopackage   
