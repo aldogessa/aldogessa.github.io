@@ -27,7 +27,7 @@ Il risultato ottenuto è pubblicato stabilmente al seguente link:
  🌍 Piano urbanistico comunale Comune di Villa San Pietro
 </a>
 
-Il worflow è stato repricato ed è attualmente in produzione anche nei seguenti comuni:
+Il worflow è stato replicato ed è attualmente in produzione anche nei seguenti comuni:
 
 <a href="https://map.gishosting.eu/index.php/view/map?repository=comunecodrongianos&project=AA_PIANO_URBANISTICO_COMUNALE" target="_blank"
    style="display:inline-block; padding:10px 15px; background:#2c7be5; color:white; border-radius:6px; text-decoration:none;">
