@@ -789,10 +789,10 @@ In questo modo, una volta scelto il Foglio, Lizmap mostrerà solo i mappali real
 ## I TOOL AGGIUNTIVI E PERSONALIZZATI
 Per incrementare l’efficienza della mappa e migliorare l’esperienza utente, Lizmap è stato esteso con una serie di strumenti personalizzati in JavaScript, progettati per integrare funzionalità non presenti nativamente o per semplificare operazioni ricorrenti.   
 I tool implementati sono:
-- Tool Street View Apre Google Street View in una nuova finestra del browser, centrata sul punto cliccato sulla mappa. Consente all’utente di contestualizzare rapidamente l’area di interesse.
-- Tool di cattura delle coordinate Restituisce le coordinate del punto cliccato, utile per operatori tecnici e per la compilazione di documenti o richieste.
-- Tool di deselezione rapida Permette di rimuovere la selezione corrente senza utilizzare lo strumento nativo di Lizmap, rendendo l’interazione più fluida e immediata.
-- Tool per la generazione del Certificato di Destinazione Urbanistica (CDU) Alimentato dalla tabella Analisi urbanistica, consente di generare l'anteprima del certificato di destinazione urbanistica in formato .doc.
+- Tool Street View apre Google Street View in una nuova finestra del browser, centrata sul punto cliccato sulla mappa. Consente all’utente di contestualizzare rapidamente l’area di interesse.
+- Tool di cattura delle coordinate restituisce le coordinate del punto cliccato, utile per operatori tecnici e per la compilazione di documenti o richieste.
+- Tool di deselezione rapida permette di rimuovere la selezione corrente senza utilizzare lo strumento nativo di Lizmap, rendendo l’interazione più fluida e immediata.
+- Tool per la generazione del Certificato di Destinazione Urbanistica (CDU) alimentato dalla tabella Analisi urbanistica, consente di generare l'anteprima del certificato di destinazione urbanistica in formato .doc.
 
 ### Street View   
 <img src="../risorse/immagini/StreetView.png" 
@@ -806,7 +806,7 @@ I tool implementati sono:
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 <br>
 
-### Deselziona rapidamente   
+### Deseleziona rapidamente   
 <img src="../risorse/immagini/DeselezionaVelocemente.png" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
