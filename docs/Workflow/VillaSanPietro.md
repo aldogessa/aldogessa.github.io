@@ -32,7 +32,7 @@ La mappa pubblicata in Lizmap adotta il sistema di riferimento della mappa di ba
 Per ridurre il carico computazionale sul server, soprattutto in presenza di molti layer, e per evitare disallineamenti dovuti a riproiezioni dinamiche, è consigliabile che i dati vettoriali e le eventuali altre mappe di base siano già disponibili in EPSG:3857.
 Tuttavia, EPSG:3857 non è un sistema adatto all’editing né ai calcoli spaziali, poiché non garantisce coerenza geometrica e metrica. Per tutte le attività tecniche, analitiche e certificative è necessario utilizzare un sistema di riferimento proiettato idoneo.
 In Sardegna è possibile utilizzare EPSG:3003 (Roma40 / Monte Mario) oppure EPSG:7791 (ETRF2000 / RDN2008). La mappa deve essere costruita e mantenuta in uno di questi sistemi, e successivamente i layer devono essere riproiettati in EPSG:3857 per la pubblicazione.
-È quindi opportuno mantenere due dataset sincronizzati: – uno “master” in EPSG:3003 o EPSG:7791 – uno “di pubblicazione” in EPSG:3857
+È quindi opportuno mantenere due dataset sincronizzati: – uno “master” in EPSG:3003 o EPSG:7791 – uno “di pubblicazione” in EPSG:3857.
 Le conversioni 3003 <-> 3857 e 7791 <-> 3857 sono standard e non presentano criticità.
 La conversione 3003 <-> 7791, invece, non è standard e richiede l’uso dei grigliati IGM per garantire precisione metrica. In assenza dei grigliati è necessario evitare questa trasformazione, poiché comporta errori dell’ordine di diversi metri.
 
@@ -191,12 +191,6 @@ Il layer di destinazione, se si segue lo schema dei layer catastali e tematici f
 - FK_CAT: integer – preservato dall’algoritmo che associa ad ogni intersezione la chiave primaria della particella;
 - VIRTID: text – derivata dal layer particelle.
 
-<br>
-<img src="../risorse/immagini/ScriptPython.png" 
-     alt="immagine" 
-     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
-<br>
-
 #### Ordinamento della tabella analisi urbanistica
 Per ottenere un ordinamento stabile e coerente dei risultati dell’analisi urbanistica è necessario definire l’ordinamento   
 <br>
@@ -228,12 +222,18 @@ Questa modalità incrementale è particolarmente utile quando si lavora con:
 
 In questo modo l’analisi rimane robusta, scalabile e ripetibile, senza rischiare blocchi o perdita di dati.
 
+<br>
+<img src="../risorse/immagini/ScriptPython.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+<br>
+
 #### Perché non automatizzare l’ordinamento
 L’ordinamento finale dell’analisi urbanistica è un’operazione:
 - semplice;
 - veloce;
 - soggetta a possibili variazioni a ogni aggiornamento dei dati.
-- 
+
 Automatizzarlo all’interno dello script significherebbe:
 - irrigidire il processo;
 - dover modificare lo script ogni volta che cambia una regola di ordinamento;
