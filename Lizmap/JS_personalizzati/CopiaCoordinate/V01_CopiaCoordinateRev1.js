@@ -2,6 +2,8 @@
 =========================================================
 AGis - Aldo Gessa
 CoordCapture.js – versione robusta con lizmapReady()
+Nessuna modifica funzionale.
+Maggio 2026
 =========================================================
 */
 (function () {
