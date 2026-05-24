@@ -4,7 +4,8 @@ e di copiarle negli appunti
 
 ## V01 - VERSIONE PER LIZ 3.8 e 3.9
 Versione usata e stabile fino al 18.01.2026 con Liz 3.8   
-Funzionante anche in Liz 3.9 (19.01.2026)
+Funzionante anche in Liz 3.9 (19.01.2026)   
+Rev1 - Refactoring completo per rendere lo script più robusto, modulare e sicuro, nessuna variazione funzionale.
 
 ## ANTEPRIMA
 <a href="https://www.youtube.com/watch?v=zfuS4VJMftI" target="_blank">
