@@ -6,6 +6,7 @@
    – Guard anti-doppia inizializzazione
    – Nessuna modifica funzionale
    - Funziona con la struttura dei layer indicata nel worflow
+   Maggio 2026
 ============================================================ */
 
 (function () {
