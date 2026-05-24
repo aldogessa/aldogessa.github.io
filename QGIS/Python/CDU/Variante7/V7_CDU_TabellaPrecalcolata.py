@@ -2,6 +2,7 @@
 # AGis - Aldo Gessa
 # Genera direttamente il CDU da una selezione di particelle, estraendo il figli 
 # dalla tabella precalcolata delle intersezioni
+# La struttura della tabella deve essere quella del workflow
 # Maggio 2026
 #-------------------------------------------------------------------------------------
 
