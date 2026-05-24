@@ -1,5 +1,6 @@
 """
 ==========================================================================
+AGis - Aldo Gessa
 SCRIPT – QGIS 3.40.11 (versione GeoPackage)
 Interseca le particelle selezionate con i layer poligonali scelti tramite
 finestra di dialogo, e inserisce i risultati nella tabella di destinazione.
@@ -10,6 +11,7 @@ Versione 2.0:
 - Mantiene tutti i campi tematici
 - Usa SUPCALC dal layer particelle
 - Copia il fid particella in FK_CAT
+Maggio 2026
 ==========================================================================
 """
 
