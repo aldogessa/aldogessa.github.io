@@ -1,3 +1,14 @@
+"""
+==========================================================================
+AGis - Aldo Gessa
+SCRIPT – QGIS 3.40.11 (versione GeoPackage)
+Crea il CDU dalla selezione dei record nella tabella precalcolata
+delle destinazioni urbanistiche.
+La struttura del layer deve essere quella del workflow
+Maggio 2026
+==========================================================================
+"""
+
 from qgis.PyQt.QtWidgets import QFileDialog, QMessageBox
 from qgis.core import QgsProject
 from docx import Document
