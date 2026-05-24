@@ -1,8 +1,11 @@
 /*
 ==============================================================================
-VERSIONE PER LIZ 3.8
+AGis - Aldo Gessa
+Controllo del popup dei figli.
+VERSIONE PER LIZ 3.8 - 3.9
 Espandere e comprimere i popup dei figli anche quando sono realizzati con HTML
 Deve essere accopiato con il relatico CSS
+Gennaio 2026
 ==============================================================================
  */
 
