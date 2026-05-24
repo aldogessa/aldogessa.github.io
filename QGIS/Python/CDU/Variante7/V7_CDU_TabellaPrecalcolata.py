@@ -1,3 +1,10 @@
+#-------------------------------------------------------------------------------------
+# AGis - Aldo Gessa
+# Genera direttamente il CDU da una selezione di particelle, estraendo il figli 
+# dalla tabella precalcolata delle intersezioni
+# Maggio 2026
+#-------------------------------------------------------------------------------------
+
 from qgis.PyQt.QtWidgets import QFileDialog, QMessageBox
 from qgis.core import QgsProject
 from docx import Document
@@ -295,4 +302,5 @@ def export_related_data_to_existing_table():
 
 
 export_related_data_to_existing_table()
+
 
