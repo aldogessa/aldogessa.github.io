@@ -1,11 +1,13 @@
 # TOOL PER LA GENERAZIONE DEL CDU
 Questo Tool permette la generazione del certificato di destinazione   
 urbanistica recuperando i dati da una tabella precedentemente predisposta   
-e non visibile sulla mappa Lizmap
+e non visibile sulla mappa Lizmap.   
+Lo script funziona sulla struttura dei layer indicata nel workflow.
 
 ## V01 - VERSIONE PER LIZ 3.8 e 3.9
 Versione usata e stabile fino al 18.01.2026   
-Versione funzionante anche in Liz 3.9 (19.01.2026)
+Versione funzionante anche in Liz 3.9 (19.01.2026)   
+Rev1 - refactoring completo per rendere lo script più robusto, modulare e sicuro (24.05.2026) 
 
 ## ANTEPRIMA
 <a href="https://www.youtube.com/watch?v=xmTbAm2HDqk" target="_blank">
