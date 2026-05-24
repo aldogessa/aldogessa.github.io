@@ -11,6 +11,7 @@ Versione 2.0:
 - Mantiene tutti i campi tematici
 - Usa SUPCALC dal layer particelle
 - Copia il fid particella in FK_CAT
+La struttura dei layer deve essere quella del workflow
 Maggio 2026
 ==========================================================================
 """
