@@ -22,6 +22,10 @@ L'istituto Geografico Militare ha rilasciato un nuovo servizio in API che consen
 Lo script è disponibile nella mia repository al seguente link:
 <a href="https://github.com/aldogessa/aldogessa.github.io/tree/main/QGIS/Python/Verto_Online" target="_blank">Repository GitHub</a>
 
+---
+
+<br><br>
+
 ## In arrivo QGIS 4
 23/11/2025
 <img src="../risorse/immagini/QGIS4.png" 
