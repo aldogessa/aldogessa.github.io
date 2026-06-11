@@ -20,7 +20,7 @@
 
 L'istituto Geografico Militare ha rilasciato un nuovo servizio in API che consente di convertire con precisione, gratuitamente e in tempo reale, le coordinate tra i sistemi di riferimento più utilizzati in Italia: Roma40, ED50 ed ETRS89, nelle realizzazioni ETRF89 e ETRF2000, senza essere in possesso dei relativi grigliati di conversione NTV2. Il servizio è molto interessante perchè permette di accedere ai grigliati di conversione senza dover caricare il file sul sito, utilizzando, per esempio direttamente in QGIS, uno script python. Per testare il servizio, con l'assistenza dell'inteligenza artificiale ho progettato uno script di processing che esegue la conversione tra i sistemi di riferimento 3003 <--> 7791 che è molto utile in Sardegna. Il risultato sembra molto affidabile e preciso, ho rilevato scarti, rispetto all'utilizzo di convergo, dell'ordine del millimetro.
 Lo script è disponibile nella mia repository al seguente link:
-
+<a href="https://github.com/aldogessa/aldogessa.github.io/tree/main/QGIS/Python/Verto_Online" target="_blank">Repository GitHub</a>
 
 ## In arrivo QGIS 4
 23/11/2025
