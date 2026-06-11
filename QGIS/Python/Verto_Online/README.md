@@ -59,6 +59,7 @@ Lo script vuole fornire una trasformazione affidabile tra 3003 e 7791, utilizzan
 
 Lo script è progettato per funzionare come script di processing, dunque il file.py deve essere salvato nell'apposita cartella .../processing/script/ e utilizzato dagli strumenti personalizzati di processing.
 <br>
+<br>
 <a href="https://youtu.be/tXI8uV46mEo" target="_blank">
   <img src="https://img.youtube.com/vi/tXI8uV46mEo/0.jpg" alt="Video YouTube">
 </a>
