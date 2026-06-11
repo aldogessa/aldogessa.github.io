@@ -53,10 +53,12 @@ Lo script vuole fornire una trasformazione affidabile tra 3003 e 7791, utilizzan
 - **API IGM** per il cambio di datum (Monte Mario ↔ RDN2008)
 - **PROJ/QGIS** per la proiezione (RDN2008 geografico ↔ TM32)
 
-Garantendo così risultati coerenti con gli standard istituzionali.
-
 ---
 
 ## Come si utilizza
 
 Lo script è progettato per funzionare come script di processing, dunque il file.py deve essere salvato nell'apposita cartella .../processing/script/ e utilizzato dagli strumenti personalizzati di processing.
+<br>
+<a href="https://youtu.be/tXI8uV46mEo" target="_blank">
+  <img src="https://img.youtube.com/vi/tXI8uV46mEo/0.jpg" alt="Video YouTube">
+</a>
