@@ -12,6 +12,10 @@
 
 <div style="max-width:800px; width:100%;">
 
+## Verto online servizio API
+11/06/2026
+
+
 ## In arrivo QGIS 4
 23/11/2025
 <img src="../risorse/immagini/QGIS4.png" 
