@@ -12,6 +12,34 @@
 
 <div style="max-width:800px; width:100%;">
 
+## Ricerca particella catastale via WMS/WFS dell'Agenzia delle Entrate
+22/06/2026
+<img src="../risorse/immagini/DemoPluginWMS_WFS_RicercaParticella.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+
+L’Agenzia delle Entrate mette a disposizione i servizi WMS e WFS della cartografia catastale, utili rispettivamente per la visualizzazione (WMS) e per il download delle geometrie (WFS). Tuttavia, questi servizi non espongono alcuna funzionalità di ricerca basata sugli attributi catastali: l’unica modalità di interrogazione consentita è quella spaziale, tramite BBOX, con diverse limitazioni sull’estensione massima interrogabile. Partendo da questo vincolo, ho iniziato a sviluppare un plugin QGIS che combina i due servizi per consentire lo zoom diretto su una particella desiderata senza scaricare la geometria dal WFS, cercando di mantenere il processo completamente stand‑alone e leggero. Il plugin è ancora in fase embrionale e attualmente funziona sulla sola Regione Sardegna, ma i primi risultati sembrano incoraggianti.
+Di seguito un breve video che mostra il comportamento attuale:
+
+<br>
+<a href="https://www.youtube.com/watch?v=VhnQnJv6PpE" target="_blank"
+   style="
+     display:inline-block;
+     padding:10px 18px;
+     background:#ff0000;
+     color:white;
+     font-weight:bold;
+     border-radius:6px;
+     text-decoration:none;
+     font-size:16px;
+   ">
+  ▶️ Demo ricerca particella WMS/WFS
+</a>
+
+---
+
+<br><br>
+
 ## Verto online servizio API
 11/06/2026
 <img src="../risorse/immagini/VertoOnline.png" 
