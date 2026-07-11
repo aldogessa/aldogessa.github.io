@@ -12,9 +12,9 @@
 
 <div style="max-width:800px; width:100%;">
 
-## Ricerca particella catastale via WMS/WFS dell'Agenzia delle Entrate - aggiornamento
+## Ricerca particella catastale via WMS/WFS dell'Agenzia delle Entrate - "aggiornamento"
 11/07/2026
-<img src="../risorse/immagini/DemoPluginWMS_WFS_RicercaParticella.png" 
+<img src="../risorse/immagini/CatFinderDEF.PNG" 
      alt="immagine" 
      style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
 
@@ -22,7 +22,7 @@ Durante il collaudo del plugin mi sono scontrato con tante limitazioni del servi
 Di seguito un breve video che mostra il comportamento attuale:
 
 <br>
-<a href="https://www.youtube.com/watch?v=VhnQnJv6PpE" target="_blank"
+<a href="https://www.youtube.com/watch?v=7K_DAVfMphg" target="_blank"
    style="
      display:inline-block;
      padding:10px 18px;
