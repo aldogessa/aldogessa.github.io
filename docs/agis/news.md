@@ -12,6 +12,32 @@
 
 <div style="max-width:800px; width:100%;">
 
+## Ricerca particella catastale via WMS/WFS dell'Agenzia delle Entrate - aggiornamento
+11/07/2026
+<img src="../risorse/immagini/DemoPluginWMS_WFS_RicercaParticella.png" 
+     alt="immagine" 
+     style="display:block; margin:20px 0; max-width:800px; width:100%; border-radius:4px;">
+
+Durante il collaudo del plugin mi sono scontrato con tante limitazioni del servizio WFS e diversi problemi sulle prestazioni e l'affidabilità dei risultati che mi hanno costretto a stravolgere quasi completamente la logica originaria per cercare un punto di equlibrio. In estrema sintesi, il plugin, attualmente esegue la ricerca della particella sull'XML restituito dal server ed estrae le coordinate di un vertice (punto sicuro appartenente alla particella), costruisce un piccolo BBOX, manda una seconda chiamata per scaricare le particelle che intersecano il BBOX e poi filtra solamente quella richiesta (il BBOX intercetterà anche le particelle contigue). La particella scaricata viene salvata in un layer temporaneo creato automaticamente. Per evitare che la finestra di dialogo si sovrapponga alla mappa limitandone la visibilità, questa è stata resa ancorata anzichè flottante.   
+Di seguito un breve video che mostra il comportamento attuale:
+
+<br>
+<a href="https://www.youtube.com/watch?v=VhnQnJv6PpE" target="_blank"
+   style="
+     display:inline-block;
+     padding:10px 18px;
+     background:#ff0000;
+     color:white;
+     font-weight:bold;
+     border-radius:6px;
+     text-decoration:none;
+     font-size:16px;
+   ">
+  ▶️ Demo ricerca particella WMS/WFS
+</a>
+
+---
+
 ## Ricerca particella catastale via WMS/WFS dell'Agenzia delle Entrate
 22/06/2026
 <img src="../risorse/immagini/DemoPluginWMS_WFS_RicercaParticella.png" 
