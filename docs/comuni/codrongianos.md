@@ -357,6 +357,10 @@ E' possibile caricare file esterni alle mappe, in formato KML, GPX e GeoJSON, pe
 ## Approfondimenti e News
 Di seguito sono documentate le novità che riguardano le mappe, gli aggiornamenti del sistema nonchè ulteriori indicazioni e precisazioni che riguardano l'utilizzo:
 
+### 23/09/2026 - Aggiornamento cartografia catastale
+La cartografia catastale è stata aggiornata alla data del 23/09/2026.
+<br>
+
 ### 19/05/2026 - Ricerca e selezione particelle da tabella
 Per velocizzare le operazioni di ricerca e selezione delle particelle catastali, e procedere eventualmente con la generazione dell'anteprima del certificato di destinazione urbanistica, è stata incorporata una nuova funzionalità che permette di individuare e selezionare le particelle dalla tabella degli attributi contenente la lista di tutte le particelle presenti nel dataset. Questa nuova opzione unisce in un unico ambiente la funzionalità di ricerca del tool di localizzazione e la funzionalità di selezione del popup, favorendo maggior controllo sulla ricerca e selezione degli elementi. Questo breve video mostra come utilizzare la tabella degli attributi.
 
