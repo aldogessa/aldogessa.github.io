@@ -3,7 +3,7 @@ Versione di QGIS: 3.44.15
 Formato layer: Geopackage
 
 ## PREREQUISITI
-Azione Python da installare sul layer delle particelle catastali.   
+Azione Python (CreaCDU_FlussoUnico.py) da installare sul layer delle particelle catastali.   
 Preferibilmente renderlo attivo su Layer e Mappa.   
 L'azione agisce sul layer delle particelle catastali e sui layer tematici che rappresentano la zonizzazione del PUC e i diversi vincoli che interessano il territorio.   
 L'azione funziona solamente se i layer coinvolti nel processo hanno una precisa struttura e a condizione che sia installata la libreria Python-docx.   
@@ -63,3 +63,15 @@ Il vantaggio si concretizza con minima necessità di manutenzione. Le modifiche 
 <a href="https://youtu.be/8x1fqWXyqyQ" target="_blank">
   <img src="https://img.youtube.com/vi/8x1fqWXyqyQ/0.jpg" alt="Video YouTube">
 </a>
+<br>
+<br>
+
+# DI CONTORNO LE DESTINAZIONI URBANISTICHE PER PARTICELLA
+Utilizzando la stessa struttura e lo stesso motore, a completamento l'azione installata sempre sulle particelle (Vedi_intersezioni_particella.py) che permette di cliccare una particella e visualizzare la tabella contenente il risultato delle intersezioni con i layer tematici presenti sul progetto.
+<br>
+<br>
+<a href="https://youtu.be/3XA50A3l--4" target="_blank">
+  <img src="https://img.youtube.com/vi/3XA50A3l--4/0.jpg" alt="Video YouTube">
+</a>
+<br>
+<br>
