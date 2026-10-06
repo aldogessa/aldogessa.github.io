@@ -67,7 +67,7 @@ Il vantaggio si concretizza con minima necessità di manutenzione. Le modifiche 
 <br>
 
 # DI CONTORNO LE DESTINAZIONI URBANISTICHE PER PARTICELLA
-Utilizzando la stessa struttura e lo stesso motore, a completamento l'azione installata sempre sulle particelle (Vedi_intersezioni_particella.py) che permette di cliccare una particella e visualizzare la tabella contenente il risultato delle intersezioni con i layer tematici presenti sul progetto.
+Utilizzando la stessa struttura e lo stesso motore, a completamento l'azione installata sempre sulle particelle (VediDestinazioniParticella.py) che permette di cliccare una particella e visualizzare la tabella contenente il risultato delle intersezioni con i layer tematici presenti sul progetto.
 <br>
 <br>
 <a href="https://youtu.be/3XA50A3l--4" target="_blank">
