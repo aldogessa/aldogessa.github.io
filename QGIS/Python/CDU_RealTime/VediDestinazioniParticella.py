@@ -1,4 +1,13 @@
 # -*- coding: utf-8 -*-
+"""
+==========================================================================
+AGis - Aldo Gessa
+QGIS 3.44.15 (versione GeoPackage)
+Intersezione particelle × layer tematici al click
+Senza layer fisici, finestra flottante con dati esportabili.
+Versione Unificata – Ottobre 2026
+==========================================================================
+"""
 
 from qgis.PyQt.QtWidgets import (
     QMessageBox,
