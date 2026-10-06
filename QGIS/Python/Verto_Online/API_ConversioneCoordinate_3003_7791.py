@@ -59,10 +59,10 @@ class IGM3003_7791(QgsProcessingAlgorithm):
         return IGM3003_7791()
 
     def name(self):
-        return "igm_3003_7791"
+        return "igm_3003_7791_rev01"
 
     def displayName(self):
-        return self.tr("Trasformazione ufficiale 3003 ↔ 7791 (API IGM)")
+        return self.tr("Trasformazione ufficiale 3003 ↔ 7791 (API IGM) REV01")
 
     def group(self):
         return self.tr("IGM")
@@ -74,6 +74,7 @@ class IGM3003_7791(QgsProcessingAlgorithm):
         return self.tr(
             "Esegue la trasformazione ufficiale Monte Mario ↔ RDN2008/TM32.\n"
             "Input accettati: EPSG:3003 o EPSG:7791.\n"
+            "Supporta Point, MultiPoint, linee e poligoni.\n"
             "Output determinato automaticamente.\n"
             "Pipeline:\n"
             " - 3003 → 6706 (API IGM) → 7791 (PROJ)\n"
@@ -96,12 +97,28 @@ class IGM3003_7791(QgsProcessingAlgorithm):
 
     # ---------------------------------------------------------
     # FLATTEN GEOMETRY
+    # Estrae tutti i vertici mantenendo i metadati necessari
+    # a ricostruire Point, MultiPoint, linee e poligoni.
     # ---------------------------------------------------------
     def flatten(self, geom):
+        # Le geometrie vuote non devono introdurre coordinate fittizie.
+        if geom.isEmpty():
+            return [], {"empty": True}
+
         pts = []
         meta = []
+        geom_type = QgsWkbTypes.geometryType(geom.wkbType())
 
-        if geom.type() == QgsWkbTypes.PolygonGeometry:
+        if geom_type == QgsWkbTypes.PointGeometry:
+            if geom.isMultipart():
+                points = geom.asMultiPoint()
+                pts.extend([(p.x(), p.y()) for p in points])
+                return pts, {"point_count": len(points)}
+
+            point = geom.asPoint()
+            return [(point.x(), point.y())], {"point_count": 1}
+
+        elif geom_type == QgsWkbTypes.PolygonGeometry:
             parts = geom.asMultiPolygon() if geom.isMultipart() else [geom.asPolygon()]
             for poly in parts:
                 rings = []
@@ -110,19 +127,43 @@ class IGM3003_7791(QgsProcessingAlgorithm):
                     pts.extend([(p.x(), p.y()) for p in ring])
                 meta.append(rings)
 
-        else:
+        elif geom_type == QgsWkbTypes.LineGeometry:
             parts = geom.asMultiPolyline() if geom.isMultipart() else [geom.asPolyline()]
             for line in parts:
                 meta.append(len(line))
                 pts.extend([(p.x(), p.y()) for p in line])
 
+        else:
+            raise QgsProcessingException(
+                "Tipo geometrico non supportato: "
+                f"{QgsWkbTypes.displayString(geom.wkbType())}"
+            )
+
         return pts, meta
 
     # ---------------------------------------------------------
     # REBUILD GEOMETRY
+    # Ricostruisce la geometria originale dalle coordinate
+    # trasformate, compresi Point e MultiPoint.
     # ---------------------------------------------------------
     def rebuild(self, pts_iter, meta, geom_type, is_multi):
-        if geom_type == QgsWkbTypes.PolygonGeometry:
+        # Mantiene vuote le geometrie che erano vuote in input.
+        if isinstance(meta, dict) and meta.get("empty"):
+            return QgsGeometry()
+
+        if geom_type == QgsWkbTypes.PointGeometry:
+            point_count = meta["point_count"]
+            points = [QgsPointXY(*next(pts_iter)) for _ in range(point_count)]
+
+            if is_multi:
+                return QgsGeometry.fromMultiPointXY(points)
+
+            if not points:
+                return QgsGeometry()
+
+            return QgsGeometry.fromPointXY(points[0])
+
+        elif geom_type == QgsWkbTypes.PolygonGeometry:
             polys = []
             for rings in meta:
                 poly = []
@@ -130,14 +171,34 @@ class IGM3003_7791(QgsProcessingAlgorithm):
                     ring = [QgsPointXY(*next(pts_iter)) for _ in range(n)]
                     poly.append(ring)
                 polys.append(poly)
-            return QgsGeometry.fromMultiPolygonXY(polys) if is_multi else QgsGeometry.fromPolygonXY(polys[0])
 
-        else:
+            if not polys:
+                return QgsGeometry()
+
+            return (
+                QgsGeometry.fromMultiPolygonXY(polys)
+                if is_multi
+                else QgsGeometry.fromPolygonXY(polys[0])
+            )
+
+        elif geom_type == QgsWkbTypes.LineGeometry:
             lines = []
             for n in meta:
                 line = [QgsPointXY(*next(pts_iter)) for _ in range(n)]
                 lines.append(line)
-            return QgsGeometry.fromMultiPolylineXY(lines) if is_multi else QgsGeometry.fromPolylineXY(lines[0])
+
+            if not lines:
+                return QgsGeometry()
+
+            return (
+                QgsGeometry.fromMultiPolylineXY(lines)
+                if is_multi
+                else QgsGeometry.fromPolylineXY(lines[0])
+            )
+
+        raise QgsProcessingException(
+            f"Tipo geometrico non supportato in ricostruzione: {geom_type}"
+        )
 
     # ---------------------------------------------------------
     # MAIN
@@ -172,7 +233,7 @@ class IGM3003_7791(QgsProcessingAlgorithm):
         crs_out = "EPSG:7791" if crs_in == "EPSG:3003" else "EPSG:3003"
 
         feedback.pushInfo("--------------------------------------------------")
-        feedback.pushInfo(" TRASFORMAZIONE UFFICIALE 3003 ↔ 7791 (API IGM)")
+        feedback.pushInfo(" TRASFORMAZIONE UFFICIALE 3003 ↔ 7791 (API IGM) REV 00")
         feedback.pushInfo("--------------------------------------------------")
         feedback.pushInfo(f"CRS input:  {crs_in}")
         feedback.pushInfo(f"CRS output: {crs_out}")
@@ -327,4 +388,3 @@ class IGM3003_7791(QgsProcessingAlgorithm):
         feedback.pushInfo("--------------------------------------------------")
 
         return {self.PARAM_OUTPUT: dest_id}
-
