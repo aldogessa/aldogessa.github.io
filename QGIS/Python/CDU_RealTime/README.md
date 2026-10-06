@@ -58,4 +58,8 @@ L'azione esegue l'intersezione delle particelle selezionate con i layer tematici
 Il vantaggio si concretizza con minima necessità di manutenzione. Le modifiche apportate sui file coinvolti vengono immediatamente processate dall'azione, non è necessario elaborare alcuna tabella intermedia. Lo svantaggio è che la produzione in tempo reale non è consigliata lato browser e dunque non è replicabile (in javascript), da sola, in contesti webgis come, per esempio Lizmap, poichè le prestazioni potrebbero essere severamente compromesse ed è più opportuno utilizzare tabelle delle intersezioni precalcolate.   
 
 ### Vedi su youtube
-https://youtu.be/8x1fqWXyqyQ
+<br>
+<br>
+<a href="https://youtu.be/8x1fqWXyqyQ" target="_blank">
+  <img src="https://img.youtube.com/vi/8x1fqWXyqyQ/0.jpg" alt="Video YouTube">
+</a>
