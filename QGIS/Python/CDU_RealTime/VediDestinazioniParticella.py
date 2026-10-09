@@ -1,13 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-==========================================================================
-AGis - Aldo Gessa
-QGIS 3.44.15 (versione GeoPackage)
-Intersezione particelle × layer tematici al click
-Senza layer fisici, finestra flottante con dati esportabili.
-Versione Unificata – Ottobre 2026
-==========================================================================
-"""
 
 from qgis.PyQt.QtWidgets import (
     QMessageBox,
@@ -20,7 +11,8 @@ from qgis.PyQt.QtWidgets import (
     QPushButton,
     QHeaderView,
     QApplication,
-    QFrame
+    QFrame,
+    QWidget
 )
 
 from qgis.PyQt.QtCore import (
@@ -29,7 +21,7 @@ from qgis.PyQt.QtCore import (
     Qt
 )
 
-from qgis.PyQt.QtGui import QPixmap
+from qgis.PyQt.QtGui import QPixmap, QDesktopServices
 
 from qgis.PyQt.QtNetwork import (
     QNetworkAccessManager,
@@ -41,11 +33,13 @@ from qgis.core import (
     QgsFeature,
     QgsField,
     QgsVectorLayer,
-    QgsWkbTypes
+    QgsWkbTypes,
+    QgsVariantUtils
 )
 
 import processing
 import re
+import os
 
 
 # ============================================================
@@ -160,7 +154,7 @@ THEMATIC_IDS = [
     "T051101_AREE_DEGRADATE_SCAVI_6e9a996c_9a86_487d_b69b_f87b75751e98",
     "T051301_ASSETTO_INSEDIATIVO_34c3010b_aa57_4a3d_8d56_484407639d2d",
     "T051401_ASSETTO_AMBIENTALE_f443cd16_a46b_4b58_8a22_d2933f20a737",
-    "TestZ_aab538fd_a10d_44c5_a9a9_07a1fdbb1817"
+    "T060101_VINCOLI_IDROG_FORESTALI_9cf8e79d_4bf8_4169_aa60_ac9053250cac"
 ]
 
 selected_layers = []
@@ -594,6 +588,55 @@ def get_field_value(
     return ""
 
 
+inter_field_names = set(inter.fields().names())
+
+
+def extract_feature_links(feature):
+    """Restituisce solo i collegamenti valorizzati della singola riga tematica."""
+    links = []
+    seen = set()
+
+    def clean_link_value(value):
+        # Gestisce sia i NULL nativi di QGIS sia eventuali NULL testuali.
+        try:
+            if QgsVariantUtils.isNull(value):
+                return ""
+        except Exception:
+            pass
+
+        if value is None:
+            return ""
+
+        text = str(value).strip()
+        if text.lower() in ("null", "<null>", "none", "<none>"):
+            return ""
+
+        return text
+
+    for suffix in "ABCDEFG":
+        link_field = "LINK_" + suffix
+        desc_field = "DESLINK_" + suffix
+
+        if link_field not in inter_field_names or desc_field not in inter_field_names:
+            continue
+
+        link_value = clean_link_value(feature[link_field])
+        desc_value = clean_link_value(feature[desc_field])
+
+        # Non mostrare pulsanti se il link o la sua descrizione sono vuoti/nulli.
+        if not link_value or not desc_value:
+            continue
+
+        pair = (link_value, desc_value)
+        if pair in seen:
+            continue
+
+        seen.add(pair)
+        links.append({"url": link_value, "description": desc_value})
+
+    return links
+
+
 for feature in inter.getFeatures():
 
     rec = {
@@ -650,13 +693,72 @@ for feature in inter.getFeatures():
             feature,
             inter,
             "FK_SRC"
-        )
+        ),
+
+        "links": extract_feature_links(feature)
     }
 
 
     records.append(
         rec
     )
+
+
+# ============================================================
+# I collegamenti sono associati alla singola riga tematica
+# tramite extract_feature_links(); non viene creata una sezione
+# documentale separata.
+# ============================================================
+
+
+# ============================================================
+# APERTURA COLLEGAMENTI WEB O FILE LOCALI
+# ============================================================
+
+def open_document_link(link_value):
+
+    link_value = str(link_value).strip()
+
+    if not link_value:
+        return
+
+    url = QUrl(link_value)
+    scheme = url.scheme().lower()
+
+    # URL web o altri schemi espliciti (es. file://).
+    if scheme in ("http", "https", "file", "mailto"):
+        QDesktopServices.openUrl(url)
+        return
+
+    # In assenza di schema, il collegamento è trattato come percorso
+    # assoluto o relativo alla cartella del progetto QGIS.
+    if os.path.isabs(link_value):
+        local_path = os.path.normpath(link_value)
+    else:
+        project_file = project.fileName()
+
+        if not project_file:
+            QMessageBox.warning(
+                dialog if "dialog" in globals() else None,
+                "Collegamento documentale",
+                "Il progetto QGIS non è stato salvato. "
+                "Impossibile risolvere il percorso relativo:\\n\\n"
+                + link_value
+            )
+            return
+
+        project_dir = os.path.dirname(project_file)
+        local_path = os.path.normpath(os.path.join(project_dir, link_value))
+
+    if not os.path.exists(local_path):
+        QMessageBox.warning(
+            dialog if "dialog" in globals() else None,
+            "Collegamento documentale",
+            "Il file collegato non è stato trovato:\\n\\n" + local_path
+        )
+        return
+
+    QDesktopServices.openUrl(QUrl.fromLocalFile(local_path))
 
 
 # ============================================================
@@ -751,8 +853,8 @@ dialog.setWindowTitle(
 
 
 dialog.resize(
-    900,
-    600
+    1120,
+    620
 )
 
 
@@ -943,7 +1045,8 @@ headers = [
     "Zona",
     "Dettaglio",
     "Norme Specifiche",
-    "Q.tà* %"
+    "Q.tà* %",
+    "LINK"
 ]
 
 
@@ -978,7 +1081,8 @@ for row, record in enumerate(
         record["zona"],
         record["dettaglio"],
         record["norme"],
-        record["percent_v"]
+        record["percent_v"],
+        ""  # La colonna LINK viene popolata con pulsanti cliccabili.
 
     ]
 
@@ -1008,6 +1112,41 @@ for row, record in enumerate(
             item
         )
 
+    # Collegamenti riferiti esclusivamente alla zona/intersezione di questa riga.
+    row_links = record.get("links", [])
+    if row_links:
+        links_widget = QWidget()
+        links_layout = QVBoxLayout(links_widget)
+        links_layout.setContentsMargins(4, 3, 4, 3)
+        links_layout.setSpacing(2)
+
+        for document_link in row_links:
+            description = document_link["description"]
+            target = document_link["url"]
+
+            link_button = QPushButton(description)
+            link_button.setCursor(Qt.PointingHandCursor)
+            link_button.setToolTip(target)
+            link_button.setStyleSheet(
+                "QPushButton {"
+                " color: #0563C1;"
+                " text-align: left;"
+                " text-decoration: underline;"
+                " border: none;"
+                " background: transparent;"
+                " padding: 1px 0px;"
+                "}"
+                "QPushButton:hover { color: #003A8C; }"
+            )
+            link_button.setMinimumHeight(20)
+            link_button.clicked.connect(
+                lambda checked=False, value=target: open_document_link(value)
+            )
+            links_layout.addWidget(link_button)
+
+        links_layout.addStretch(1)
+        table.setCellWidget(row, 8, links_widget)
+
 
 # ============================================================
 # DIMENSIONAMENTO DELLE COLONNE
@@ -1028,7 +1167,8 @@ LONG_WIDTH = {
     3: 113,
     4: 113,
     5: 170,
-    6: 226
+    6: 210,
+    8: 190
 
 }
 
@@ -1070,6 +1210,14 @@ for row in range(
         row
     )
 
+    # La cella LINK può contenere più titoli su righe distinte.
+    link_count = len(records[row].get("links", []))
+    if link_count:
+        table.setRowHeight(
+            row,
+            max(table.rowHeight(row), 8 + link_count * 23)
+        )
+
 
 table.verticalHeader().setMinimumSectionSize(
     30
@@ -1109,58 +1257,41 @@ if not records:
     )
 
 
+
 # ============================================================
 # FUNZIONE COPIA NEGLI APPUNTI
+# ESCLUDE LA COLONNA LINK
 # ============================================================
 
 def copia_tabella():
 
     righe = []
 
-    headers = []
+    # Individua le colonne da copiare, escludendo LINK
+    colonne = [
+        col
+        for col in range(table.columnCount())
+        if table.horizontalHeaderItem(col).text().strip().upper() != "LINK"
+    ]
 
+    # Intestazioni
+    headers = [
+        table.horizontalHeaderItem(col).text()
+        for col in colonne
+    ]
 
-    for col in range(
-        table.columnCount()
-    ):
+    righe.append("\t".join(headers))
 
-        headers.append(
-            table.horizontalHeaderItem(
-                col
-            ).text()
-        )
-
-
-    righe.append(
-        "\t".join(headers)
-    )
-
-
-    for row in range(
-        table.rowCount()
-    ):
+    # Dati
+    for row in range(table.rowCount()):
 
         valori = []
 
+        for col in colonne:
 
-        for col in range(
-            table.columnCount()
-        ):
+            item = table.item(row, col)
 
-            item = table.item(
-                row,
-                col
-            )
-
-
-            if item:
-
-                valore = item.text()
-
-            else:
-
-                valore = ""
-
+            valore = item.text() if item else ""
 
             valore = (
                 valore
@@ -1169,25 +1300,13 @@ def copia_tabella():
                 .replace("\r", " ")
             )
 
+            valori.append(valore)
 
-            valori.append(
-                valore
-            )
+        righe.append("\t".join(valori))
 
+    testo = "\n".join(righe)
 
-        righe.append(
-            "\t".join(valori)
-        )
-
-
-    testo = "\n".join(
-        righe
-    )
-
-
-    QApplication.clipboard().setText(
-        testo
-    )
+    QApplication.clipboard().setText(testo)
 
 
 # ============================================================
