@@ -37,10 +37,37 @@ from qgis.core import (
     QgsVariantUtils
 )
 
+from qgis.gui import QgsHighlight
+from qgis.PyQt.QtGui import QColor
+
+from qgis.utils import iface
+
 import processing
 import re
 import os
 
+# ============================================================
+# MEMORIA TEMPORANEA DEL DIALOGO CDU
+# Valida soltanto per la sessione corrente di QGIS
+# ============================================================
+
+if not hasattr(iface, "_agis_cdu_geometry"):
+    iface._agis_cdu_geometry = None
+
+# ============================================================
+# CHIUSURA DEL PRECEDENTE CDU
+# ============================================================
+
+previous_dialog = getattr(
+    iface,
+    "_agis_cdu_dialog",
+    None
+)
+
+if previous_dialog is not None:
+    previous_dialog.close()
+
+iface._agis_cdu_dialog = None
 
 # ============================================================
 # DATI DELLA FEATURE CLICCATA
@@ -126,6 +153,23 @@ if clicked_feature is None:
     )
 
     raise Exception("Feature non trovata")
+
+# ============================================================
+# EVIDENZIAZIONE DEL PERIMETRO DELLA PARTICELLA
+# ============================================================
+
+canvas = iface.mapCanvas()
+
+highlight = QgsHighlight(
+    canvas,
+    clicked_feature.geometry(),
+    parcels_layer
+)
+
+highlight.setColor(QColor(255, 0, 0))
+highlight.setFillColor(QColor(255, 0, 0, 0))
+highlight.setWidth(2)
+highlight.show()
 
 
 # ============================================================
@@ -1354,8 +1398,57 @@ layout.addLayout(
 )
 
 
+
+
 # ============================================================
-# MOSTRA RISULTATO
+# DIALOGO CDU NON BLOCCANTE
+# SEMPRE IN PRIMO PIANO
+# MEMORIA TEMPORANEA DI POSIZIONE E DIMENSIONE
 # ============================================================
 
-dialog.exec()
+# Associa l'evidenziazione al dialogo corrente.
+dialog._agis_highlight = highlight
+
+
+def cleanup_cdu_dialog(result=None, dlg=dialog):
+    """Memorizza la geometria della finestra e nasconde l'evidenziazione."""
+
+    # Memorizza posizione e dimensioni per la prossima apertura.
+    iface._agis_cdu_geometry = (
+        dlg.pos(),
+        dlg.size()
+    )
+
+    # Nasconde l'evidenziazione della particella.
+    dlg._agis_highlight.hide()
+    del dlg._agis_highlight
+
+    # Libera il riferimento globale solo se è il dialogo corrente.
+    if getattr(iface, "_agis_cdu_dialog", None) is dlg:
+        iface._agis_cdu_dialog = None
+
+
+# Prima apertura: dimensioni predefinite.
+# Aperture successive: recupera posizione e dimensioni precedenti.
+saved_geometry = iface._agis_cdu_geometry
+
+if saved_geometry is None:
+    dialog.resize(1120, 620)
+else:
+    saved_position, saved_size = saved_geometry
+    dialog.resize(saved_size)
+    dialog.move(saved_position)
+
+
+# Pulizia alla chiusura.
+dialog.finished.connect(cleanup_cdu_dialog)
+
+# Registra il dialogo corrente.
+iface._agis_cdu_dialog = dialog
+
+# Mantiene il dialogo sempre in primo piano.
+dialog.setWindowFlag(Qt.WindowStaysOnTopHint, True)
+
+# Apertura non bloccante.
+dialog.show()
+dialog.raise_()
