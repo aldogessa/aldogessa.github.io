@@ -1,7 +1,7 @@
 """
 ==========================================================================
 AGis - Aldo Gessa
-SCRIPT UNICO – QGIS 3.44.15 (versione GeoPackage)
+SCRIPT UNICO – QGIS 3.40.11 (versione GeoPackage)
 Intersezione particelle × layer tematici + Compilazione CDU
 Senza layer fisici, con template Word esistente.
 Versione Unificata – Ottobre 2026
@@ -2186,16 +2186,42 @@ def compile_cdu(
     # SALVATAGGIO + APERTURA
     # ========================================================
 
-    doc.save(
-        output_file_path
-    )
-
+    doc.save(output_file_path)
 
     if platform.system() == "Windows":
 
-        os.startfile(
-            output_file_path
+        from qgis.PyQt.QtGui import QDesktopServices
+        from qgis.PyQt.QtCore import QUrl
+        import time
+        import subprocess
+
+        #time.sleep(1)
+
+        # Verifica effettiva esistenza del file
+        if not os.path.exists(output_file_path):
+
+            raise FileNotFoundError(
+                f"File non trovato:\n{output_file_path}"
+            )
+
+        print("Documento salvato:")
+        print(output_file_path)
+
+        # Primo tentativo tramite Qt
+        ok = QDesktopServices.openUrl(
+            QUrl.fromLocalFile(
+                os.path.normpath(output_file_path)
+            )
         )
+
+        print("Apertura tramite Qt:", ok)
+
+        # Fallback tramite Explorer
+        if not ok:
+
+            subprocess.Popen(
+                ["explorer.exe", output_file_path]
+            )
 
     elif platform.system() == "Darwin":
 
