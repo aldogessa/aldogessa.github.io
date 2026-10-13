@@ -887,7 +887,7 @@ records = sorted(
 # FINESTRA RISULTATI
 # ============================================================
 
-dialog = QDialog()
+dialog = QDialog(iface.mainWindow())
 
 
 dialog.setWindowTitle(
@@ -1447,7 +1447,7 @@ dialog.finished.connect(cleanup_cdu_dialog)
 iface._agis_cdu_dialog = dialog
 
 # Mantiene il dialogo sempre in primo piano.
-dialog.setWindowFlag(Qt.WindowStaysOnTopHint, True)
+#dialog.setWindowFlag(Qt.WindowStaysOnTopHint, True)
 
 # Apertura non bloccante.
 dialog.show()
