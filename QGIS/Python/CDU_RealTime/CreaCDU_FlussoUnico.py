@@ -1946,7 +1946,7 @@ def compile_cdu(
 
     template_path = os.path.join(
         QgsProject.instance().homePath(),
-        "Immagini",
+        "media",
         "00_CDU_Schema.docx"
     )
 
@@ -2327,12 +2327,12 @@ def run_workflow():
             return
 
 
+        
         # ----------------------------------------------------
-        # Recupero layer dell'azione
+        # CONTROLLO IMMEDIATO PARTICELLE SELEZIONATE
         # ----------------------------------------------------
 
         layer_id = "[% @layer_id %]"
-
 
         active_layer = (
             QgsProject.instance()
@@ -2340,15 +2340,28 @@ def run_workflow():
         )
 
 
-        if not active_layer:
+        if active_layer is None:
 
-            iface.messageBar().pushMessage(
-                "Errore",
-                "Impossibile identificare il layer dell'azione.",
-                level=Qgis.Critical
+            QMessageBox.warning(
+                None,
+                "CDU",
+                "Impossibile individuare il layer dell'azione."
             )
 
             return
+
+
+        if active_layer.selectedFeatureCount() == 0:
+
+            QMessageBox.information(
+                None,
+                "CDU",
+                "Seleziona almeno una particella catastale "
+                "prima di procedere."
+            )
+
+            return
+
 
 
         # ----------------------------------------------------
