@@ -708,6 +708,23 @@ class LayerSelectionDialog(QDialog):
             self.preview_panel
         )
 
+        
+        # ====================================================
+        # ESTRAZIONE ID LAYER SELEZIONATI
+        # ====================================================
+
+        btn_export_ids = QPushButton(
+            "Estrai ID layer selezionati"
+        )
+
+        btn_export_ids.clicked.connect(
+            self.export_selected_layer_ids
+        )
+
+        right_layout.addWidget(
+            btn_export_ids
+        )
+
 
         lbl_info = QLabel(
             "<b>Informazioni layer corrente</b>"
@@ -1219,6 +1236,63 @@ class LayerSelectionDialog(QDialog):
             for lid in selected_ids
             if QgsProject.instance().mapLayer(lid)
         ]
+
+
+    
+    def export_selected_layer_ids(self):
+
+        # Recupera i layer attualmente selezionati
+        layers = self.selected_layers()
+
+        if not layers:
+
+            QMessageBox.information(
+                self,
+                "ID layer",
+                "Nessun layer selezionato."
+            )
+
+            return
+
+        # Costruisce l'elenco degli ID reali
+        ids_text = "[\n" + ",\n".join(
+            f'    "{layer.id()}"'
+            for layer in layers
+        ) + "\n]"
+
+        # Finestra di visualizzazione
+        dialog = QDialog(self)
+
+        dialog.setWindowTitle(
+            "ID layer selezionati"
+        )
+
+        dialog.resize(700, 400)
+
+        layout = QVBoxLayout(dialog)
+
+        text_edit = QTextEdit()
+
+        text_edit.setReadOnly(True)
+
+        text_edit.setPlainText(ids_text)
+
+        layout.addWidget(text_edit)
+
+        # Pulsante copia
+        btn_copy = QPushButton(
+            "Copia elenco negli appunti"
+        )
+
+        btn_copy.clicked.connect(
+            lambda: QApplication.clipboard().setText(
+                ids_text
+            )
+        )
+
+        layout.addWidget(btn_copy)
+
+        dialog.exec_()
 
 
     def selected_parcels_layer(
@@ -1872,7 +1946,7 @@ def compile_cdu(
 
     template_path = os.path.join(
         QgsProject.instance().homePath(),
-        "media",
+        "Immagini",
         "00_CDU_Schema.docx"
     )
 
